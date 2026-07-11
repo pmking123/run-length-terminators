@@ -1,0 +1,149 @@
+LOCUS       NC_117090               3308 bp    DNA     circular VRL 08-JUN-2026
+DEFINITION  Orthohepadnavirus magnimyotis isolate LQB_ZhongShu, complete
+            genome.
+ACCESSION   NC_117090
+VERSION     NC_117090.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Orthohepadnavirus magnimyotis
+  ORGANISM  Orthohepadnavirus magnimyotis
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus.
+REFERENCE   1  (bases 1 to 3308)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JUN-2026) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   2  (bases 1 to 3308)
+  AUTHORS   Tan,Z.-Z., Pan,Y.-F. and Zhang,Y.-Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (12-DEC-2021) Department of Zoonosis, National Institute
+            for Communicable Disease Control and Prevention, Chinese Center for
+            Disease Control and Prevention, Liuzi 5, Changping District,
+            Beijing, Beijing 102206, China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to OM030297.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Trinity program v. 2.1; Seqman v. 7.0
+            Sequencing Technology :: Illumina; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3308
+                     /organism="Orthohepadnavirus magnimyotis"
+                     /mol_type="genomic DNA"
+                     /isolate="LQB_ZhongShu"
+                     /isolation_source="samples from Myotis chinensis"
+                     /host="Myotis chinensis"
+                     /db_xref="taxon:3431306"
+                     /geo_loc_name="China"
+                     /collection_date="2016"
+                     /note="previous name: Longquan Myotis chinensis
+                     orthohepadnavirus 1, updated per ICTV VMR 40.1"
+     CDS             join(2156..3308,1..1484)
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="YP_013032866.1"
+                     /translation="MHPFSQLFRSIPSLDPEHRDALLGPPEDALPLLADEELHHLVAD
+                     ALHLQLPHAEDPWVHKVGGLFGLYTQKEPIYNPEWKIPKFPQIHLREDIIPFLSSLTG
+                     PLTINEKRRLKLILPARFFPNHTKYLPLRKGIKDYYPNHKIHHFITTAKYLLTLWESG
+                     ITYLRLSERSASFYGQPYSWEQKLLLPSHGVKLVNPKSSGFSPGAATSQSICSPGSGL
+                     GPKQDKRSLASGKESFSRSLGTRLCPSSRGPSGVVGNSHSRPSEFGSWGPVGRVYRSR
+                     DRSCSKGSRPRWHCATTTLANEFKGYSNRKTKPNKAGPESTPSYNQSEKGASSNTKYT
+                     TRTGYSSTKHDLEREVRTPCYFLAHRDSCGSTYCLSQLVNRESDWGPCIQHGSHVIRT
+                     PRTPSRVTGGVFLVDKNPNNRSESRLVVDFSQFSRGDTRVQWPRFAVPNLQALTNLLS
+                     THLWWVSLDVSAAFYHIPLAPGSMPHLLVGSPGLQGLDPGLSLPRSRCHHHQSTMQSV
+                     HSLCRRDILLALMLLYKTHGRKLHLLSHPFVMGFRKIPMGVGLSPFLLAQFTAALASV
+                     VRRNFPHIMAFAYMDDVVLGAKSPEHLDAVHTAVVTLFKSLGIHINPDKTKHWGHDLH
+                     FMGLSISSQGAMPQDKHKVKGLTLIKSLPCHKPLDWKILQRITGLLGFLAPFTDCGYP
+                     ALMPLYNAITKKTAFTFSAPYKNWLMYLYSNFTPVRRQRPAVCKVFADATPSTIGIVN
+                     YYSNSTVAAKLPTDLPIHVAELIAACIARCLSGSRLIGTDNTIVLSKKFTHFPWLLGC
+                     TAHWILRGTSFCYVPSELNPADAPSRGLLGFRCWPPPLRFLPSTGRTSLWAESPPVQP
+                     HHADRVRFTSPLRTSADAWQPP"
+     CDS             join(2721..3308,1..681)
+                     /codon_start=1
+                     /product="surface protein"
+                     /protein_id="YP_013032867.1"
+                     /translation="MGSNWSIPNPLGFLPEQQLPNPYAPRDQDWDQNKTKDPWPQARN
+                     PSPGAWGPGFVPPHGGLQGWSAIATQGLQSSVPGDLLAGFTDQEIEAAQRAAGPGGIA
+                     PLLHLPTSSKVIPTGKLSQIRQGLNPPPATTNRKKGRPPTPNTPPARVTHPPSMTWRE
+                     KYGHLVTSSPTETPAAAPTVSPSSSTVSPTGGPASNMGAMLSGPLAPLLGLQVVSFLW
+                     TKILTTAQNLDSWWTSLSFPGGTPECNGHASPSPTFRHLPTSCPPTCGGFRWMCLRRF
+                     IIYLWLLVLCLIFLLGLLDSRGLIPVCPYPEAGATTINLRCNQCTASADETSYWPLCC
+                     CTKPTGGNCTCYPIPSSWALGRFLWGWASARFSWLNSLLLLLQWLGGISPILWPSLIW
+                     MMWFWGPSLLNILMLFTPLLLLFLSLWAYI"
+     CDS             1226..1654
+                     /codon_start=1
+                     /product="X protein"
+                     /protein_id="YP_013032868.1"
+                     /translation="MAARLHCTLDPSRDVLLLRAFGTQPGGRAITGSLGIPLLAAASP
+                     VPAVDRPHLAMGRIPACATSSRGPCALHFTSADISRCMAAPVTGLPKWLCARTLGLRV
+                     QGHDTWTVYLGQQILVEWEELGYEARVCTFVSGGCRHKLL"
+     CDS             1666..2316
+                     /codon_start=1
+                     /product="core protein"
+                     /protein_id="YP_013032869.1"
+                     /translation="MHLFHLCLVFCSIPTVQASKLCLGWLWGMDIDPYKEFGASSSLI
+                     SFLPVDFFPSLQDLVDTATALYEEELTGKEHCTPHHTALRVLLGCWEETTRLVTWVRA
+                     SVEGTPIQDAIVAHVWQSVGLNIRRQLWFHISCLTFGDHTVIEFLVSFGVWIRTPQAY
+                     RPPNAPILSTLPEHTVIRPRAPRRPARSPRRRSPSPRRRRTPSPRRRRSPSPAASC"
+ORIGIN      
+        1 atgggagcca tgttatcagg acccctcgca ccccttctcg ggttacaggt ggtgtctttc
+       61 ttgtggacaa aaatcctaac aaccgctcag aatctagact cgtggtggac ttctctcagt
+      121 tttcccgggg ggacacccga gtgcaatggc cacgcttcgc cgtccccaac cttcaggcac
+      181 ttaccaacct cttgtccacc cacctgtggt gggtttcgtt ggatgtgtct gcggcgtttt
+      241 atcatatacc tttggctcct ggttctatgc ctcatcttct tgttgggtct cctggactcc
+      301 aggggcttga tcccggtttg tccttacccc gaagcaggtg ccaccaccat caatctacga
+      361 tgcaatcagt gcacagcctc tgccgacgag acatcttact ggcccttatg ttgttgtaca
+      421 aaacccacgg gaggaaattg cacttgctat cccatccctt cgtcatgggc tttaggaaga
+      481 ttcctatggg ggtgggcctc agcccgtttc tcctggctca attcactgct gctcttgctt
+      541 cagtggttag gaggaatttc ccccatatta tggccttcgc ttatatggat gatgtggttt
+      601 tgggggccaa gtctcctgaa catcttgatg ctgttcacac cgctgttgtt actcttttta
+      661 agtctctggg catacatata aatcctgaca aaacgaaaca ctggggacat gatctacatt
+      721 tcatgggcct cagtatttcg agtcaaggag ctatgccaca ggacaaacat aaagtgaaag
+      781 gccttacatt gataaaatca ttgccttgtc acaaacctct tgattggaaa attctacaaa
+      841 gaatcacggg tctcctaggg ttccttgctc cttttactga ttgtggatat ccggctctta
+      901 tgcccttata taatgctatt actaagaaaa ctgcatttac tttctcagct ccatataaaa
+      961 attggttaat gtacttgtat tcgaacttta cccctgtccg caggcaacga cctgctgttt
+     1021 gtaaagtttt tgctgatgca actccttcca ctattggaat agttaattat tattccaatt
+     1081 ccaccgttgc tgccaaacta ccgacggact tgccaattca cgttgctgag ctcattgctg
+     1141 cgtgcattgc acggtgccta tccggctcac gccttatcgg cactgacaac accatagtgc
+     1201 tgtccaagaa atttacgcac tttccatggc tgctcggctg cactgcacac tggatccttc
+     1261 gcgggacgtc cttctgctac gtgccttcgg aactcaaccc ggcggacgcg ccatcacggg
+     1321 gtctcttggg attccgttgc tggccgccgc ctctccggtt cctgccgtcg accggccgca
+     1381 cctcgctatg ggcagaatcc ccgcctgtgc aacctcatca cgcggaccgt gtgcgcttca
+     1441 cttcacctct gcggacatca gcagatgcat ggcagccccc gtgactgggt taccaaaatg
+     1501 gctatgtgcc agaactttgg gactcagggt ccaaggacac gacacgtgga cagtttattt
+     1561 aggacaacaa atattggtgg aatgggagga gctgggctat gaggcaagag tgtgtacctt
+     1621 tgttagtgga ggctgcaggc ataaattgct gtaaccatca tcagcatgca tctttttcac
+     1681 ctctgcctgg tcttttgttc catccccact gttcaagcct ccaagctgtg ccttggatgg
+     1741 ctttggggta tggacattga tccttataaa gaatttggag cttcatcaag tctcatctcg
+     1801 ttcttgcctg ttgatttctt tccttcttta caagatttgg tggatactgc cactgcatta
+     1861 tatgaagaag agctaactgg taaggaacat tgcactcctc accatactgc tctccgggtt
+     1921 cttcttggct gctgggaaga aactactaga ctggtgacat gggttagggc ctctgtagaa
+     1981 ggcactccga tacaggacgc catagtagcc catgtatggc agtctgtggg cctaaatatc
+     2041 agacgtcagt tatggttcca catatcttgc cttacctttg gggatcatac agtaatcgaa
+     2101 ttcctggtct ctttcggggt atggattaga actccccaag cttatagacc acccaatgca
+     2161 cccattctct caactcttcc ggagcatacc gtcattagac ccagagcacc gagacgccct
+     2221 gctaggtccc ccagaagacg ctctccctct cctcgccgac gaagaactcc atcacctcgt
+     2281 cgcagacgct ctccatctcc agctgcctca tgctgaggat ccatgggtgc ataaggtagg
+     2341 aggcctcttt ggactttaca cccaaaaaga gcccatatac aacccagagt ggaaaatacc
+     2401 aaaatttcca cagatccatc ttagagaaga tatcattcct tttttgtcat ccttgacagg
+     2461 acccttaact atcaatgaaa aaaggagatt aaagttaatt ttacctgcta gattcttccc
+     2521 aaatcatacc aaatacttgc ctttgagaaa gggcatcaag gattattatc ctaatcacaa
+     2581 aattcatcat tttataacca cagccaaata tctcttaact ctttgggaat caggcatcac
+     2641 atatttgaga ctctctgaaa gatccgcttc tttttacgga caaccatatt cttgggaaca
+     2701 aaaactgctt ttaccaagcc atggggtcaa attggtcaat cccaaatcct ctgggttttc
+     2761 tcccggagca gcaacttccc aatccatatg ctccccggga tcaggattgg gaccaaaaca
+     2821 agacaaaaga tccttggcct caggcaagga atccttctcc cggagcctgg ggacccggct
+     2881 ttgtccctcc tcacgggggc cttcaggggt ggtcggcaat agccactcaa ggccttcaga
+     2941 gttcggttcc tggggacctg ttggcagggt ttacagatca agagatcgaa gctgctcaaa
+     3001 gggcagccgg cccaggtggc attgcgccac tactacactt gccaacgagt tcaaaggtta
+     3061 ttccaacagg aaaactaagc caaataaggc agggcctgaa tccaccccca gctacaacca
+     3121 atcggaaaaa ggggcgtcct ccaacaccaa atacaccacc cgcacgggtt actcatccac
+     3181 caagcatgac ttggagagag aagtacggac accttgttac ttcctcgccc accgagactc
+     3241 ctgcggcagc acctactgtc tctcccagct cgtcaaccgt gagtccgact gggggccctg
+     3301 catccaac
+//
+

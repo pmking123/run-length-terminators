@@ -1,0 +1,2040 @@
+LOCUS       NC_138487              49373 bp    DNA     circular PHG 14-APR-2026
+DEFINITION  Klebsiella phage KP13-2, complete genome.
+ACCESSION   NC_138487
+VERSION     NC_138487.1
+DBLINK      BioProject: PRJNA485481
+            BioSample: SAMN31202766
+            Sequence Read Archive: SRR21837336
+KEYWORDS    RefSeq.
+SOURCE      Klebsiella phage KP13-2
+  ORGANISM  Klebsiella phage KP13-2
+            Viruses; Duplodnaviria; Heunggongvirae; Uroviricota;
+            Caudoviricetes; Caudoviricetes incertae sedis; Drexlerviridae;
+            Webervirus; Webervirus KP132.
+REFERENCE   1  (bases 1 to 49373)
+  AUTHORS   Ichikawa,M., Nakamoto,N., Kredo-Russo,S., Weinstock,E.,
+            Weiner,I.N., Khabra,E., Ben-Ishay,N., Inbar,D., Kowalsman,N.,
+            Mordoch,R., Nicenboim,J., Golembo,M., Zak,N.B., Suzuki,T.,
+            Miyamoto,K., Teratani,T., Fujimori,S., Aoto,Y., Konda,M.,
+            Hayashi,N., Chu,P.-S., Taniki,N., Morikawa,R., Kasuga,R.,
+            Tabuchi,T., Sugimoto,S., Mikami,Y., Shiota,A., Bassan,M. and
+            Kanai,T.
+  TITLE     Bacteriophage therapy against pathological Klebsiella pneumoniae
+            that determine the clinical course of primary sclerosing
+            cholangitis
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 49373)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-APR-2026) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 49373)
+  AUTHORS   Ichikawa,M., Nakamoto,N., Kredo-Russo,S., Weinstock,E.,
+            Weiner,I.N., Khabra,E., Ben-Ishay,N., Inbar,D., Kowalsman,N.,
+            Mordoch,R., Nicenboim,J., Golembo,M., Zak,N.B., Suzuki,T.,
+            Miyamoto,K., Teratani,T., Fujimori,S., Aoto,Y., Konda,M.,
+            Hayashi,N., Chu,P.-S., Taniki,N., Morikawa,R., Kasuga,R.,
+            Tabuchi,T., Sugimoto,S., Mikami,Y., Shiota,A., Bassan,M. and
+            Kanai,T.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-OCT-2022) Science and Technology, BiomX, Einstein 22,
+            5th floor, Ness Ziona 7403662, Israel
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to OP617742.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: spades v. 3.10.1
+            Coverage              :: 200X
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..49373
+                     /organism="Klebsiella phage KP13-2"
+                     /mol_type="genomic DNA"
+                     /host="Klebsiella pneumoniae KP13"
+                     /db_xref="taxon:2985659"
+                     /geo_loc_name="Israel"
+                     /collected_by="BiomX"
+     gene            complement(1043..1507)
+                     /locus_tag="NFBINONH_00001"
+                     /db_xref="GeneID:309316264"
+     CDS             complement(1043..1507)
+                     /locus_tag="NFBINONH_00001"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609621.1"
+                     /db_xref="GeneID:309316264"
+                     /translation="MHVVTGVIRKEPYIKEGSNNNGPWKMYAVDLSERMKIRNRDGED
+                     ETVYTNYRAVFFAKENMIKWYDEALQMDKVISVTCRTLQIVNREHNGTTYSHNEMIMP
+                     QLEFSQREPAQSGGGNQQGGWGQPQQQKPQQDPKPQNGGGNSGMDFDDDIPF"
+     gene            complement(1544..2200)
+                     /locus_tag="NFBINONH_00002"
+                     /db_xref="GeneID:309316189"
+     CDS             complement(1544..2200)
+                     /locus_tag="NFBINONH_00002"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609622.1"
+                     /db_xref="GeneID:309316189"
+                     /translation="MRTSEKFTTIAAALIKAKSGFVAAKKSGKNNHLGNTYANLGDIL
+                     DAISPALEKNKIMVIQSMMDTSTEKVMHLETMFLHESGEFMAFQYNMPISKTVEQAYG
+                     STTSYARRYALAAALGIKQADDDAEITKMTPKDFKKRIDACEDLESLREIYKMAKQTL
+                     TPAEWKMTEDDITKRQAELKVTPANGFNPGKPQEVAKREPEKVESKPEPEAQDISSFN
+                     "
+     gene            complement(2260..3306)
+                     /locus_tag="NFBINONH_00003"
+                     /db_xref="GeneID:309316190"
+     CDS             complement(2260..3306)
+                     /locus_tag="NFBINONH_00003"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609623.1"
+                     /db_xref="GeneID:309316190"
+                     /translation="MSEAIFRAYTNSELTNEQYHDPNSWCAEYVSGSSLGEIYATSPA
+                     HWKFKVREETAALSFGTCSHTCMLETAKFNGEYMRATSPGEVKDLITSKSELSAKLKA
+                     CGLIGTSNKDYPELLEMAYRAGIDVNVWWAIELCDESAAMNSGRKLVKDVDFDAVVQM
+                     RSVMLANPRHAACIESPSAQRELSIFGEIFGVKVKVRLDHVDVVSDPELIKEWGFNPD
+                     EVFEVVVITDYKTTQSSKPDDFGRLAFNLGYYLKMALQRDLFVKTYNEKRPVVVRLLT
+                     QEKKSPFAPLAFTLTSQQIDIGRKQYQSVIHQYAECVKHDSWPSYESNAAEVVLPTPQ
+                     FVKYMFPDVYGTNS"
+     gene            complement(3802..4761)
+                     /locus_tag="NFBINONH_00004"
+                     /db_xref="GeneID:309316191"
+     CDS             complement(3802..4761)
+                     /locus_tag="NFBINONH_00004"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609624.1"
+                     /db_xref="GeneID:309316191"
+                     /translation="MDFYDEKEVLPYMSGMWREALQNICGIHSRYFNGKHQDCPNCGG
+                     KDRFRWTDKLETRGDGGAYCGGCGADKGIGWLMKLSGQPYSECINILGRYLGKVSQEY
+                     VVKRNKQVARDNGYDYGKMADHERVLAVLNRTEAVDSTPVTLYEGIENEHIKSYQVGV
+                     KTHENGRQELIHALPMQLVHEDGLDDEYCNILFIDEEGREKMLAGDLTFGSVIVTNQS
+                     DDGDGPIYLARSWIEAMHFNIASSFKCDVWACVIPSNVEIVAYRYKGKGGEGKREMRV
+                     VCRRGDRDMLAAADDRDLKVIVPNGDNFKLGFERKLYKASSLL"
+     gene            complement(4837..5238)
+                     /locus_tag="NFBINONH_00005"
+                     /db_xref="GeneID:309316192"
+     CDS             complement(4837..5238)
+                     /locus_tag="NFBINONH_00005"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609625.1"
+                     /db_xref="GeneID:309316192"
+                     /translation="MEQMAKIDKRTLNGNNGTSRGKDKKKRKRPTGYYVLKDEVRAGL
+                     TARMELVIDAFGGIAGTAKELGVSIQVVQQWRKRGMISADGAYLVHKSYRRNNCKGFR
+                     ASFCRPDLRFDSNGKPVTRRCDRREMLRVVR"
+     gene            5331..7367
+                     /gene="radD"
+                     /locus_tag="NFBINONH_00006"
+                     /db_xref="GeneID:309316193"
+     CDS             5331..7367
+                     /gene="radD"
+                     /locus_tag="NFBINONH_00006"
+                     /EC_number="3.6.4.12"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:UniProtKB:P33919"
+                     /note="Putative DNA repair helicase RadD"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative DNA repair helicase"
+                     /protein_id="YP_013609626.1"
+                     /db_xref="COG:COG1061"
+                     /db_xref="GeneID:309316193"
+                     /translation="MLTIEQQIEAYADKIPLIQKRFTVGNIVPYPYQAVAYIETAKRI
+                     AKYEHPFYIKASVSAGKTIMIAMLAAQCKAMNLPMMVLARQAEIVKQDSEEISNLDVP
+                     NSVYCAGLGTKAAYFPIVVGSEGTVVNGLFKMLGDYAPSVLAIDECHQVDWQDLAEAI
+                     ANNESFEYMSRPKDKPYRVNGELVDADHPYDEKFDDVEFGGGRTQYTIVIIELMRRCL
+                     KKTGRELRIVGYTGSEFRGVIPILQEDKSQPGFWREQITDINTNYLVEFGSVVPTIFG
+                     DTEADGLGYDLSEFHGSSQDGTQDFSAEDLRKMEKKIHESGEMTKLIMQKVMERAKTR
+                     NGVLITCAGQRHCKEAASYLPPDATYAIITEKTNSKKRGEILDKANRGEIKYIFQVMA
+                     LTTGVNVPFWDFSVILRKIGSLTLLIQLLGRGMRLLKDWQKQPPYSWVKEDHLVWDFA
+                     GTMDDLGQLYFDPILEQAQYQRRKSSKNGPKICPVCKGENSEYARRCIHKDSNGNRCE
+                     YFWISQRCEDQKDTRTGKIKIKGCYAENDIVARQCRCCGVQLKDPNDNLTGKHYTQND
+                     WYDVVGFDIGLTRNQSGIIFNYVLLNHDGERFTAREKFFPESENQICGKLWRQKAVFQ
+                     HVSDAVMRGKLGGMKNARKILEYAEYFRAPKRVTHRINGKKEDIISRKDFGGEE"
+     gene            7364..7771
+                     /locus_tag="NFBINONH_00007"
+                     /db_xref="GeneID:309316194"
+     CDS             7364..7771
+                     /locus_tag="NFBINONH_00007"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609627.1"
+                     /db_xref="GeneID:309316194"
+                     /translation="MITDKGDYLEYYGGPVKACPLEKIDQMNSVSWLRHEYSDYLFWH
+                     TVNEGSKHKASAVIDHQMGLLKGVSDILILIGFGGKYPFAAIELKRQGKAQASPVSKE
+                     QREFLAAVRRRGGFAAVAYGFEQFKIAFCDAIK"
+     gene            7845..8123
+                     /locus_tag="NFBINONH_00008"
+                     /db_xref="GeneID:309316195"
+     CDS             7845..8123
+                     /locus_tag="NFBINONH_00008"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609628.1"
+                     /db_xref="GeneID:309316195"
+                     /translation="MKKMLALVVLSLGLIGCSEKPKTYDCGGEAFEVTSKYMKVVRGK
+                     NSGVIIDGAGENQYKLLTPFGYAHYVVNKNTIDVSVGAFHNTLTCEVK"
+     gene            8126..8857
+                     /locus_tag="NFBINONH_00009"
+                     /db_xref="GeneID:309316196"
+     CDS             8126..8857
+                     /locus_tag="NFBINONH_00009"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609629.1"
+                     /db_xref="GeneID:309316196"
+                     /translation="MAKDIADKDTHDAFTTFEQLERETFIGNALATGGHYQAVRPDKF
+                     YQVTGNRYAGSKTPDIVRDKWATDRSLIAYMEERYGPYDLDAAADQSNAVCPKFYDEK
+                     TDCLKRWWGKNKHVWLNPPYSFPDPFILKAIEQMEHDNQIDILLPGDNSTAWFRDAQK
+                     MAAEIIWIVADVEEDDDGNQLSRSGRLAFINGLSGKPVDNNNKGSVIFIMRKLKPGEE
+                     QKTLYIPVSEICPSLAKKRMRKRGV"
+     gene            8859..9095
+                     /locus_tag="NFBINONH_00010"
+                     /db_xref="GeneID:309316197"
+     CDS             8859..9095
+                     /locus_tag="NFBINONH_00010"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609630.1"
+                     /db_xref="GeneID:309316197"
+                     /translation="MEQIESFAEYLRIVVELLNKYGFIGTDEEKLAFADTIDGTYIEF
+                     MDNGIQMADWPAILERELLEFRSHEGAEYFAKQH"
+     gene            9160..9396
+                     /locus_tag="NFBINONH_00011"
+                     /db_xref="GeneID:309316198"
+     CDS             9160..9396
+                     /locus_tag="NFBINONH_00011"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609631.1"
+                     /db_xref="GeneID:309316198"
+                     /translation="MNTKTIADTIKIAQVKPRIVSRHLINLSRLCMADYVAKPLENGL
+                     DGEIGAIYFRAAHGIEEIHMYEQMAECFCIYGDE"
+     gene            9396..9644
+                     /locus_tag="NFBINONH_00012"
+                     /db_xref="GeneID:309316199"
+     CDS             9396..9644
+                     /locus_tag="NFBINONH_00012"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609632.1"
+                     /db_xref="GeneID:309316199"
+                     /translation="MIVESGRAAVWQHAKEAGISDDIVMIAKHFDIKDISIVFNGKFT
+                     YLHERPIKRTRIAVATRAEADALKMFIHESKQTKKYYK"
+     gene            9740..10870
+                     /locus_tag="NFBINONH_00013"
+                     /db_xref="GeneID:309316200"
+     CDS             9740..10870
+                     /locus_tag="NFBINONH_00013"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609633.1"
+                     /db_xref="GeneID:309316200"
+                     /translation="MLPKITDEEFLSAREEGKTYREIAEEFGMNIRSVERRGVRLARQ
+                     GHLHGNSHVAKHIPDGFGVKGTSTMIRANGEEVVRWVKSEVDRDRMIALMEAAQASFC
+                     EDLPRVEPQPLDELKFYIEDQLALYPIFDLHIGAMAHKHECGENYDTSTAEKVLNRFF
+                     DYSVSVAPQSQKAVLLVGGDFLHSDGLDAVTPASGHVLDQDSRYAKLVYVAIRSLRRA
+                     VSLLLDNHAEVEVQVIEGNHDQAGMIWLRAALAAFYENEPRVFVDVSPAILHRTLWGK
+                     TMLGYTHGHTMKKPETRLAAMATDFRKEFGQCDYIYTHSGHWHHQTVTEHSLGIDEVH
+                     GQLGAKDAYAARGGWRSYRQAAVILYSKEYGEVGRFIYRPNM"
+     gene            10909..11403
+                     /locus_tag="NFBINONH_00014"
+                     /db_xref="GeneID:309316201"
+     CDS             10909..11403
+                     /locus_tag="NFBINONH_00014"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609634.1"
+                     /db_xref="GeneID:309316201"
+                     /translation="MNKKCICIFDLDGTLSDGTHRLHLLPKKDLHLTESWTAFNMAAG
+                     GDAPITDTIRVMKAMRAAGFIVIILTGRSDEAREITEKWLVQNGASHYDLLIMRSASD
+                     NRKDTVIKEEILRKIGIERIVAAWDDSPTVIAHFRSLGITTYQVCDYGENLHDHLKSH
+                     GVDK"
+     gene            11400..11981
+                     /locus_tag="NFBINONH_00015"
+                     /db_xref="GeneID:309316202"
+     CDS             11400..11981
+                     /locus_tag="NFBINONH_00015"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609635.1"
+                     /db_xref="GeneID:309316202"
+                     /translation="MKNVIILNGAPGIGKDTIAEIISRKWQYKNLSFKQPMFAIARAV
+                     LGSADFARFTARYHDRKHKEVKCDFLGDRSPREFMIHISENFVKPTLGKNQFGKLLCD
+                     SALTSPFNCIVSDGGFDEEVEHVAAHEALNVFVVRLHRDGMTFEGDSRKHIRRTDLIC
+                     DTYHELDFDMTTGEPEDDAQKILDMVSDVALKL"
+     gene            12107..12322
+                     /locus_tag="NFBINONH_00016"
+                     /db_xref="GeneID:309316203"
+     CDS             12107..12322
+                     /locus_tag="NFBINONH_00016"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609636.1"
+                     /db_xref="GeneID:309316203"
+                     /translation="MREFISAATNSSGGVALAGSATGQLIIAAIGLFFMILFGSFGAW
+                     LRWRDSKALREALEAGDIKTAVKIRSK"
+     gene            12324..12806
+                     /gene="rrrD"
+                     /locus_tag="NFBINONH_00017"
+                     /db_xref="GeneID:309316204"
+     CDS             12324..12806
+                     /gene="rrrD"
+                     /locus_tag="NFBINONH_00017"
+                     /EC_number="3.2.1.17"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="similar to AA sequence:UniProtKB:P78285"
+                     /note="lysozyme RrrD"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="lysozyme"
+                     /protein_id="YP_013609637.1"
+                     /db_xref="COG:COG3772"
+                     /db_xref="GeneID:309316204"
+                     /translation="MGIKTRVTFAAAVAIAVAFLPEVEDTKYNVYMDIAGVPTVCEGI
+                     TGPDVIKGKTYTRSECDALLTKHIQVAKRTVDSKIKVDVPDTFRASMYSFTFNAGGGA
+                     YSGSTMLKLTNQGRLREACEQLYRWTYYRNPKTGKMEKSKGLHNRRVQEYKLCIKDLK
+                     "
+     gene            12803..13228
+                     /locus_tag="NFBINONH_00018"
+                     /db_xref="GeneID:309316205"
+     CDS             12803..13228
+                     /locus_tag="NFBINONH_00018"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609638.1"
+                     /db_xref="GeneID:309316205"
+                     /translation="MSTLNFQRALAIGFIVWAAAVVSGCASSVPILSDLVGSKPDMTA
+                     QVGAENVKQAVGVTNKTDTSSKQETTFKESAVGKVDTSNKKSVTTSSIHANQITADKI
+                     EIRNDESGSLIPWLIGGVGVVMLAIGVFGLWRERKNKGA"
+     gene            complement(13297..13758)
+                     /locus_tag="NFBINONH_00019"
+                     /db_xref="GeneID:309316206"
+     CDS             complement(13297..13758)
+                     /locus_tag="NFBINONH_00019"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609639.1"
+                     /db_xref="GeneID:309316206"
+                     /translation="MFILDIYKFCESRREFTRQDFAKFVYMHREAPRLAKAANVSQRM
+                     FASMVSKEFLARSYTNGYLDGKNGAVWCTGPDNREIGFDFRSFEGMDNRYMWEMMHLD
+                     QLSDEQLFGKPGGRSDNGGSQACLCETDHTRKLLACRAHLALSRNGRNQHG"
+     gene            complement(13762..15330)
+                     /locus_tag="NFBINONH_00020"
+                     /db_xref="GeneID:309316207"
+     CDS             complement(13762..15330)
+                     /locus_tag="NFBINONH_00020"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609640.1"
+                     /db_xref="GeneID:309316207"
+                     /translation="MFLNDRVSPQDIIAIAEREGISPLRVAIRANGYRDSVSFWPKPK
+                     DIDVNADKYPTISIANDYDVVGKLALNAARSVQFPESSAYMHFLGTVSAAMMGRFWVE
+                     YHGSEQPTTLYVITSQPPSAGKSAINSLAIDPIVAEVERINESRKKERKKIMAKLSAN
+                     KQALKGELSQSDMVKLFEDRDELEEKLEKLCDLTFPVSDTTPEGLAKINNRQGNFAVI
+                     SDEATAVNSLLGITYGNDGGKKTNSELVLKAWDKGHVSIARADVSNNMSFVALGCICV
+                     IAQDETIDAIMQAGSRGIGVSERFLLVREQTRLGERVFIDENGNSTYEPIDQSLKADY
+                     FRLIHDIMSESNIKLQVTDAAMRRLNKARQELEPELGDGGKYSHTMLRGAMGKFDKQV
+                     MRLASVIHTIRNWQPGGKRSKKIDTATIDEAIIMFHELSKTYLSSADSSGFAGEGAEI
+                     KALYDVIASRCKQAKGVMTVQGIYNACRNLKIFKGQAGVSKKIKERLLPKMEELGFIC
+                     VMDSEVFINPSFMR"
+     gene            complement(15456..15893)
+                     /locus_tag="NFBINONH_00021"
+                     /db_xref="GeneID:309316208"
+     CDS             complement(15456..15893)
+                     /locus_tag="NFBINONH_00021"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609641.1"
+                     /db_xref="GeneID:309316208"
+                     /translation="MAKSIKIKCTSSRAVNIHENNLYSARVDDEGNVSMMVYDSVELK
+                     KKRVILSVGVSGELFIAGDGGAAVATFIELKTKTLKCVGLDHSNPMKKSFSVGKRYQV
+                     ESGRALGAVAGYIFDRDGCRWTLYREEVGFSVSDGTTFEAKYL"
+     gene            complement(15894..16076)
+                     /locus_tag="NFBINONH_00022"
+                     /db_xref="GeneID:309316209"
+     CDS             complement(15894..16076)
+                     /locus_tag="NFBINONH_00022"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609642.1"
+                     /db_xref="GeneID:309316209"
+                     /translation="MISKKLTEVCREVLRMNNGGATLAAMQNKIESHVGFKLSCRNKA
+                     DFLDLVNLYIEMGERK"
+     gene            complement(16073..16276)
+                     /locus_tag="NFBINONH_00023"
+                     /db_xref="GeneID:309316210"
+     CDS             complement(16073..16276)
+                     /locus_tag="NFBINONH_00023"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609643.1"
+                     /db_xref="GeneID:309316210"
+                     /translation="MKFIILMMLTILCMSGPGGFIFAVMLLVVAGIIDVRHHHVMTDL
+                     RLNRLINDIKAACEGMEIKVVKK"
+     gene            complement(16349..17041)
+                     /locus_tag="NFBINONH_00024"
+                     /db_xref="GeneID:309316211"
+     CDS             complement(16349..17041)
+                     /locus_tag="NFBINONH_00024"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609644.1"
+                     /db_xref="GeneID:309316211"
+                     /translation="MKDKVIYCMFDGSGIMGLPWAIKGCKVYCFNADSGDHGEYSIRM
+                     VHPNIQYVNIWIDKDFDVKRSILGIPDPDFIFAFPSCTLLAHSGIKHVRQDNDVLSAA
+                     DDAKMVEQLGNKYGCPWMVENPVGKLSSLWRKPDFYFHPRDFGGYVSPNEPVWHPKMP
+                     HCDNYTKKTCIWHGNGFVEPKRLPPPDGVEGVNFFWAWKFLGGRSERTKMLRSITPRG
+                     FARAVFQANYRE"
+     gene            complement(17038..17265)
+                     /locus_tag="NFBINONH_00025"
+                     /db_xref="GeneID:309316212"
+     CDS             complement(17038..17265)
+                     /locus_tag="NFBINONH_00025"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609645.1"
+                     /db_xref="GeneID:309316212"
+                     /translation="MNHPKTDSILAVLNAHGRVVLRMNRASGFTQITITKSKGRYIIG
+                     TVPGGRLIQSSLAGVTLTLESNRMFIEAWKA"
+     gene            complement(17339..18031)
+                     /locus_tag="NFBINONH_00026"
+                     /db_xref="GeneID:309316213"
+     CDS             complement(17339..18031)
+                     /locus_tag="NFBINONH_00026"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609646.1"
+                     /db_xref="GeneID:309316213"
+                     /translation="MKYMGSKARFKKRILDAMGQIGSVYVEPFAGGMNMIDCVKADRR
+                     IANDANKYVIAMFKAVVDGWVPPEISRHEYAELKNLNGSDEMIGWAGIGCSYSGKWFG
+                     GYAGICQTRAGERNYQKEALRSIINQARLLRGVEFSSVSYSDLEIPDHATVYCDPPYH
+                     GTTGYGVDFDHVAFWDWVREISKRCRVFVSEYTAPDDFECILEINAKSSLSANGKSGG
+                     NKNSTEKLFVIK"
+     gene            complement(18031..18414)
+                     /locus_tag="NFBINONH_00027"
+                     /db_xref="GeneID:309316214"
+     CDS             complement(18031..18414)
+                     /locus_tag="NFBINONH_00027"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609647.1"
+                     /db_xref="GeneID:309316214"
+                     /translation="MRTVTISNSFSYIIGSPEERIKAIRDEATNEVTNKFYAAAEAAI
+                     MHYYGRHPDEFNADNTPFVVIKQADGRTWQINDKQTGEFIFGSVPCLVGSNDVTIQEL
+                     GEHEPRVQRTIYISQDYATCVPEVK"
+     gene            complement(18414..18653)
+                     /locus_tag="NFBINONH_00028"
+                     /db_xref="GeneID:309316215"
+     CDS             complement(18414..18653)
+                     /locus_tag="NFBINONH_00028"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609648.1"
+                     /db_xref="GeneID:309316215"
+                     /translation="MRKRRAGEVVCTCDAYPFPHRMFGGSCNGIAIVIASVGGAECQH
+                     CQLLNNGRCEVLAGIENPIECHYVADFIQRNEVKI"
+     gene            complement(18650..18844)
+                     /locus_tag="NFBINONH_00029"
+                     /db_xref="GeneID:309316216"
+     CDS             complement(18650..18844)
+                     /locus_tag="NFBINONH_00029"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609649.1"
+                     /db_xref="GeneID:309316216"
+                     /translation="MKAFADVVVGDKIQYGASDLFRTVTDIEKGRGVNGFTVFVVLDG
+                     VARFAVDARDWVFFIEKGQV"
+     gene            19584..20147
+                     /locus_tag="NFBINONH_00030"
+                     /db_xref="GeneID:309316217"
+     CDS             19584..20147
+                     /locus_tag="NFBINONH_00030"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609650.1"
+                     /db_xref="GeneID:309316217"
+                     /translation="MARPKAQDRIEITDPGELLDLAKSAARKRMDVTGEDREQIEAII
+                     KEAYDKAWGGGEYLRARFIAAGHDLLISDSEYRLATRGSGLYDSTISSALKRFAKPGE
+                     KISRRVVNGFYHITIAEDLSKEAVAKSHEDSIRKEERERIKGLVAALAVDFAGDALTG
+                     IYKANLCAAIDLGLTASDISQESSHEE"
+     gene            20137..20358
+                     /locus_tag="NFBINONH_00031"
+                     /db_xref="GeneID:309316218"
+     CDS             20137..20358
+                     /locus_tag="NFBINONH_00031"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609651.1"
+                     /db_xref="GeneID:309316218"
+                     /translation="MKSKTSIAQTLMRQYRGMIKTMDRVALQQAVKYCYRAPDSLTYR
+                     FKDDSVIWFHKGSAIIITKEEALKLWRRV"
+     gene            20355..20660
+                     /locus_tag="NFBINONH_00032"
+                     /db_xref="GeneID:309316219"
+     CDS             20355..20660
+                     /locus_tag="NFBINONH_00032"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609652.1"
+                     /db_xref="GeneID:309316219"
+                     /translation="MKLYPDQNDPAAPMRLGDTPISEQEVIAAIATASDDENPTALEC
+                     VTADLLLMSFLPESESYIQHITETGEAVTKPEFIGASNVLAMMADEADNIISLDYPQ"
+     gene            20812..20964
+                     /locus_tag="NFBINONH_00033"
+                     /db_xref="GeneID:309316220"
+     CDS             20812..20964
+                     /locus_tag="NFBINONH_00033"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609653.1"
+                     /db_xref="GeneID:309316220"
+                     /translation="MITLITWEHESSKPEVREFETVAACYNLAANSGFYKAQIVNEFG
+                     VVDYEF"
+     gene            20954..21163
+                     /locus_tag="NFBINONH_00034"
+                     /db_xref="GeneID:309316221"
+     CDS             20954..21163
+                     /locus_tag="NFBINONH_00034"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609654.1"
+                     /db_xref="GeneID:309316221"
+                     /translation="MNFKASDVKPGAVYGSRLNNRLWRWDGETMWTKGEGDVIWHECG
+                     WPHPTMSRLDIAYYLSVGDMHEVER"
+     gene            21236..21415
+                     /locus_tag="NFBINONH_00035"
+                     /db_xref="GeneID:309316222"
+     CDS             21236..21415
+                     /locus_tag="NFBINONH_00035"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609655.1"
+                     /db_xref="GeneID:309316222"
+                     /translation="MDKVIKMSEVKPGMMVKFAGKFRLVLAADRKANILTIRVNGKAQ
+                     LFAPQSDIDVEVRIK"
+     gene            21433..21540
+                     /locus_tag="NFBINONH_00036"
+                     /db_xref="GeneID:309316223"
+     CDS             21433..21540
+                     /locus_tag="NFBINONH_00036"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609656.1"
+                     /db_xref="GeneID:309316223"
+                     /translation="MSKKNPYSTSNYHNEHVMRWHWQKLKEHYLARQGK"
+     gene            21610..21834
+                     /locus_tag="NFBINONH_00037"
+                     /db_xref="GeneID:309316224"
+     CDS             21610..21834
+                     /locus_tag="NFBINONH_00037"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609657.1"
+                     /db_xref="GeneID:309316224"
+                     /translation="MPRFSATTKLRTFAGMPIPYSSTKAVQGGEHGVYFHWCGKWRFT
+                     VILGFYVTCDRVDIADHSGGNQVHEFKRHE"
+     gene            21903..22115
+                     /locus_tag="NFBINONH_00038"
+                     /db_xref="GeneID:309316225"
+     CDS             21903..22115
+                     /locus_tag="NFBINONH_00038"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609658.1"
+                     /db_xref="GeneID:309316225"
+                     /translation="MIGNHNNELNAAAHRRAVEQNFNALKVACDEMKAMLELPSWDPQ
+                     LEDYYDGLRVKRDDIINRLRLAGMFL"
+     gene            22126..22446
+                     /locus_tag="NFBINONH_00039"
+                     /db_xref="GeneID:309316226"
+     CDS             22126..22446
+                     /locus_tag="NFBINONH_00039"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609659.1"
+                     /db_xref="GeneID:309316226"
+                     /translation="MIHEIKSKKQVVATIKKRMVVAFQLNITDPDDTQSIDVPIWANT
+                     IAIDADGAIWAYESTAEEVRIIGDQDDAWSDWGKAKNRIDQIGAMALFPDWAKSKIDL
+                     RGLK"
+     gene            22516..22914
+                     /locus_tag="NFBINONH_00040"
+                     /db_xref="GeneID:309316227"
+     CDS             22516..22914
+                     /locus_tag="NFBINONH_00040"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609660.1"
+                     /db_xref="GeneID:309316227"
+                     /translation="MKQIVKNAVVAIVGTNFEGKKSRIHLLHVDNDGKMRGAFYLGDR
+                     GQRLHSDEHPFRNMTHFQNSRDYSPTWFHEYHFEGLMVESFVADPMKLTTRDYKRMAR
+                     KAHKLMKRTPKSHVWHIFANQLEDLSWLKQ"
+     gene            22899..23147
+                     /locus_tag="NFBINONH_00041"
+                     /db_xref="GeneID:309316228"
+     CDS             22899..23147
+                     /locus_tag="NFBINONH_00041"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609661.1"
+                     /db_xref="GeneID:309316228"
+                     /translation="MVETVTVICTHAGYGPLIPLFTVGKEYQARFGPGLDEVWILQDD
+                     KKTTELGENWLACRMPDEKIAMFLNRPYENNVLFEVKV"
+     gene            23144..23329
+                     /locus_tag="NFBINONH_00042"
+                     /db_xref="GeneID:309316229"
+     CDS             23144..23329
+                     /locus_tag="NFBINONH_00042"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609662.1"
+                     /db_xref="GeneID:309316229"
+                     /translation="MKVSKKKLALYWAFFLVGLALHDSVGWQTIGILCMIIGVCRLSE
+                     INGLRRGYRAAFSGEKE"
+     gene            23409..23627
+                     /locus_tag="NFBINONH_00043"
+                     /db_xref="GeneID:309316230"
+     CDS             23409..23627
+                     /locus_tag="NFBINONH_00043"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609663.1"
+                     /db_xref="GeneID:309316230"
+                     /translation="MNDNLIALLEELNSYGCAYIELSSEQVIEVAIDDDAGFTRLRVA
+                     AGAEEEFEDCGIREVTSLLESHQVKEIR"
+     gene            23627..24115
+                     /locus_tag="NFBINONH_00044"
+                     /db_xref="GeneID:309316231"
+     CDS             23627..24115
+                     /locus_tag="NFBINONH_00044"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609664.1"
+                     /db_xref="GeneID:309316231"
+                     /translation="MKTVKLMVVNAARERERHLIGCVFDAVEVHEPLGTVHVIQGGYL
+                     NEFIINPLDTDEDLTIRVGSEPENALFHLRKVSKASQRKLLVRALKLQARDRGWTNSY
+                     IRKFGEFSGVGDWARSWANWYFDKDGKFSATYMDGWHGTDHDPASGYEWQEFIEFEFD
+                     AF"
+     gene            24191..24760
+                     /locus_tag="NFBINONH_00045"
+                     /db_xref="GeneID:309316232"
+     CDS             24191..24760
+                     /locus_tag="NFBINONH_00045"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609665.1"
+                     /db_xref="GeneID:309316232"
+                     /translation="MNNLKITLIPSVDSPVNVFARFTKGKRYPAIAFTNDSGDLLYKV
+                     RDDEGLRHTVHTRSSHHLGGHRFDIEFEIEEPCIGNGFINRACIVDLIPSDNNAKDDA
+                     DPLLNAVIRAGIDWAISDDSCESFMREPFSRIAELEQQVAFLTGELQAAIATIERVRE
+                     IMRSEPGYDIEDHARVLRIMADAFAKLQQ"
+     gene            24826..25017
+                     /locus_tag="NFBINONH_00046"
+                     /db_xref="GeneID:309316233"
+     CDS             24826..25017
+                     /locus_tag="NFBINONH_00046"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609666.1"
+                     /db_xref="GeneID:309316233"
+                     /translation="MIYAIIALVVLILALYACGCFLMRAFLKSADSTDKEDLYPVICW
+                     PWITLSAVGSVIISRNFKW"
+     gene            25129..25338
+                     /locus_tag="NFBINONH_00047"
+                     /db_xref="GeneID:309316234"
+     CDS             25129..25338
+                     /locus_tag="NFBINONH_00047"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609667.1"
+                     /db_xref="GeneID:309316234"
+                     /translation="MKIKITKTDTLNGDGSITLEECGLKIGEVLEVDGHFNDGSYCVI
+                     APRNSEFIQAGDNISVSKEECEVVE"
+     gene            25338..25913
+                     /locus_tag="NFBINONH_00048"
+                     /db_xref="GeneID:309316235"
+     CDS             25338..25913
+                     /locus_tag="NFBINONH_00048"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609668.1"
+                     /db_xref="GeneID:309316235"
+                     /translation="MSNKIWVLTYTIGTNEGRKSRRLICDTKEQAIMQQTVLGGDLVE
+                     YFSKPEAFKVNWPEGMDINGALASLREMQSNPKTWSDFQCLRAEPEVKVDPFTNIRAQ
+                     HAEWSDRQFGNVGPVGPLKHLAKEAIEAAEAPDDISEFGDILMLVWDATRRAGFSDEQ
+                     LAEAVAEKLERNKRRAWGEVKDGEPCHHVKN"
+     gene            25982..26218
+                     /locus_tag="NFBINONH_00049"
+                     /db_xref="GeneID:309316236"
+     CDS             25982..26218
+                     /locus_tag="NFBINONH_00049"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609669.1"
+                     /db_xref="GeneID:309316236"
+                     /translation="MPEYSKVEDMPIGATITGIRMSDSDDTIKPLAFPVTRVETDSRK
+                     GFIFIYKNFNSPLRVEVFIARGTWVEWEKDKCSD"
+     gene            26206..26439
+                     /locus_tag="NFBINONH_00050"
+                     /db_xref="GeneID:309316237"
+     CDS             26206..26439
+                     /locus_tag="NFBINONH_00050"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609670.1"
+                     /db_xref="GeneID:309316237"
+                     /translation="MFGLNEAQYNAVKRIAKQMAAETKDAIKKDKKTYDQVAAKMIDK
+                     HWAQINTLVTRGQFIWIAGYLEGRFGRKDGEYE"
+     gene            26439..26618
+                     /locus_tag="NFBINONH_00051"
+                     /db_xref="GeneID:309316238"
+     CDS             26439..26618
+                     /locus_tag="NFBINONH_00051"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609671.1"
+                     /db_xref="GeneID:309316238"
+                     /translation="MADLSSTRMNSSLENWGEQLELIVELNGKSFDITESEIEAAYYA
+                     GKRVDDFYYEEWEPE"
+     gene            26829..26948
+                     /locus_tag="NFBINONH_00052"
+                     /db_xref="GeneID:309316239"
+     CDS             26829..26948
+                     /locus_tag="NFBINONH_00052"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609672.1"
+                     /db_xref="GeneID:309316239"
+                     /translation="MTIEANDTADAVEKAKKQSGVNLDTHKININYISEVNQC"
+     gene            26942..27205
+                     /locus_tag="NFBINONH_00053"
+                     /db_xref="GeneID:309316240"
+     CDS             26942..27205
+                     /locus_tag="NFBINONH_00053"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609673.1"
+                     /db_xref="GeneID:309316240"
+                     /translation="MLTLFIALLMLFIGYHVGAAHLVERLSKRVHEGTFAAMMYNKKT
+                     GRWEKIGDPDGIAKRIAFSPLPYVDCEPFVKLQKTLKRRNKLI"
+     gene            27285..27809
+                     /locus_tag="NFBINONH_00054"
+                     /db_xref="GeneID:309316241"
+     CDS             27285..27809
+                     /locus_tag="NFBINONH_00054"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="protein
+                     motif:small_terminase_phams:pham_7_100"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609674.1"
+                     /db_xref="GeneID:309316241"
+                     /translation="MSEERRKRVTKSHFAGNFKALYEKEFGVVLGRTAEMTPEQFFDI
+                     AKRYFQWAEDNAIKAAETATFQGDVNEWGVNKPRIFTLTGLSLFCGVNQSTLGRYRHD
+                     PNYAPVMEFIDSVIYEQKFQLAAVGMINASFVGKEMGIDKPPVLNIDAIAGDKNEITE
+                     EKLEKAVTNILDKL"
+     gene            27819..29420
+                     /locus_tag="NFBINONH_00055"
+                     /db_xref="GeneID:309316242"
+     CDS             27819..29420
+                     /locus_tag="NFBINONH_00055"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /inference="protein
+                     motif:large_terminase_phams:pham_16_100"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609675.1"
+                     /db_xref="GeneID:309316242"
+                     /translation="MNEMIIWEDLSPADKLAIKALSTRNFSLFLKIWFQIIQGEKLMW
+                     NWHHSYFCHTVDEIIAGKRKSTIVNVAPGSTKTEVFSIHLAPYAYLKCRKVRNLQISQ
+                     GDALSKGNSDRVIKIFSSGEWQELWPSKFGRKQIDEFQVMDDSDRVRLEMVSRSSGGQ
+                     IVGKRGGYMTPGFSGLIALDDIDKPDDMFSKVKREKNHVLLKNTIRSRRAKKKKGDET
+                     PILSVQQRLHAQDATWFMMSGGMAIDFDRIVIPAMVTREYGESLPDWLRPEFERDVLS
+                     GPSVVIDGVEYWSFWEDNESIENLVALREADLYTFLSQYQQEPIALGGNVFKSEWWRY
+                     YGDSDKAHEPRPDKFEYTFITADTAQKVKELNDYSVMCYWGKYRDRVYFIDGIRGKWE
+                     APDLRVQAEAFIKQCWRRNKECGNLRRIYIEDKASGTGLIQDLTKAVNGMGEIVPVQR
+                     DKDKVTRAMDAQPIIKGGRVVLPDNHPFVAELEAEMSAFTYDDSHPHDDICDNVFDAA
+                     NLEMNLSDDPVERMKRLAGLKKLGR"
+     gene            29466..30776
+                     /locus_tag="NFBINONH_00056"
+                     /db_xref="GeneID:309316243"
+     CDS             29466..30776
+                     /locus_tag="NFBINONH_00056"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609676.1"
+                     /db_xref="GeneID:309316243"
+                     /translation="MNNIKMDDYNQIFNGGAGYASTLASIASRFGTMSQVEEFYHENG
+                     MAKKIVDVIPEEMVAPGFQLNGISDNTKFQSEWDGLNLEPQITDALCWARLYGGSYVL
+                     AMVNDGRALTSAAKRGKPLESIVVYDHDSVSVAEEETSPRSPRFGKPKMYEVKPLNGG
+                     QPFKVHYTRMHYIDGERVTNKVRQLNKGAGGSVLNKSIIEAILDYDYSEYLATQLLKR
+                     KQQGVWKAKGLALICDDKEGEYAARLRMAQVDANSGVGNTIGIDATDEEYTVINSDIT
+                     GIPEFLSAKMDRIVALSGIHEIVLKNKNTGGVSASQNTALQTFYKLVDRKRNDDYKPL
+                     LEFLLQFIVTEEEYSVEFEPLSLPTDAEKADIFKKNSDAARGLVTDQVIDANEARDTL
+                     SALIPELKLKGNAPEQKKLPDRNTGSGKTQSEEILNNTETDDES"
+     gene            30766..31533
+                     /locus_tag="NFBINONH_00057"
+                     /db_xref="GeneID:309316244"
+     CDS             30766..31533
+                     /locus_tag="NFBINONH_00057"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609677.1"
+                     /db_xref="GeneID:309316244"
+                     /translation="MKVNGRIPNWRYPEASERELSRSMQEAVTELVVEMRDRLDRLKF
+                     DATAEEISQAEDDISESAIVFFSAVIAALASIGLTIYRFNSKQWLAIAIAAGGRNNES
+                     VMRLKEFGAGGYEDWYQEALRKWEDAAEASVRKLASDIVSDWTTKVRTANNIGKSRKQ
+                     IDEIIEGRYAIYGSWSRNRASGIIGTFNSMLMMQRLKDAKVSHYFWFGMMDDRERESH
+                     IKLEGKRRPVNGDGIFPGEEYGCRCWAVPDFNNVEVS"
+     gene            31533..32663
+                     /locus_tag="NFBINONH_00058"
+                     /db_xref="GeneID:309316245"
+     CDS             31533..32663
+                     /locus_tag="NFBINONH_00058"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609678.1"
+                     /db_xref="GeneID:309316245"
+                     /translation="MKRVQRFDTVKMKARFDENGFLVDTPIVARIGAQTYQTPTGPRV
+                     EFRPRSEVFDAESLASYQGKPITLGHKMVNAQNAKGLVVGSCSGAGKEDGIGVLVPVM
+                     IYDGESIEKAKKRVAAELSVGYTSVDIDRKGWGNNATGEYHFDEDLPENFEEMKNDSV
+                     SDWVRFDAVQTKIRVNHVALVFRGRAGIAKLNLDSEQEFPYDDDSNHKGAKTMIIKID
+                     GVDVEVADNVGAYIAKLDAQVASATSQVTSITAERDALQAKVDGIEDEVAARVAKIKA
+                     DEDAKQKVIAVVSAAGVKCDGLDVKAMKVAYIKEVDGRDLSDKEDSYIDASFDFIANS
+                     DKMAGNRSKVFGKKEDGEQKDKGGLPKLDGTEIIDPQAKFRR"
+     gene            32715..33236
+                     /locus_tag="NFBINONH_00059"
+                     /db_xref="GeneID:309316246"
+     CDS             32715..33236
+                     /locus_tag="NFBINONH_00059"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609679.1"
+                     /db_xref="GeneID:309316246"
+                     /translation="MAQIPASYSRKRDIAVAGQIADTSLYNIDGTCVAEGDIKAGVLV
+                     ASTGAVSNGHKVVKPATAASDVIVGIAQFSQAYSPEGQYDDESAVNVMTHGRIWAVAD
+                     ATVTEEDCVFNSFVTFTANGTVAKGDAGVIKTGYKHTGEYTKNADGTVLVKVQVLQGA
+                     VAPVADAGGGTGV"
+     gene            33350..34309
+                     /locus_tag="NFBINONH_00060"
+                     /db_xref="GeneID:309316247"
+     CDS             33350..34309
+                     /locus_tag="NFBINONH_00060"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609680.1"
+                     /db_xref="GeneID:309316247"
+                     /translation="MTMKLDAFEQSAIKVAMQGMGVDAAKLDAYGIWTVKQMTQLLNR
+                     QYEQAYPQTSALELFPVTTEISPTARRFEWLEFDGVTSAKIIADYTDDLPTVEAMAKE
+                     KSGKVFRLGNAWFISIDEIKTGSALGSSLSDRKATLAREGHETLVNDLVFKGSAPHGI
+                     VSVFDHPNINRMTASAAWGDDAAAAEQAFEDLEDLLNMIEETTLGRHHATNIVIPPSK
+                     RRLLTKKMPDTSGDSYLTWFTKNHPNITITAMAELEDIDGAGTKGVLAYEKDPMNMSI
+                     EIPERFNMLPMQPKDLHFKVPCTSKCTGLIVYRPLTIAILTGI"
+     gene            34400..34687
+                     /locus_tag="NFBINONH_00061"
+                     /db_xref="GeneID:309316248"
+     CDS             34400..34687
+                     /locus_tag="NFBINONH_00061"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609681.1"
+                     /db_xref="GeneID:309316248"
+                     /translation="MASKKETVETAEITNAAQESQVVQLQNVGACAIRYKGKNYVYEQ
+                     VFEVPESEIDRFRHEIFKGRVEFYDNPKRTREYIAAVKAKAKEIVQPKSAE"
+     gene            34741..35157
+                     /locus_tag="NFBINONH_00062"
+                     /db_xref="GeneID:309316249"
+     CDS             34741..35157
+                     /locus_tag="NFBINONH_00062"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609682.1"
+                     /db_xref="GeneID:309316249"
+                     /translation="MNYTIQDVNDKMRSLAPPLKKVPDELLTAWVVLAEEFVCKSRFG
+                     DSIVTAIALMTMHLMFLDGAMKQEGESLESYTQRVASFTLTGEFSQTFDRVSASSDNE
+                     MLSTPWGKMYWRMLKMRGGGFGLLTAGNVRRCGIGR"
+     gene            35163..35540
+                     /locus_tag="NFBINONH_00063"
+                     /db_xref="GeneID:309316250"
+     CDS             35163..35540
+                     /locus_tag="NFBINONH_00063"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609683.1"
+                     /db_xref="GeneID:309316250"
+                     /translation="MNYKQIQARASEGIKFFSDADGVFNKYTKGAGGGIDPETGEDII
+                     PGEVVTTIKGAIRDVNDRDINGETILAGDKRGFFTHDVPIMEGDEIEVDGERYRVVNA
+                     RPVKPTGTVVAYRPVLRRVATYG"
+     gene            35533..35970
+                     /locus_tag="NFBINONH_00064"
+                     /db_xref="GeneID:309316251"
+     CDS             35533..35970
+                     /locus_tag="NFBINONH_00064"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609684.1"
+                     /db_xref="GeneID:309316251"
+                     /translation="MANYTIREFTGAIDAWCKAAGDALEDVVRFTCEDIHRDLVMRSP
+                     VDTGRFRGNWQITFNRAPLYAINAYDQTGEKTIQNGKANIALYAKGAGITSIWFSNML
+                     IYANALEYGHSRQAPNGVMGVVAIRLGVYVTEAIKRARAKNAL"
+     gene            35960..36391
+                     /locus_tag="NFBINONH_00065"
+                     /db_xref="GeneID:309316252"
+     CDS             35960..36391
+                     /locus_tag="NFBINONH_00065"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609685.1"
+                     /db_xref="GeneID:309316252"
+                     /translation="MHYDMALKCKAVVAKFAAENGLMVAGDNVDFRPPAGGETYLKVS
+                     YVEAYSRSVDISRKCRVYMGMVQIDVIFKPGIGTDSARLIAQNVAKYFPEGEIIDSVN
+                     KVYVSEWAEVSGVQRHETGWFFPVRFTVRCNSVEDSGYPTT"
+     gene            36485..37141
+                     /locus_tag="NFBINONH_00066"
+                     /db_xref="GeneID:309316253"
+     CDS             36485..37141
+                     /locus_tag="NFBINONH_00066"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609686.1"
+                     /db_xref="GeneID:309316253"
+                     /translation="MHLPNGAKVFFEKARGAEVPFTAMTNDVKNPKITVADGALDVND
+                     IVIFTDCTWSDFVNKVARVKSVSSGVATLEEFDTSDTNKYPGGAATGNVSVITDWVEL
+                     PCIQDLGKDGNEQQFYNYQCLGDEREQSEPTYKSAVTLNYTFAHEYDNAIYPVLRSAD
+                     ASKQAKAMYMYIPRASEVRYWSGTASFDDIPSTAVNEMETVTLNIALKGAHVFLPVVA
+                     "
+     gene            37218..37544
+                     /locus_tag="NFBINONH_00067"
+                     /db_xref="GeneID:309316254"
+     CDS             37218..37544
+                     /locus_tag="NFBINONH_00067"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609687.1"
+                     /db_xref="GeneID:309316254"
+                     /translation="MAKFKIQIGGNLPSFKLPVTFTCPDGKEATITMTVKHRSTDEMK
+                     DFYESEDKAPKGNAEFIRFMAEGWDLDDEFSDENISWLCAHFPAFVMALPQTYMAALA
+                     GHRAKV"
+     gene            37895..40972
+                     /locus_tag="NFBINONH_00068"
+                     /db_xref="GeneID:309316255"
+     CDS             37895..40972
+                     /locus_tag="NFBINONH_00068"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609688.1"
+                     /db_xref="GeneID:309316255"
+                     /translation="MADKVAGLTFGVDVSQVDKAVRSLAELKNQSQQTGAGLQSLADA
+                     EKRATAQTEEMNRALQRQKQETDKSKTSFSRIASAIDPTISKMANLRKATEELDKAWA
+                     LGLVPDKEFFRLGAIIESTTNKLRQQQLALTEEGRAAIAEAEAKQKAANAGRDFVASL
+                     KQQADSIGKTRAELLEMKAAQLGVSAEAAPFINTLKQQEQALKKQQSAMGLAGISAGQ
+                     YQAAMRQLPAQITDVVTSLASGMPVWMVAIQQGGQIKDSFGGVGNAFQALKNLIFGTS
+                     SEIDESLDETSESANDLAESFNNTTEAGEKMGGLIRFINPVTIGAVALGVAIAAIAKA
+                     GFDAWKSQRDLANALVLTGGYAATTTGQINDLANELSETSSATSGRIQDIASTLASSG
+                     KYTIGQIKTITKTTAEWEAQTGESGDKIKGYFDQILKDPVKGLADLNDKFNFLNEGQL
+                     TYIESLRKTKGETAAADAATKLFADTMDKRLKDVADSATPLEKMWMDIKKWASDSWDW
+                     VGNHTVGALNLIVDTVSAIINTIRKLITDGDAMIAQFVVDAGRTLQKIPGMGDFGNDF
+                     LAQQEQLIKDSKAKSAELAKTIAEQQARIAKGEMGYIDAANNKDVSGGYSSKTKDRVN
+                     QEEKDILKNRNARKQQVDAGVKIDEQYQAELLSLQAQLKVLQQHKGLDDKISQQRKDY
+                     FETVAKFQVLEEASQKRKLTQSEQQMLANKKNILYMAEQKAIVGDRIVQQQRLNALLD
+                     KSTKYQNQMAEKTKALQDTAGMGSKEQERYRANAQMAADWKNSGGSLSDPGFKAMQDA
+                     SNKFYAQQDAQMLNWKAGFTHAWADIGNEVNDVYSNIGDITKSAFNGMASVLTDFVMT
+                     GKASFGDFAKSIIGDITNMLIKMALFNSISAAFGGSAFSFSKGFSGGGYTGDGGKYEP
+                     KGVVHGGEFVFTKEATQRLGPENLYRLMRGYASGGLVGGNSSSGTGITNGGNVAASAA
+                     MVFTIGDINITMGSGQDSKGMEQGVRQIVNDMFTEALSQNGRIARFVNEKTRR"
+     gene            40975..41319
+                     /locus_tag="NFBINONH_00069"
+                     /db_xref="GeneID:309316256"
+     CDS             40975..41319
+                     /locus_tag="NFBINONH_00069"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609689.1"
+                     /db_xref="GeneID:309316256"
+                     /translation="MDSFKWCTQIQGGAAKVAISNNIRSIVFGNGYIQTASSGINTKR
+                     RTVPIVYGGSDWEEVYNFCQDHVTKPFVWKAPDGRMGVFVVTADSVNLAPQGGGVFEV
+                     TAEFAERFTSAG"
+     gene            41389..42141
+                     /locus_tag="NFBINONH_00070"
+                     /db_xref="GeneID:309316257"
+     CDS             41389..42141
+                     /locus_tag="NFBINONH_00070"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609690.1"
+                     /db_xref="GeneID:309316257"
+                     /translation="MTANVSKEFANCLQKLFPGEILTLIDIDATKFGGQVYRFHNENV
+                     AYTTEELLAAVNGGTLQPKMITFRGEQYGPRPFGLGGIAMSSDGTVEKPTLTVSNIDA
+                     QASALIRAYNGLMQAKVTVWVLVKELLQNDGSVKEGDFRRFVYYIERPKQVDPQKATF
+                     ELTSVFDMDGLMIPARLTQTVCYWAQRGWYKSGKGCDYNGQNGYFDKLGNRVDDPSRD
+                     VCGGLVSSCRLRFGNEPLSFGGCATATLKSGS"
+     gene            42143..42880
+                     /locus_tag="NFBINONH_00071"
+                     /db_xref="GeneID:309316258"
+     CDS             42143..42880
+                     /locus_tag="NFBINONH_00071"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609691.1"
+                     /db_xref="GeneID:309316258"
+                     /translation="MLTPKIKMQIMQHAKEVYPHECAGLVTQKSRVQKYHRLDNVSPD
+                     PENESMPDETQYAMAAMDGEPIAFVHSHTGDGATTVPSATDLCFCDESGLSWVIVSIP
+                     EGDMRIIEPKRRPLIGRPWALGAYDCYGLIMDFHKRHGVTLKDRRVPFEWWKPEYKEN
+                     LYQDYWQEDGFIENTGEPEVGDMIIFQLQAEKWNHAGIYVGNNNILHHAYGKLSRRDI
+                     YSGWYEQHKVLICRHKELKHGITYKDD"
+     gene            42855..43457
+                     /locus_tag="NFBINONH_00072"
+                     /db_xref="GeneID:309316259"
+     CDS             42855..43457
+                     /locus_tag="NFBINONH_00072"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609692.1"
+                     /db_xref="GeneID:309316259"
+                     /translation="MASHTKTIKLSGSLGRRFGVFHKLAVDSVAECIRALSYQIEGFK
+                     PFMQSKVGSNMRFGIIADGKPISTDDFSTFAVAKEIRIIPIPRARKNGGLLQVVIGAA
+                     IMVAAFFTGGGSLAAMGAFSSAAFMAGGSMVLGGVMQMIAPQMGGNMRASESPENKPS
+                     YAFGGPINTTAAGYPIQLPYGYRLAGGALFGSGSYAEDNN"
+     gene            43545..47249
+                     /locus_tag="NFBINONH_00073"
+                     /db_xref="GeneID:309316260"
+     CDS             43545..47249
+                     /locus_tag="NFBINONH_00073"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609693.1"
+                     /db_xref="GeneID:309316260"
+                     /translation="MTNIKARKGGSSKPRTPVEMPDNLISKDKIKLLLAVSDGEVVND
+                     FSLKQLHFGGVPVQNEDGTFNYEGVIAEFRPGTQTQDYIQGFSESSAEFQVAREVTHN
+                     TPYTLTVSNKNLSAIRFRLLWPRVLTQKDNGDMVGSVVEYKIEMAVDGASYQTYLTGK
+                     IDGKNTTGGYDRSIRVNLPQNFTSQVLIRVSRVTPDADGVKVVDAFRVESYAEVIDAK
+                     FRYPLTAMLYVEFDSDLLQNQIPTISLKKKWKIIQVPRNYDPINRTYSGTWDGVFKWA
+                     WSNNPAWVLYDLIMNQRYGLDQRELGIPVDKWSLYEVAQYCDELVPDNRGGMEPRYLM
+                     DVVVQSQVEAFQLVRDICSAFRGMTFYNGESLSIIVDKPRDPVYLFTADNVVDGVFVR
+                     TFPSEKTMYTSCNVMFDDEENQYEQDVEPVFNPDAAMRFGHNPTSITAIGCTRRTEAN
+                     RRGRWILQTNLSATTVSFSTGLEGMIPSCGDVIYVADPHWQSAFNLVLSGRVMEVSGV
+                     QVFLAYRCDAKAGDTLILNTDDGKPVRRTIASVSADGKTLTLNVGFNFDVAPDSVFLI
+                     ESDQLAAEQYVVTRIEKGSDDDEFTFAITATQYNPNKYDAIDNGVITDSRPTSVVDPD
+                     SMGAPKDLTISSFSRIVQGMSVETMVIGWSAVQYAKLYEVQWRKDGGNWNNVPRTATT
+                     QVDIEGIYAGEYQARVRCISGGNVASPWSALATATLTGKVGAPKGPINLFASDDEIFG
+                     IRVKWAMPEGAEDTAYIELYQSQSGTDQDASLLTLIPYPASEYWHSILPAGYVNFYKA
+                     RSVDRIGNVSAWTDYARGMSSTDVNAITDVILDEILDSDAMKELHESAQDSAAKLNEY
+                     ANSIIQNALANDGDVRIMRKENGKRKAEIKRAEVLIANETEARVQQVNQISAEFNENL
+                     NAGLTQVNEALANETEARVTSEEALSARIGQNSAALDQKLDSWADVNGVGSMYTMKLG
+                     LTYNGQEYNSGMALQLAAQGDNVVSQVLFIADRFAIIRNAESGAYTLPFVVQNDQVFM
+                     NNALIQDGSITNAKIGNLIQSNNYVSGSRGWSIDKNGNAEFSGVTVRGHIEADSGSFH
+                     GTIDATDGIFRGSVEANSFVGDIAAMGPFPTRVGSAWKSRVVHHDSSEKGGKNYAILG
+                     LIRWDAGDKTGSVIVECYVNGVRVSSQTYNGRDAGESTRARLTAVGVATGINTKDTLV
+                     EIVVSGTGTSTLEAGYCIMSRGSGSWKVVA"
+     gene            complement(47440..47595)
+                     /locus_tag="NFBINONH_00074"
+                     /db_xref="GeneID:309316261"
+     CDS             complement(47440..47595)
+                     /locus_tag="NFBINONH_00074"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609694.1"
+                     /db_xref="GeneID:309316261"
+                     /translation="MPRFLRGIIAKHEATIMAYVTIHTSYGLQRLAQAEKTGVDEKNI
+                     TFLRYEI"
+     gene            complement(47595..47864)
+                     /locus_tag="NFBINONH_00075"
+                     /db_xref="GeneID:309316262"
+     CDS             complement(47595..47864)
+                     /locus_tag="NFBINONH_00075"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609695.1"
+                     /db_xref="GeneID:309316262"
+                     /translation="MSFTVSKQCSVVKNYPELGIVKSANSETLNVTYEAIIVNSVDAG
+                     VAEVQFSVKSDDIGEGIITYSFNHNGLDNLLVQAETALKNSFNYL"
+     gene            complement(47875..48789)
+                     /locus_tag="NFBINONH_00076"
+                     /db_xref="GeneID:309316263"
+     CDS             complement(47875..48789)
+                     /locus_tag="NFBINONH_00076"
+                     /inference="ab initio prediction:Prodigal:2.6"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="YP_013609696.1"
+                     /db_xref="GeneID:309316263"
+                     /translation="MSMTPGYFYNNKGAAATTRMVFLSGSPANSASIDMTNTNYYSQT
+                     VDPYDCPGSSKLVVKHAGDMRTRMKIKYPNKVIFNCYSQFSGYCDIYISESGNDSYNG
+                     YSSSYPVKTLQEALLRCQPNYKNRIYIAAGNTVTTTKYYSDGLGPNRRFFENFDIQVI
+                     GDATTKPTLVIGEDSGWLSGVGVKDGRISFKNLNITLTLSSSTSAAAIAFGALVYVYG
+                     DCGVSFDNCTISGSDATYKPFLVSPAQRAGVVKLSLNSCSLSNMNIIQGSNISGLGLA
+                     YILNHYSCAFSSVAEGSTTAKIYSRAIA"
+ORIGIN      
+        1 gtgattcaaa tgcatagcca tcctgcatgg aaaaatctgg tatgaacttt gtgaaattat
+       61 tcgttgggtc acccaaataa gattgtgcaa ttccactcat tcggagataa ggcggaatta
+      121 gcatagttct ggtgaaacga taccgacctg gtagcatcaa atagtattta acagttgccc
+      181 cactagaatc agtatcagaa acattccctt gccacacgaa atcaacacaa gcattcattg
+      241 cggcttgcaa tgcatcagaa tcgtcagcaa caccatcgcc aacagcacca aacatttctg
+      301 gcgttaccca tttaatagcg tcatctagtg ttccgccatc aggcaagcca atcttgctgg
+      361 ccccagaagg ttgagcaaga accaccagcg ttgactgttc gccagcatca ttgatgatct
+      421 gctgcgtctg ttctcttgca gtctccgctg caacctctga attttttgcc gcgttttcag
+      481 acgctttggc gttggtctct gaagtttttg cggagctttc agacgccgcc gcagccgtag
+      541 cgcttgcttc cgcggattca gagtcttcct taatttggtt agcaatattt tgcagggaat
+      601 cgaaatcaaa gttcttaaag aactcgaccg catccgcaat tacggtttct tgcgactgat
+      661 agtagcgcaa ggtttccgca acatcttgcg ccagaccatc aacggtcagc gagtcgctta
+      721 acagtatcgc gtagtcagta gacgctacga cagcgccgtt tgtggtgatg gctttaattt
+      781 cagtgtcgct taccaccttg tttacgactg ccatttgaat tggagacgac aaaaacataa
+      841 tagtagcgcc tgggcgaatc agcgaaagcg atgattgcca ctttgtgcca gtcccggtaa
+      901 ctgttccgtc tgcggccata gccgccttac cttctctgta tagtgccatg cctttagtcc
+      961 tctatggttg gttgagtaac gcagataata gcatcaatga acagaaaaaa aaaggagctt
+     1021 ttcggctcct ttagttgtta aatcagaacg ggatatcatc atcgaaatcc attccagaat
+     1081 tcccgccgcc gttttgcggt ttaggatctt gctgcggctt ctgttgttga ggctggcccc
+     1141 aaccgccttg ctgattaccg ccgccgcttt gcgctggttc gcgctggcta aattcgagtt
+     1201 gtggcataat catttcgttg tggctgtagg tcgttccgtt gtgctcgcgg ttaacgatct
+     1261 gaagcgtccg gcaggtgacg ctaatcacct tatccatttg cagcgcttca tcgtaccatt
+     1321 tgatcatgtt ctcttttgca aagaagacgg cgcggtagtt cgtgtaaact gtttcgtcct
+     1381 cgccatcacg attgcggatc ttcatccgct ccgacaggtc tacggcgtac atcttccacg
+     1441 gcccgttatt attgctgcct tccttgatgt acggttcttt tcggattaca cctgttacaa
+     1501 catgcattgt cattcctatg gggcggtttc ccgcccggtt aaattagttg aaagatgaaa
+     1561 tatcttgtgc ttctggttca ggttttgatt ctaccttttc cggctcacgt ttcgcaacct
+     1621 cttgcggttt accaggattg aagccatttg ccggggttac tttcagttcc gcctggcgtt
+     1681 tggtgatatc gtcttccgtc attttccatt ccgcaggcgt taacgtttgt ttcgccatct
+     1741 tatagatctc ccgaagcgat tcgagatctt cgcacgcgtc aatgcgtttt ttgaagtctt
+     1801 tcggtgtcat tttagtaatt tctgcatcat catccgcctg cttgataccg agcgctgcgg
+     1861 ccagcgcata acggcgggcg taagatgttg ttgagccgta tgcttgttcg acggttttgc
+     1921 tgatcggcat attgtactga aacgccatga actcgccgct ttcatgcaaa aacatagttt
+     1981 cgaggtgcat aaccttttcg gtgctggtat ccatcatgga ttgaatgacc ataattttat
+     2041 tcttctccag cgccggggaa atcgcgtcga ggatatcacc aagattcgca taggtgttcc
+     2101 caagatggtt gttcttcccg cttttcttcg cggccacgaa gccagatttt gctttgatta
+     2161 atgcggctgc aatggtggtg aatttttcag atgtacgcat gataaagttt ccttttcctg
+     2221 attggtaatg cgcactatat cacaagtgcg caccagtgtt tagctatttg tgccgtatac
+     2281 gtcagggaac atgtatttca caaactgcgg agtaggcaaa acgacttccg ccgcgtttga
+     2341 ctcatatgat ggccatgaat catgcttcac gcattccgca tactgatgaa tcacgctttg
+     2401 atactgcttg cgaccgatat cgatctgctg gctggtcagg gtgaacgcca gcggagcaaa
+     2461 cggtgatttt ttctcctgcg ttagcagtct gacaactacc gggcgttttt cgttgtaagt
+     2521 cttcacgaac agatcgcgct gcaatgccat cttgagatag taaccaaggt tgaaggcgag
+     2581 tcgcccgaaa tcgtcaggct tggaagattg cgtggttttg tagtcggtaa tcaccacgac
+     2641 ctcgaaaacc tcatccgggt tgaaccccca ctccttgatt agttctggat cggaaacaac
+     2701 atcaacatga tcgagtcgaa ccttaacctt gacgccgaag atctcaccga agattgacaa
+     2761 ttcacgctgt gcgctaggcg attcgataca ggcggcgtgt cgcgggttgg ccagcatcac
+     2821 gctgcgcatt tgaacaacgg catcgaaatc aacatcctta accagcttgc gcccggagtt
+     2881 catcgcggcg ctttcgtcgc aaagttcaat cgcccaccaa acatttacgt caatcccggc
+     2941 gcgatatgcc atttccagaa gttccgggta atccttgttg gacgtcccaa tcaggccaca
+     3001 cgctttcagc ttcgcagaca attccgactt cgacgtaatc agatctttaa cctcgcccgg
+     3061 agaagtcgcc cgcatgtact cgccattaaa ttttgctgtc tcaagcatac aggtatgcga
+     3121 gcaagtgccg aacgacagcg cggcagtttc ctcgcgaacc ttgaatttcc aatgcgccgg
+     3181 ggatgttgcg taaatctcgc cgaggcttga gccgctaacg tattccgcgc accaggagtt
+     3241 aggatcgtga tattgctcgt tggtcaattc actgtttgtg tatgccctga aaattgcttc
+     3301 agacattggt attgctccgt ttgttgtttc gttgcgttaa gtatacgcat gacgttttca
+     3361 ggtgcaaggc aaaaagtgct attcgcaatt ggtcaaaaaa tgagcgaaat ttacgtaaga
+     3421 tttagtaaga tgcatcttac ttgattttct ccatatattt cattgagtta aagcaaatcg
+     3481 gtaagatggt aatatcccca taggtaaata ttcatgaaaa atctggcgcg gaatccagag
+     3541 aaaaaataca cgtaccccgg agaaatctta ccaagattga tagatataga tagagtaata
+     3601 ataataatat tattatttat catatactta ctatctatat attgcggata attggttaaa
+     3661 ttttgcgcga aatttacgta agattcatct tactaaatct tacctaaagt ggttcgatca
+     3721 gttgtaagcc actgaatttc atgcataaaa aaaggtaaga ctgattttct caatcttacc
+     3781 taaattctgg tcaatattta atcagagaag tgatgatgcc ttgtataact tacgctcaaa
+     3841 gccgagcttg aagttgtcac cgttcggaac gataaccttt agatcccgat cgtcggcagc
+     3901 cgccagcata tcccgatctc cacgacggca aactacccgc atttctcgct taccttctcc
+     3961 gcccttgcct ttatatcggt aggccacgat ctcgacgttt gaaggtatga cgcaggccca
+     4021 aacgtcgcac ttgaacgaac tggcaatatt gaagtgcatc gcctcaatcc aggatcgagc
+     4081 aaggtaaatc ggcccgtcac catcgtcgct ctgattggtc actatcaccg atccgaaggt
+     4141 cagatctcca gctaacatct tctccctgcc ttcttcatca atgaacagta tattgcaata
+     4201 ctcatcatcc agcccatctt catgcacgag ttgcatcggt agcgcgtgaa ttagctcctg
+     4261 tctgccgttc tcgtgagttt ttacgccaac ctgatatgat ttgatatgct cattttcaat
+     4321 gccctcatag agcgttacag gcgtgctatc gacggcctcc gttctgttta aaactgccag
+     4381 cactctttca tgatctgcca tctttccgta gtcatacccg ttatcacgag ctacctgctt
+     4441 gtttctcttg actacgtatt cttgcgaaac ctttccgaga tagcgcccaa gaatgttgat
+     4501 gcactcgcta tacggctggc cgcttaactt cattaaccag ccgatcccct tatcagcacc
+     4561 gcagccgcca cagtatgctc cgccgtcgcc gcgcgtttct aacttgtcag tccagcggaa
+     4621 tcggtctttt ccgccgcagt tcgggcagtc ctggtgcttg ccgttgaagt atcgagagtg
+     4681 gatgccgcaa atgttctgca acgcttcgcg ccacatgcca gacatgtacg gcaaaacctc
+     4741 tttttcatcg taaaaatcca cgtcgttacc tccaaataaa aaaagcccac acgagaatga
+     4801 taacccggca ggcgtttagt gtttagacaa attgtgctat cggactacgc ggagcatttc
+     4861 gcggcggtcg catcggcgcg tcactggctt gccgttgctg tcaaacctta aatctggtcg
+     4921 gcagaatgag gcgcggaaac ctttgcaatt gttccggcgg tagctcttgt gtacgagata
+     4981 agcgccatcg gctgagatca tgccgcgctt ccgccactgc tgaacaacct ggatgctaac
+     5041 ccccaactct tttgccgttc cagcgatgcc accgaaggca tcaataacaa gctccatccg
+     5101 cgcagtcaac ccggcgcgaa cctcatcctt cagcacgtag taaccagtcg gtcgcttgcg
+     5161 tttcttctta tccttcccgc gagatgttcc gttattgccg ttcaaggttc gcttatcaat
+     5221 ctttgccatt tgttccataa tttaaccctc atagcatttt tttgttaaac ctgataaaat
+     5281 gttccctgta ttatacacgc aaccatgcga atgacaaatt aggattgccc atgctcacaa
+     5341 ttgaacaaca aattgaagcc tacgcagaca agattccgtt aatacaaaag cggttcaccg
+     5401 tcggaaatat cgttccttac ccgtatcagg cggttgcgta tattgagacc gctaagcgga
+     5461 tcgcaaaata tgaacatcct ttttacatta aggcttctgt ttccgcaggg aaaaccatca
+     5521 tgatcgccat gctcgcggcg cagtgcaaag caatgaactt gcccatgatg gttcttgctc
+     5581 gccaggccga gatcgtgaag caggattccg aggagatcag taacctcgac gttccgaact
+     5641 ccgtttattg cgccgggtta ggcacgaagg ccgcatactt cccgatcgtc gtcggttctg
+     5701 aaggtacggt ggttaatggc ctgtttaaaa tgcttggcga ctacgcgcct tcagttctgg
+     5761 ccattgacga atgccaccag gttgactggc aagatttggc ggaggcgatc gccaacaatg
+     5821 aatcgttcga gtacatgagc agaccgaagg ataagccgta tcgcgtgaac ggggaactgg
+     5881 tcgatgcaga ccacccatac gacgaaaaat tcgacgacgt ggaattcggc ggcgggcgca
+     5941 ctcaatacac catcgtaatc attgagttaa tgcgccgttg ccttaagaag acggggcgcg
+     6001 agcttcgcat tgttggctat acgggttcgg agtttcgcgg cgtcattccg atcttacagg
+     6061 aagacaagag ccagccgggt ttctggcgcg agcagatcac cgacattaac acaaactatc
+     6121 ttgtcgagtt cggatcggtt gttcccacca ttttcggcga taccgaggca gatgggttgg
+     6181 ggtatgatct ttcagaattc cacggctcca gtcaggacgg tacgcaggat tttagcgcgg
+     6241 aagacttgcg caagatggag aagaaaatcc atgaatccgg cgaaatgacg aagctgatta
+     6301 tgcaaaaggt catggagcgt gcgaaaacac gaaatggcgt tctgataact tgcgctggac
+     6361 agcggcattg caaggaggca gcgagttatc tacctccgga cgcaacatac gcgatcatca
+     6421 ccgagaagac caactcaaag aaacgcggcg agattttgga taaggcgaat cgcggggaga
+     6481 ttaaatacat cttccaggtg atggccctta ctactggcgt taacgttccg ttttgggatt
+     6541 tttcggtgat attgcgcaag atcggatctc ttacgttgct tattcagctt ttggggcgcg
+     6601 gtatgcgact tctgaaggac tggcaaaaac agccacctta ctcgtgggtg aaggaagacc
+     6661 atttagtttg ggatttcgcc gggactatgg acgatttggg ccagctatat ttcgatccga
+     6721 ttcttgagca ggcgcaatac caaagacgca agagcagcaa gaacggcccc aaaatttgcc
+     6781 cggtatgcaa gggagaaaat agcgagtacg cccgccgatg cattcataag gacagtaacg
+     6841 gcaatcggtg cgaatacttc tggatctcgc agaggtgcga agaccagaaa gacacgcgaa
+     6901 cagggaagat taaaatcaag gggtgttacg ctgaaaacga tattgttgcc cgccagtgca
+     6961 gatgctgcgg cgttcagctt aaagatccca acgacaatct caccgggaag cactatacgc
+     7021 agaatgactg gtatgatgtt gtcgggttcg atatcggctt gactcgcaat cagtccggga
+     7081 tcatcttcaa ttacgtgtta ctgaaccatg acggcgagcg attcaccgca agggaaaagt
+     7141 tcttcccgga atcagagaat cagatttgcg gcaagttgtg gcggcaaaag gcagtcttcc
+     7201 agcacgttag cgacgcggta atgcgaggca agttgggtgg catgaaaaac gcccgcaaga
+     7261 tcctggagta tgcggaatac ttccgcgctc cgaagcgtgt aacgcatcgc atcaacggca
+     7321 agaaggagga cattatttcc cgcaaagact ttggaggcga ggagtgatta cagataaagg
+     7381 ggattacctc gaatattacg gcgggcctgt aaaggcttgc ccacttgaga aaatagacca
+     7441 gatgaacagc gtttcgtggc tgcggcatga atactctgat tatctgtttt ggcatacggt
+     7501 taacgaaggg agcaagcata aagcgagcgc ggttatcgat catcaaatgg ggttgctgaa
+     7561 gggtgttagc gacattctga tcctgattgg gttcggtggc aaatacccgt tcgcagccat
+     7621 tgagctaaag cgccagggta aggcgcaggc gtcgccagtg agcaaggagc aaagggaatt
+     7681 ccttgctgcc gtccggcgtc gcggaggatt cgccgccgtg gcctatggct tcgagcaatt
+     7741 caagatcgct ttctgcgatg ccataaaata gcactttttg ttaaaaccgc ccggcgaaag
+     7801 cctggtatca tttcaccatc gaaacaaata acggagtgtt gaaaatgaaa aagatgctgg
+     7861 ctttagttgt tctgtctctt ggtcttattg gttgcagcga aaaaccaaaa acatatgatt
+     7921 gcggtggtga agcgtttgaa gtaactagca aatatatgaa agttgtcagg ggtaaaaact
+     7981 ctggcgttat aattgatggc gctggcgaaa atcaatataa acttcttact ccttttggtt
+     8041 acgctcatta tgtagtcaac aaaaacacta ttgatgttag tgtgggcgct tttcacaata
+     8101 ccttaacctg cgaggttaaa taataatggc aaaagatatc gcagacaaag acactcacga
+     8161 cgcattcacc acgtttgaac agcttgaacg tgaaactttt attggcaatg cccttgccac
+     8221 tggcggacac tatcaggctg tcaggccgga caagttctac caggttacag gcaaccgata
+     8281 cgccgggagc aaaacgcctg atatcgtgcg cgataagtgg gcgaccgatc gcagtctgat
+     8341 cgcgtacatg gaagagcgct atggccctta tgatcttgac gcagccgcag accaaagcaa
+     8401 cgcagtttgc ccgaagttct acgacgaaaa aactgattgt cttaaacgct ggtggggtaa
+     8461 aaacaagcac gtttggctta atcccccgta ttcgtttcca gatccgttca tcctcaaggc
+     8521 cattgagcaa atggagcatg ataaccagat cgacattctt ctacccggcg acaattctac
+     8581 ggcctggttc cgtgacgcgc agaagatggc cgccgagatt atctggattg ttgccgatgt
+     8641 tgaagaggat gatgacggga accagttaag ccgatccggt cgcctggctt tcatcaacgg
+     8701 cctaagcggg aaaccagtcg acaacaacaa caagggcagc gtgattttca tcatgcgaaa
+     8761 actcaagcct ggagaggagc aaaagacgct ttacattccg gtaagcgaga tttgcccgtc
+     8821 attagctaaa aagcgtatgc gaaaacgtgg ggtttaaaat ggaacagatc gagtcttttg
+     8881 ctgaatatct ccgaatcgtt gttgagttgc ttaataaata tggcttcatc ggaacagacg
+     8941 aggagaagtt agcctttgct gatactattg acggaactta cattgagttc atggataacg
+     9001 gaatccagat ggctgactgg cccgccatcc ttgaacgcga gctactggaa ttcaggtcgc
+     9061 acgaaggcgc tgagtatttt gcaaaacagc actaattgct aaacaatgcc cgcctcgcgc
+     9121 gggtattatt accacatcaa ccaatcagga gctaacgcca tgaacaccaa aaccattgcc
+     9181 gacaccatca agatcgcaca agttaagccg cgcattgtat cgcgccacct gattaacctt
+     9241 tctcgcctgt gcatggccga ctacgtggcg aagcctttag agaatggcct tgatggtgaa
+     9301 atcggcgcaa tctacttccg cgccgcgcac ggcatcgaag aaattcacat gtatgagcag
+     9361 atggcggaat gcttctgcat ttatggtgac gaataatgat tgtagaatct ggccgcgctg
+     9421 ccgtctggca gcatgccaaa gaggctggca ttagtgacga tatcgtaatg atcgcaaagc
+     9481 atttcgatat caaggatatc tccattgtgt tcaatgggaa atttacatat cttcacgaac
+     9541 gcccaataaa gcgcacgcgt atagcggttg ctacgcgggc agaggccgac gcgctgaaga
+     9601 tgttcattca cgaatctaag cagaccaaaa aatattacaa gtagcgggag tgttgagaat
+     9661 gcgatatatt gcgatcttct ttactgcgat cctattcacg atcgcaatca tgaactacgc
+     9721 aattaaatta ggataaatta tgttaccgaa aatcacagac gaagaatttt tgtccgcacg
+     9781 cgaggagggc aaaacctacc gcgagatcgc cgaagagttc ggaatgaaca tccgaagcgt
+     9841 tgaacgtcgc ggcgttcgcc tggcacgaca aggccacctt cacggaaaca gccacgttgc
+     9901 gaagcatatc ccggacggct tcggcgtcaa aggcacatca accatgattc gcgccaatgg
+     9961 cgaagaggtc gtgcggtggg tcaagtcgga agtagaccgc gatcgcatga tcgctttgat
+    10021 ggaggcggcg caggcgtctt tctgcgaaga ccttccgcga gtcgagccgc aaccgcttga
+    10081 tgaattgaag ttctacattg aagatcagct tgccctgtac ccgatcttcg acctgcatat
+    10141 tggggcaatg gcgcataagc atgaatgcgg cgagaactat gatacaagca cggcagagaa
+    10201 ggttctaaac cgcttctttg attattccgt ttcggtggct ccgcaatcac aaaaggctgt
+    10261 tttgttggtc ggcggtgact tccttcacag tgacggactg gacgcagtaa ccccggcaag
+    10321 cggtcacgtt ctcgatcagg atagccgata cgcaaaactt gtttatgttg ccatccgctc
+    10381 gctgcgtcgc gcagtgtcgc tacttcttga caatcatgcg gaagttgaag tgcaggtgat
+    10441 tgaaggcaac cacgaccagg ccgggatgat ttggctacgc gcagcgctgg cggcgttcta
+    10501 tgagaatgaa cctcgcgttt ttgttgatgt tagtccggct atcctgcatc gcaccttgtg
+    10561 gggcaagacc atgctgggct atacgcatgg ccacacgatg aaaaagccgg aaacgcgcct
+    10621 tgctgcgatg gctaccgact tccgcaagga gttcggacag tgcgactaca tttacacgca
+    10681 ttccggccac tggcatcacc agactgtaac ggaacactcg ttaggcattg acgaagtgca
+    10741 tggccagtta ggcgcaaaag atgcctacgc agcacgcggc ggatggcgat catatcggca
+    10801 ggctgcggtg attctgtaca gcaaagaata tggcgaagta ggtcgcttta tctatcgccc
+    10861 gaacatgtaa ccacgacggc cccgcgaggg gccaataagg aaaaaccaat gaacaaaaag
+    10921 tgtatctgta ttttcgatct cgatggcacg ctttccgacg gaacccaccg cttgcacctg
+    10981 ctgccgaaaa aagatctcca cctaaccgaa agctggacgg cgttcaatat ggcggctggc
+    11041 ggtgacgctc ccattacgga cacgatccgg gtaatgaagg ccatgcgcgc agccggattt
+    11101 atcgtcatca tcctgaccgg gcgaagtgat gaggcacgcg agatcactga aaaatggctg
+    11161 gtgcaaaatg gcgcatcgca ttacgacctg ctgattatgc gttcagcctc tgacaaccgg
+    11221 aaagatacgg ttatcaaaga ggaaatttta cgcaagattg gcattgagcg aatcgttgcg
+    11281 gcgtgggatg atagccccac tgttattgcg cacttccgta gcttgggtat cacaacttac
+    11341 caggtctgcg actacggcga aaaccttcac gaccatctga aatctcatgg agtagacaaa
+    11401 tgaaaaatgt aattatcctc aacggagcgc cgggcatcgg aaaggacact atcgcggaaa
+    11461 tcatctcgcg gaagtggcaa tacaagaacc ttagcttcaa acagccgatg tttgccattg
+    11521 ctcgtgctgt gctggggtcg gctgattttg cacgctttac tgcccgatac cacgaccgca
+    11581 agcacaaaga agtgaaatgc gattttttgg gcgaccgttc tccgcgtgaa ttcatgattc
+    11641 acattagcga aaatttcgtc aagccgaccc tgggcaaaaa tcagttcggc aagttgcttt
+    11701 gcgattcggc gctaacttcg ccgtttaact gcatcgtcag cgacggcggt tttgatgagg
+    11761 aggtcgagca cgtcgcagcg catgaggcgc ttaacgtatt tgtcgtccgc cttcatcgtg
+    11821 acggcatgac atttgagggt gatagccgca agcatattcg acgcacggat cttatttgcg
+    11881 acacttacca tgaactcgat tttgatatga ccactggcga gccggaagac gacgcgcaaa
+    11941 aaatccttga tatggtgtca gatgttgcat taaaattata aagttaatgc ctttattatc
+    12001 atcaccttaa ctattgggaa ccttgattgg ttcccttttt ttgttcttaa tttggcctaa
+    12061 tgcatatatc atcaccttac catttaacta acagaggttg catatcatgc gagaattcat
+    12121 tagcgcggca accaatagca gcggtggcgt tgccctcgcg ggatctgcaa ccgggcaatt
+    12181 aatcattgct gccattggct tatttttcat gattctattc ggctcattcg gcgcgtggtt
+    12241 gcgctggcga gattcaaagg cgcttcgtga agcgctggaa gccggggata tcaaaacggc
+    12301 ggtgaagatc aggagtaaat aacatgggga ttaaaacgcg ggttacattc gcggcggcgg
+    12361 tggcgatcgc ggtcgcgttc ctccccgaag tggaggacac gaaatacaat gtttatatgg
+    12421 atatcgctgg cgtcccaact gtatgcgaag gcatcacagg cccggacgtt atcaagggga
+    12481 aaacctatac ccggtcagag tgcgacgcgc ttttaaccaa gcatatccag gtggcgaagc
+    12541 gaaccgttga cagcaaaatc aaagtcgatg ttccggacac cttcagggcg tcgatgtaca
+    12601 gctttacgtt caacgctggc ggcggcgcat attctggcag caccatgctg aaattaacga
+    12661 accagggccg attgcgcgag gcgtgcgagc agctatatcg ctggacgtac taccgcaacc
+    12721 cgaaaacggg aaagatggag aagtcaaaag gcttgcataa tcgccgggtt caggaatata
+    12781 aactatgcat taaggatctg aaatgagcac attaaacttt caacgagcgc tggccatcgg
+    12841 ctttatcgtg tgggcggctg ccgttgtttc cggttgcgcc tccagcgtcc cgatcctttc
+    12901 cgatctggtt ggtagcaagc cggatatgac ggcgcaagtc ggcgcggaga acgtgaaaca
+    12961 ggcggttggc gtgaccaaca aaacggacac gtcgagcaag caggagacca cgtttaagga
+    13021 gtcggcggtg ggtaaggttg acacgtcgaa caagaaatct gtaacgacct ccagcattca
+    13081 cgccaaccag attacggcgg acaagatcga gatccggaat gatgaaagcg gaagcctgat
+    13141 tccgtggctg attggtggcg ttggggtagt aatgctggcg atcggggtgt tcggtctttg
+    13201 gcgggaacga aaaaacaaag gggcgtaatg cccctttttt atatgtaccg cttgacgtgc
+    13261 aatagcgcta ctccgtcttc atcgttaagc ccatgctcaa ccgtgttggt tgcggccatt
+    13321 ccttgataga gcaagatgag cgcggcacgc aagtaatttt ctggtgtgat ctgtttcaca
+    13381 caaacaagcc tgtgaacctc cgttatcaga tcttccacct ggtttcccga aaagctgttc
+    13441 atcactgagt tggtcaaggt gcatcatctc ccacatatat cggttatcca tcccttcgaa
+    13501 cgaccgaaaa tcaaaaccta tctccctgtt atccggcccc gtacaccaca cagcgccgtt
+    13561 ttttccgtca aggtatccat tcgtatagct tcgcgctaaa aactccttag agaccattga
+    13621 ggcgaacata cgttgcgaca cgttggcggc ttttgccagg cgaggcgctt cgcggtgcat
+    13681 atagacgaac ttcgcaaaat cctgccgggt gaactcccgg cgagattcgc agaacttgta
+    13741 aatgtcaaga atgaacatca attacctcat gaacgacggg ttgataaaga cttcggaatc
+    13801 catcacgcag ataaagccta attcctccat cttcggcaat aagcgttcct taatcttttt
+    13861 gctcacccct gcctggcctt tgaagatctt caggttgcgg caggcgttat aaatgccctg
+    13921 gacggtcata acaccttttg cctgtttgca acgactggcg ataacgtcat acagcgcttt
+    13981 aatttccgcg ccctcaccag caaagccgga agagtcagca gatgacaggt aagttttgct
+    14041 caactcatgg aacatgatga tcgcttcgtc aatggttgcc gtgtcgatct tcttcgaacg
+    14101 cttaccgccg ggttgccagt tccggatcgt gtggattacc gacgccagac gcataacctg
+    14161 cttatcaaac ttacccatcg caccgcgaag cattgtatgc gaatacttgc cgccgtcgcc
+    14221 tagctccggt tctaattcct ggcgtgcctt attcagtctc cgcattgccg cgtcagtaac
+    14281 ctgcaactta atgttcgact cgctcataat gtcatgaatc agccggaagt aatccgcctt
+    14341 cagtgactga tcgatcggct cataggtcga attcccgttt tcgtcgataa acacgcgctc
+    14401 acccaaacgg gtttgctcac gaaccaaaag gaaacgctcc gagacaccga tcccgcgaga
+    14461 accagcctgc ataatggcgt cgatggtttc atcctgggca attacgcaaa tacagcccaa
+    14521 agccacgaat gacatattat tgctaacgtc ggcacgagcg atcgatacgt ggcctttatc
+    14581 ccatgctttg agcaccagtt cgctgttcgt cttcttgccg ccatcgttgc catacgtgat
+    14641 ccccaaaagg ctgttaaccg cagtcgcctc atcggaaata acggcaaagt ttccctggcg
+    14701 gttgttaatc ttcgccagac cttccggggt ggtatcggat accgggaaag ttagatcaca
+    14761 taatttttca agtttctctt ccagttcgtc acgatcttcg aaaagtttca ccatatcgga
+    14821 ttgcgataac tcccctttta gcgcctgctt gttggcggac agcttcgcca tgattttctt
+    14881 acgctctttc ttgcgcgact cgttaatgcg ctcgacttcg gcgacgatcg gatcgatggc
+    14941 cagcgagtta atggcagact taccagcgga aggcggctgc gacgtgataa cgtaaagcgt
+    15001 tgtaggttgc tcgctgccgt ggtactcgac ccaaaagcga cccatcatcg cggcggatac
+    15061 ggttccgaga aagtgcatgt aagcggatga ttccgggaac tgaacagatc gggcggcatt
+    15121 tagcgccagc ttgccgacca catcgtaatc atttgcgatc gagattgttg ggtatttatc
+    15181 cgcgtttacg tcgatatctt tgggctttgg ccagaatgaa acggagtcac gatacccatt
+    15241 cgcacgaatc gcaacgcgca ggggactgat cccctccctt tctgcgatgg cgataatatc
+    15301 ttgcggtgat acgcggtcat ttaaaaacat gcccttgctc ctgattggtt aatcgttcgg
+    15361 ctaatcatat gccgtattaa atccgagatc cagtgataat ctaaacacgc tcgaaaaacg
+    15421 cgcttggatt atcggggcgc atggccccga acaagtcaca ggtatttagc ttcgaaagtc
+    15481 gttccgtccg atacactgaa gcccacttcc tcgcggtaca gcgtccagcg gcatccgtca
+    15541 cggtcgaaga tgtatccagc aaccgcaccg agcgcacgac cgctttcaac ctggtagcgc
+    15601 ttgccgacgc tgaaggattt tttcatcggg ttgctatggt caaggccgac gcattttagc
+    15661 gttttggttt tgagttcgat gaacgttgca accgccgctc cgccgtcgcc agcaataaac
+    15721 aactcgccgc taacgcctac agacaaaata actcgcttct tcttcagttc tacgctgtca
+    15781 tataccatca ttgacacgtt gccttcatcg tcgacgcggg cggaataaag gttgttttca
+    15841 tggatgttaa cggcacggct tgacgtgcat ttaatcttga ttgacttcgc catttatttt
+    15901 ctttctccca tctcgatata caggttaacc agatccagaa agtcagcttt atttctgcaa
+    15961 ctcaatttaa agccaacgtg cgactcaatt ttattttgca tcgcagccag ggttgctccg
+    16021 ccattattca tcctgagaac ttcgcggcat acttcggtga gctttttcga tatcattttt
+    16081 tcaccacctt tatttccatg ccttcgcaag cggccttgat atcattaatc agccgattaa
+    16141 gccttaaatc agtcattaca tggtgatgac gaacatcaat aatcccggca acgactaaca
+    16201 gcatgacggc aaagataaaa ccaccaggcc cggacataca caaaatagtt aacatcatca
+    16261 agataataaa tttcatttcc gtttactccg ttgcgtttct atggggtaat gctacccgac
+    16321 tttcgccggg tagttttagc aattcgtgct attctcgata attcgcctgg aacacggcgc
+    16381 gggcaaaacc tcgcggagta atggagcgca gcattttagt cctttctgac cttccgccca
+    16441 aaaacttcca tgcccaaaag aaattcacgc cttccactcc gtccggcgga ggtagccgtt
+    16501 tcggttcgac aaaaccgttt ccgtgccata tgcacgtttt cttcgtgtaa ttgtcacagt
+    16561 gtggcatttt tggatgccac acaggttcgt tcggagaaac atagccgccg aagtcgcgcg
+    16621 ggtgaaaata gaagtcaggc ttgcgccata gtgacgacaa ttttccaacc gggttttcga
+    16681 ccatccaggg gcaaccatac ttattgccta attgctcgac catcttcgca tcatctgcgg
+    16741 ctgatagaac gtcattatct tgccttacgt gcttgattcc gctatgcgct aacagcgtgc
+    16801 atgacgggaa cgcgaaaatg aagtcaggat cgggaatgcc gagaatcgat cgcttcacgt
+    16861 caaaatcctt gtcgatccaa atgttaacat actggatatt ggggtgaacc attctaatgc
+    16921 tatattctcc gtggtcgccg gagtcggcat tgaagcaata caccttgcat cccttgatgg
+    16981 cccacggcag gcccatgatt ccggagccgt cgaacatgca gtaaataacc ttgtctttca
+    17041 tgctttccac gcctcaatga acattctgtt cgattccagc gtcagcgtga cgccagccag
+    17101 ggaggactga atgaggcgac cgcccggaac cgtaccgatg atgtagcggc ctttcgactt
+    17161 cgtgatcgtg atctgagtga agccggaggc gcggttcatg cggagaacga cgcggccatg
+    17221 cgcgttcagg acggcgagaa tggaatcagt cttcggatgg ttcattgtgt agctccttcg
+    17281 ttttgttggt gttgggatag tgtgccacta tcccgccatg ttgttttagc aattcgtgct
+    17341 atttaatcac aaacagtttt tccgtggagt ttttgtttcc gcctgacttt ccgtttgctg
+    17401 ataaagagct tttggcgtta atttcaagta tgcactcaaa atcatctggc gcggtatact
+    17461 cgctcacaaa aacccggcac cttttagaaa tttccctgac ccaatcccaa aacgcaacat
+    17521 gatcaaagtc aacaccgtag ccagttgttc catggtatgg tggatcgcag taaacagttg
+    17581 cgtgatctgg tatctcaaga tcagaatagc ttacgcttga aaactcaact cccctcaata
+    17641 accttgcctg attaattatt gagcgcaagg cttctttttg gtaattcctt tctccggctc
+    17701 ttgtctggca tattccagca taaccaccaa accactttcc ggaatatgaa caacctattc
+    17761 cagcccaacc gatcatttca tcacttccgt taaggttttt taactccgca tattcatgcc
+    17821 gtgaaatttc tggcggaacc catccatcaa caacggcctt aaacattgct attacatact
+    17881 tgtttgcgtc atttgcaatt ctgcgatcgg cctttacgca atcgatcata ttcatgccac
+    17941 cagcgaacgg ttcaacgtat acgcttccaa tctgacccat cgcatcaaga attctttttt
+    18001 tgaatcttgc tttactcccc atgtacttca ttatttcacc tccggaacgc aggtcgcgta
+    18061 atcctggctg atgtagatcg tgcgctgaac gcgaggttca tgctcgccga gttcctgaat
+    18121 ggtaacatcg ttgctaccta ccaggcacgg aaccgatccg aaaataaact cgccagtctg
+    18181 cttgtcgttg atttgccagg ttctaccatc cgcctgttta atgacaacga acggcgtgtt
+    18241 gtccgcattg aattcgtcag ggtgacgacc gtaatagtgc atgatcgcag cttcggcagc
+    18301 ggcgtaaaac ttgttagtca cttcattggt cgcctcgtcg cggatggcct tgatacgctc
+    18361 ttccggcgat ccgatgatgt aggaaaagct gttcgaaatg gtaactgttc gcattatatt
+    18421 ttaacctcgt ttcgttggat aaagtcggcg acgtaatggc attcgatcgg gttctcgata
+    18481 cccgccagca cctcgcagcg accgttattc agtagctggc aatgctggca ctccgcaccg
+    18541 ccaacactgg caatgacaat ggcgatccca ttgcatgaac cgccgaacat tcgatgaggg
+    18601 aaggggtaag catcgcaggt gcaaaccacc tccccggccc gccgtttcct catacctggc
+    18661 ccttctcgat gaagaaaacc caatcacgag cgtcaaccgc aaagcgtgca acgccgtcga
+    18721 gcaccacgaa gacagtaaac ccattgacgc cgcgaccctt ctcgatatcg gttacggtac
+    18781 ggaacagatc gcttgcgcca tattgaattt tatcaccgac gactacatcc gcaaatgctt
+    18841 tcatggttaa tctcctgatt gattcgcgtt gaagtttcat agctttggcc cctttggctc
+    18901 aattcgtttc gttgaagtca tcatagcaaa gccgatcggg ttggttttaa caaaaaatgc
+    18961 tattcctgcg attgctgatt attcaaccga ttcggaatag tgtaatagat tgtgattgca
+    19021 cctgattccc tggtgattag ttttgacgaa tcatgattgc ttttgattgt ttcattctgt
+    19081 gcaatgattt tgggagtgtt tcaggatttg caacgaattg cataaatgta tgcaccatgc
+    19141 acgcaatttg ccgctcgaag cggtcaaaac aggcagctat ttgtggcggc tttgtggtta
+    19201 tgtggtttta tggggttgct ttgtggcggg aaaaatctta ccggaaatcc gcgcaaaaaa
+    19261 tgaacaataa atacatatag aatatacgta agtatatata aaataagagt attattatta
+    19321 tatacctata tctatttctc tttgtggtaa gatttatccg cgtgctggct tactcgttcg
+    19381 ctgccgcgcc aaaaaatttt tgatgttccg cgccgccgtc gtgaaatata taaaggggca
+    19441 tatataaggg ggttagttac cgagttacca caaaaacggc aaacgcagtt gacacaaggc
+    19501 tttgatgggg tattattcac gtatgattga gcttacacca atctaaccac aaactttaac
+    19561 aaaaccacaa aggagccaca aaaatggcga gaccaaaggc acaggacagg atcgaaatca
+    19621 ccgatcccgg cgagttgctc gacctggcaa agtcggcagc aagaaagcgg atggatgtca
+    19681 ctggcgaaga ccgcgagcag atagaagcga ttatcaaaga ggcatacgac aaagcctggg
+    19741 gaggcggtga gtacctgcgg gcgagattca ttgctgcggg tcacgatctg cttatcagcg
+    19801 attcagagta ccgccttgcc accaggggga gtggactgta cgactcgacg atctcaagcg
+    19861 cactgaagcg gttcgcaaaa ccaggggaga aaatcagcag gcgcgttgtg aatgggttct
+    19921 accacatcac gatcgcagaa gacttgtcga aggaggcggt ggcgaaaagt catgaggatt
+    19981 cgatccggaa ggaggagcgg gaaaggatta aaggtttagt ggccgctctt gccgtagact
+    20041 tcgccgggga tgccctgacc gggatttaca aggcaaatct gtgtgcggct atcgatcttg
+    20101 gattgaccgc cagcgatatc agccaggagt ccagtcatga agagtaagac ttcaatagcc
+    20161 caaacactca tgcggcaata taggggcatg ataaaaacaa tggatcgggt tgcactccag
+    20221 caagctgtaa aatattgcta ccgtgcaccg gactccttga cctacaggtt taaggatgac
+    20281 tccgtgatat ggttccacaa aggtagcgca atcatcatca caaaagaaga agcactaaaa
+    20341 ctatggagga gagtatgaag ctatatccag accaaaacga cccggcggca ccgatgcgcc
+    20401 tgggagacac gccaatcagc gagcaggagg ttatcgcagc cattgccact gcatcggacg
+    20461 acgaaaatcc aaccgccctg gaatgcgtta cagccgactt gctgttaatg tcatttcttc
+    20521 cggaatctga atcttacatt cagcatatca ccgagacagg cgaggctgtt acgaaaccgg
+    20581 aattcatcgg cgcgtcgaac gtcctggcta tgatggccga tgaggccgac aacatcatta
+    20641 gcctggatta tccacaatga gcgcctttat cctgttttcc atcggtgtta attgcggatt
+    20701 gctcctggcg gcatttatca tccacctgag caacaagtag cactttttgt taaaacccgg
+    20761 tcagggagat agggtattat ctcttcatcg acaacgaatg aggaaaccga aatgattact
+    20821 ctgattacct gggaacacga aagcagcaag ccagaagtgc gcgagttcga gaccgtggcg
+    20881 gcttgctaca acctggcggc aaacagtggc ttttacaagg cgcagatcgt taacgagttc
+    20941 ggggttgtcg attatgaatt ttaaggcgag cgatgtaaaa cctggcgcgg tctacggatc
+    21001 gcgcctcaac aaccgccttt ggcgctggga tggcgaaact atgtggacta aaggcgaggg
+    21061 cgatgttatt tggcatgaat gcggctggcc ccaccccaca atgagccgac ttgatatcgc
+    21121 ttattatctt tcagttggcg atatgcacga ggtggaaaga tagcactttt tgccaaaacg
+    21181 ccgatggcga gatccggtat tatttaccca tcgacaacga actgaggtga tgaagatgga
+    21241 taaggttatc aagatgagcg aagttaagcc gggcatgatg gttaagtttg ctggcaagtt
+    21301 tcgcctggtt ctcgcagcag atcgcaaggc gaacattctc acaattcgcg ttaatggaaa
+    21361 ggcgcaactc ttcgcgccgc agtccgacat tgatgttgaa gttcgtatca agtaagcagc
+    21421 cgggagatga agatgagcaa gaagaatcca tattcaacca gcaactacca taacgaacac
+    21481 gtcatgcgct ggcactggca gaaactcaaa gagcactacc ttgcacgcca gggcaaataa
+    21541 tcacaatagc gccgcttcgg tggcgctata ttccaaccat caacacggct cacgccagga
+    21601 ggattggcaa tgccacgatt ttcagcaaca acaaaacttc gcaccttcgc cgggatgccg
+    21661 atcccatact catcaaccaa agccgtccag ggcggcgagc acggcgtata cttccactgg
+    21721 tgcggcaagt ggcgcttcac cgtcattctc ggcttttacg tcacctgcga tcgcgtggat
+    21781 attgccgacc attccggcgg gaaccaggtt cacgagttca aaaggcacga atagcacttt
+    21841 ttgctaaaac tcgatcgggg caatgcgtta ttattacccc atcgaaacag aggagcaaaa
+    21901 acatgattgg caaccacaac aacgaactga acgcagcagc ccaccgtcgc gccgtcgagc
+    21961 agaacttcaa cgcgcttaaa gtagcctgcg atgagatgaa agcaatgctt gaactgccgt
+    22021 catgggatcc ccaactagaa gactactatg acggcctccg cgtcaagcgt gacgatatca
+    22081 tcaaccgcct gcgcctggcc ggaatgtttc tgtaaggaga gcgcaatgat tcacgaaatt
+    22141 aagtcaaaaa agcaagtggt ggcaaccatc aagaagagga tggttgttgc attccagctt
+    22201 aacattaccg accccgacga cacgcagtcg attgacgtgc cgatttgggc taacacgatc
+    22261 gccattgatg ccgacggtgc aatttgggcc tatgagtcta cagccgaaga ggttcgaatt
+    22321 attggagacc aggatgacgc atggagcgac tggggaaagg caaaaaacag gatagaccaa
+    22381 atcggggcaa tggctctctt ccctgattgg gcaaaatcga agattgacct tcgcggcctg
+    22441 aaatagcacg aatagctaaa cgcccgatca atggatcggg cataatgacc acacaccaaa
+    22501 caacggagat acaccatgaa gcagatcgtc aaaaacgcgg ttgtcgccat cgtcggaacc
+    22561 aacttcgaag gcaagaaaag ccgcattcac cttttgcacg ttgacaatga cggcaagatg
+    22621 cgcggcgcat tctaccttgg agatcgaggt cagcgccttc atagcgatga gcatccgttt
+    22681 cggaatatga cccacttcca gaatagccgg gactatagcc caacatggtt tcacgaatac
+    22741 catttcgaag gcttgatggt tgaatcgttc gttgccgatc cgatgaaact aacaacacgc
+    22801 gattacaagc gcatggcacg caaggcgcac aaactcatga agcgcacgcc gaaaagccac
+    22861 gtctggcaca tcttcgccaa ccaactggaa gacctgtcat ggttgaaaca gtaacagtga
+    22921 tttgcaccca tgctggttac gggccactta ttccgctgtt cacggtgggt aaggagtatc
+    22981 aagccaggtt cggccccggc ctggatgaag tctggatttt gcaggacgac aagaaaacaa
+    23041 cggagttggg agaaaactgg ttagcttgcc gtatgccgga cgaaaagata gcgatgtttc
+    23101 ttaacagacc atatgaaaac aacgttctat ttgaggtgaa agtatgaaag taagcaaaaa
+    23161 gaaactagcg ctgtattggg ccttcttcct ggttggcctg gccctgcatg acagcgtggg
+    23221 ctggcagacg atcggaattc tgtgcatgat tattggtgta tgccgactgt ctgagattaa
+    23281 cgggttacgc cgtgggtatc gggcagcgtt cagcggcgaa aaagaatagc actttttgtt
+    23341 aaaactgccg taacgtcatt tgataaagtg gcgttactga agtgaacaat ccaatcagga
+    23401 gcaacgcaat gaacgataat ttaatcgcac tgctggaaga actgaattcc tacggctgcg
+    23461 catacatcga gctttcgagc gagcaggtta ttgaagtcgc aatcgacgat gacgccgggt
+    23521 ttaccagatt aagggtggcg gcaggggcag aagaggaatt cgaagactgc ggcatccgtg
+    23581 aagtaaccag ccttctcgaa tcccaccagg tgaaggagat ccgataatga aaaccgtaaa
+    23641 acttatggtt gtcaatgcgg cccgcgaacg tgagcgccac cttatcggct gcgtattcga
+    23701 tgccgtcgag gtgcacgaac cactaggcac ggttcacgta atccagggcg gatatctgaa
+    23761 cgaatttatc atcaatccgc tggatactga cgaagatttg accatccgtg ttggcagcga
+    23821 gccggaaaac gcgcttttcc acctgcggaa agtatcgaag gcgtcgcagc gcaagttgct
+    23881 ggttcgtgcg ctaaaacttc aagcgcgcga tcgtggttgg actaactcat atatacgcaa
+    23941 gtttggcgag ttctctggcg tcggcgattg ggcgagatct tgggctaact ggtacttcga
+    24001 taaagacggg aaattttccg ccacttatat ggatggatgg cacggaaccg atcacgaccc
+    24061 ggctagtgga tacgaatggc aagaatttat cgagtttgag tttgatgcgt tctaatagca
+    24121 cgaattgcta aaacgaacgt caggggatgg tgcatactat ccccacacca acgaacaaag
+    24181 gaaataatcc atgaacaacc tgaaaattac cctgatcccg tccgtcgatt ccccggtaaa
+    24241 tgttttcgca agattcacca aagggaagcg ctacccagca attgccttca ccaacgactc
+    24301 cggcgatctg ctttacaagg tcagagacga cgaagggctc aggcatactg tacataccag
+    24361 atcgtcgcac catcttggcg gccatcgctt cgatattgaa ttcgaaatag aagagccatg
+    24421 tatcggcaac ggattcatta atcgggcctg cattgttgac ctaattccgt cagataataa
+    24481 cgccaaagac gacgccgacc cgctgttaaa tgccgttatt cgcgccggga tcgattgggc
+    24541 gattagtgat gactcttgcg aatcattcat gcgagaacca ttctcacgaa tcgcggagct
+    24601 tgaacagcag gttgcgttcc tgactggtga acttcaggcg gctatcgcca cgatcgagcg
+    24661 ggttcgggaa atcatgcgta gcgaacctgg ctatgatatt gaagatcacg cgcgagtttt
+    24721 gcgcataatg gctgacgcat tcgccaaact tcagcaatag cacgagccac aaacgctaac
+    24781 cggggttgcc gcatggctac cccatcgaag acaaggaaaa acatcatgat ttacgcaatt
+    24841 attgccctgg tggttcttat tctggcactg tatgcgtgcg gctgtttcct catgcgggcc
+    24901 ttcctgaaat cggctgattc taccgacaaa gaagatcttt accctgtgat ttgctggccc
+    24961 tggattacac tttccgccgt tggcagcgtg atcatttccc gcaattttaa gtggtgagat
+    25021 ggcgtttggg tgccaaaatg gatggcctgc caaatagcac gaattgctaa aaccgatcag
+    25081 gggtaagctg gtatagttac cccatcgaaa cgaaacggag ttacagcaat gaaaatcaaa
+    25141 atcaccaaaa ccgacactct taacggcgac ggctcaatta ccctggaaga atgcggcctc
+    25201 aaaatcggcg aagttcttga ggtcgatggc cacttcaatg acggctccta ctgtgtgatc
+    25261 gctccgcgca atagcgagtt tatccaggct ggtgacaata tcagcgtgag caaagaagaa
+    25321 tgcgaggttg tagaataatg agcaacaaga tttgggtact gacctacacc attggaacca
+    25381 acgaggggcg caagtcgcgc cgcctcatct gcgacaccaa agaacaggcg attatgcagc
+    25441 aaaccgttct tggtggcgat cttgtcgaat atttcagcaa gcctgaagcg tttaaggtta
+    25501 actggccgga aggcatggat atcaacggcg cgttagcgag cctgcgtgaa atgcagagca
+    25561 acccgaagac gtggagcgat tttcaatgcc tgcgagcgga gccggaagtg aaggttgacc
+    25621 cgttcaccaa tattcgggcg cagcacgcgg agtggtcgga tcgccagttc ggtaacgtcg
+    25681 ggccagtcgg gccgctcaaa caccttgcga aagaggcgat cgaggccgcc gaagctccgg
+    25741 atgacattag cgagttcggc gatatcctca tgctggtgtg ggacgcaacg cgacgcgccg
+    25801 ggttcagtga tgagcaactg gctgaagcgg tggcggaaaa gctggagagg aacaagcgcc
+    25861 gggcgtgggg cgaggtcaaa gatggcgaac cttgccacca cgtaaaaaat taacgaaatc
+    25921 gaacgccatt taaagcgcct gtaagccatt ctggctggcg caaatttaag gagtgcgatt
+    25981 tatgcctgaa tactcaaaag tcgaagatat gccgattggc gcaacgatta ctggtatccg
+    26041 catgagcgat tcggacgaca ccatcaagcc gctggcgttc ccggtcacgc gggtggagac
+    26101 ggacagcaga aaagggttca tcttcatcta caaaaatttc aatagtccgc tgcgtgttga
+    26161 ggtgttcatt gctcgcggaa cctgggtaga atgggagaag gacaaatgtt cggactgaat
+    26221 gaagcgcaat ataacgccgt gaagcgcata gcaaagcaga tggccgcaga aacaaaagac
+    26281 gccatcaaga aggacaagaa gacctacgat caggtagccg cgaagatgat cgataaacat
+    26341 tgggcgcaaa tcaacacgct ggttactcgc ggccagttta tctggatagc tggctacctg
+    26401 gaaggccggt tcggtcgcaa agatggagaa tacgaataat ggcggattta tcatcaacca
+    26461 gaatgaactc tagccttgag aattggggcg agcaactgga gctaattgtc gagctaaacg
+    26521 gtaaatcatt cgatatcaca gagagtgaaa tagaggcggc ttactatgca ggaaagcgag
+    26581 tcgatgactt ctactacgag gagtgggagc cggaataaag gtcaaaaagt aagctaacta
+    26641 atcaatcgcc tattgacgca ttcacgctga ccgggtatcg ttaaaagcgt agacacaaga
+    26701 ggcggtaaac atccgcaagt ctcgccccgc tttggggctt ttattggggg gttatgatgc
+    26761 agtacaaggt catactcaca gcaaggaaaa tgggcggctt ttgcaagtcc tgcattcaag
+    26821 agttcagcat gacgattgag gcgaacgaca ccgccgacgc ggtggagaaa gcaaaaaagc
+    26881 aatccggagt caatctggat acgcataaaa tcaacatcaa ctacataagt gaagtcaatc
+    26941 aatgttaact ctgtttattg cactgttaat gctgttcata ggctatcatg ttggcgcggc
+    27001 tcatcttgtc gagcgccttt caaagcgggt acatgaaggc actttcgctg ccatgatgta
+    27061 caataagaaa actggacgtt gggaaaaaat tggcgatccg gatggtatcg caaaacgaat
+    27121 tgctttttcg ccgcttccgt atgttgactg cgagccattc gtaaaactcc agaagacgct
+    27181 gaaacggcga aataaactga tatgatacaa gaacccgctt aggcgggttt ttttatgccc
+    27241 gcaatctgat atactcgcaa atcaacatag aaggagggta caaaatgtct gaagaacgta
+    27301 gaaaacgcgt aacgaaatcg cactttgcag gtaacttcaa agcgctgtat gaaaaagaat
+    27361 tcggcgttgt gctggggcgc acggcagaga tgacgccgga acaatttttt gatatcgcaa
+    27421 agcgttactt ccagtgggcc gaagataacg caatcaaggc tgcggaaacg gcaacgtttc
+    27481 agggcgacgt taacgagtgg ggagtgaaca agcctcgcat tttcacgctc acagggttaa
+    27541 gcctgttttg cggcgtgaac cagtcaacgc ttgggcgcta ccgtcacgat cccaactatg
+    27601 ctcccgtcat ggagttcatc gactccgtga tctatgagca gaaatttcag cttgctgccg
+    27661 tcggcatgat taacgcttct ttcgtcggaa aagagatggg gatcgataag ccgccagtgc
+    27721 tgaacatcga cgctatcgcc ggggataaga acgagatcac cgaagagaag ctagagaagg
+    27781 cagtgaccaa tattcttgat aagctgtaag ggtcagatat gaacgaaatg atcatttggg
+    27841 aagacctgtc gccagcagat aagctggcaa ttaaggcgct gagtacgcgc aacttttcgc
+    27901 tattcctgaa gatttggttc cagatcatcc agggcgaaaa gctaatgtgg aactggcatc
+    27961 actcctactt ttgccacacg gttgatgaaa ttatcgccgg gaagcgcaag agcacgatcg
+    28021 ttaacgttgc gccaggctcc acaaagacgg aggtgttttc aatccacctc gcgccgtatg
+    28081 cgtatctcaa gtgccgtaag gttagaaacc ttcagatctc gcagggtgac gccctgtcaa
+    28141 aaggcaactc ggatcgcgtg attaagattt tctcttctgg cgagtggcag gagctatggc
+    28201 catcaaagtt cgggcgcaag cagatcgatg aatttcaggt gatggacgat agcgaccgcg
+    28261 taaggctgga aatggtctcc cgttcgtccg gcggccaaat cgtcggtaag cgtggcgggt
+    28321 acatgacgcc ggggtttagc ggcctcatcg cgctggatga tatcgacaaa ccggatgata
+    28381 tgttctcgaa ggtgaagcgt gagaaaaatc acgtactact gaagaacacc attcgatccc
+    28441 gtcgagcgaa gaagaagaag ggcgacgaaa cgccaatcct ttccgtgcag cagcgattgc
+    28501 acgcgcagga tgccacctgg ttcatgatga gcggagggat ggccatagac ttcgatcgca
+    28561 ttgttattcc ggcgatggta acgcgggaat atggcgagtc actccctgac tggttgcgac
+    28621 ctgagttcga acgcgacgtg ctatccgggc cgtcggtggt cattgacggc gtggaatact
+    28681 ggtcattttg ggaagacaac gaatcgatcg agaacctcgt tgcgctacgc gaagctgatt
+    28741 tgtatacatt cctttcgcag tatcagcagg agcctatcgc gctgggcggg aacgtgttca
+    28801 aatcggagtg gtggcgctat tacggcgaca gcgacaaggc gcacgagccg cgcccggaca
+    28861 agttcgaata tacgttcatc acagcggaca ccgcgcagaa ggtcaaggag ctaaacgact
+    28921 actctgtaat gtgctattgg ggcaagtatc gtgatcgcgt ctacttcatt gacggaattc
+    28981 gcggaaaatg ggaagcgcca gatctccgcg ttcaggccga agcattcatc aagcagtgct
+    29041 ggcgtcggaa caaggagtgc ggaaaccttc gccggattta catcgaagac aaggcgagcg
+    29101 gtacaggtct aatccaggat ttaacgaagg cggtaaacgg catgggcgag atcgtcccgg
+    29161 tgcagcgcga taaagataag gtcactcgcg ctatggatgc acaaccaatc atcaagggtg
+    29221 ggcgtgtcgt gcttcctgac aatcacccat tcgttgcaga gcttgaggcg gagatgagcg
+    29281 cgtttacata tgacgattct catccacacg atgatatttg cgacaacgtg tttgacgccg
+    29341 caaacctgga aatgaacctg agcgacgatc cggtagagcg aatgaaacgc cttgcgggat
+    29401 tgaaaaagct gggtcgctaa tacataatgt gggcctgacg gcccacactt aaacaaggtt
+    29461 gaaatatgaa taacattaag atggacgact ataatcaaat ctttaatggt ggcgctggtt
+    29521 atgcgtcaac cctcgcgtct atcgcgtcga gatttggaac aatgtcgcag gttgaagagt
+    29581 tctatcatga aaacggcatg gcgaagaaaa tcgttgacgt gatcccggaa gagatggtcg
+    29641 ctcccggctt ccagctaaac ggcatttcag ataacaccaa gtttcaatca gaatgggacg
+    29701 ggttaaatct ggagccgcaa atcaccgatg ctctttgctg ggcgcggctg tatggtggct
+    29761 cctacgtcct ggcgatggtt aacgatggtc gcgcgttgac ttcggcagcg aagcggggta
+    29821 agccgctcga atcgatcgtt gtttacgacc atgattccgt ttccgtcgca gaggaggaaa
+    29881 ccagcccacg aagcccacga ttcggaaagc ctaaaatgta tgaggtgaag ccgctaaacg
+    29941 gcgggcaacc gttcaaggtg cattataccc gtatgcacta catcgacggc gagcgagtaa
+    30001 ccaataaggt gcgccagcta aacaagggcg ctggtggttc ggtgctgaac aagtcgatca
+    30061 ttgaagcgat tcttgactac gactattcgg aatatctggc aacgcagcta ctgaagcgca
+    30121 agcagcaggg cgtttggaag gcgaaaggcc tggcgctaat ctgcgacgac aaagaaggcg
+    30181 agtacgccgc ccgtttgcgc atggcgcagg ttgacgccaa ttccggagtc ggcaacacga
+    30241 tcggcattga tgctacagat gaagagtaca ccgttatcaa ctccgatatt acaggcatcc
+    30301 cggaattcct ttcggcgaag atggatcgga ttgtcgccct gtcaggcatt catgagatcg
+    30361 tgctaaaaaa caaaaacact ggtggcgtaa gcgcaagcca gaacacagcg ctacagacgt
+    30421 tctacaaact ggttgaccgc aagcgcaatg acgattacaa gccgctgtta gaattcctgt
+    30481 tacagttcat cgtaactgag gaggaataca gcgtcgagtt cgaaccgttg tcgctgccta
+    30541 ccgatgcgga gaaggcggat atctttaaga agaactccga tgcggctcgc ggcctcgtta
+    30601 ccgaccaggt tattgacgcc aacgaagcgc gcgatactct gtcggcgttg attccagaac
+    30661 tgaagctaaa aggcaacgcg ccggaacaga aaaaactccc cgatcgcaac actggttcag
+    30721 ggaagacgca aagcgaagag atcttaaaca acacggagac ggatgatgaa agttaacggc
+    30781 agaatcccaa actggcgtta tcctgaagca agcgagcggg agttatcccg ctcaatgcag
+    30841 gaagcggtga cagaactcgt ggtagaaatg cgggatcgct tagaccgcct taaatttgac
+    30901 gccacggcgg aggaaatcag ccaggcggaa gacgatatca gcgaatctgc catcgtgttc
+    30961 ttttccgccg taattgcggc gctcgcctcc atcggcttga ctatctatag attcaactcg
+    31021 aaacagtggc ttgcaattgc gatcgcggct ggcgggcgga acaacgaatc agttatgcgc
+    31081 cttaaagaat tcggtgctgg tgggtatgaa gactggtatc aggaagcgct gaggaagtgg
+    31141 gaagatgccg ccgaagcgtc ggtcaggaag ttagcaagcg atatcgtatc cgactggaca
+    31201 acgaaagtta gaaccgccaa caacattggc aagtctcgca agcagatcga tgaaatcatc
+    31261 gaaggtcgat acgctattta tggtagttgg tcgcgcaacc gggcaagcgg aatcatcgga
+    31321 acttttaaca gtatgttgat gatgcagcgc ctgaaagatg ctaaagtatc gcattacttt
+    31381 tggttcggga tgatggacga ccgcgagcgc gagagccata tcaagctaga aggtaagcga
+    31441 cgccccgtta atggtgacgg catttttccc ggtgaagagt acggttgccg ttgttgggct
+    31501 gttccagatt ttaacaatgt agaggtatca tgatgaaaag agttcaaagg ttcgacacgg
+    31561 taaagatgaa ggccagattc gatgagaacg gctttctggt tgatactccg atcgtggcgc
+    31621 gtatcggtgc gcagacgtac cagacgccaa ccgggccgcg agtcgagttc cgcccgcgtt
+    31681 cggaggtgtt cgatgctgaa tcgctggcgt cataccaggg caagccgatc actttgggtc
+    31741 acaagatggt gaacgcgcag aacgcaaaag gcctggtcgt tggctcgtgc tccggcgctg
+    31801 gcaaagagga cgggatcggg gttctagttc cggtgatgat ttacgatggt gagtcgatcg
+    31861 agaaagccaa aaagcgcgta gccgctgaat tgtcagtcgg ttacacgtcg gtagatatcg
+    31921 accgcaaagg ctggggcaat aacgccactg gcgaatatca cttcgacgaa gacctaccgg
+    31981 aaaacttcga agagatgaaa aatgattccg tctctgattg ggttcgcttt gatgcagtgc
+    32041 aaacgaagat tcgcgttaat cacgtcgcgc ttgtttttcg tggtcgtgcc gggattgcga
+    32101 aattaaatct tgatagcgaa caggaattcc cctatgatga cgactcaaac cacaaaggag
+    32161 caaaaacaat gatcattaaa attgacggcg tagatgttga agtggccgat aacgtaggcg
+    32221 cttacattgc aaaactcgac gcacaagttg catcggcaac cagtcaggta acgagcatca
+    32281 ccgcagagcg tgacgcgctt caggccaaag ttgatggcat tgaagatgaa gttgccgccc
+    32341 gcgttgctaa aatcaaagcc gacgaagacg caaaacagaa agttatcgcg gtggtttctg
+    32401 ccgcgggcgt caagtgcgac ggcctggatg ttaaggcgat gaaggttgct tacatcaaag
+    32461 aggtagacgg tcgtgatctg tctgacaaag aagattcgta catcgacgct tcttttgact
+    32521 ttatcgccaa ctctgataag atggctggca atcgctccaa agtcttcggc aaaaaagaag
+    32581 atggcgaaca aaaagacaaa ggcggcttac cgaaacttga cggcaccgaa atcatcgatc
+    32641 cgcaggcaaa attccgccgc taataatttg cggccttcgg gccgctacca gaccaaataa
+    32701 acaggagatt caaaatggca cagattccag cttcttattc ccgcaagcgt gatattgctg
+    32761 tagcggggca gatcgctgat acgtcacttt acaatatcga cggcacttgt gttgctgaag
+    32821 gcgatatcaa agctggcgta ctggtggctt ccactggcgc agtttccaat ggccacaagg
+    32881 tcgttaaacc agcaaccgca gcgagcgacg tcattgtagg catcgcgcaa ttctcgcaag
+    32941 cctactcgcc ggaaggccag tatgatgacg aaagcgcagt taacgttatg actcatggcc
+    33001 gcatttgggc tgtcgcagac gccactgtta ctgaagaaga ttgcgtcttt aattccttcg
+    33061 tcacctttac cgccaatggc accgtagcga agggtgatgc cggggttatc aaaactggct
+    33121 acaaacacac tggcgaatac accaaaaacg cagatggcac tgttctggtg aaagtgcagg
+    33181 tgcttcaggg cgctgtagct ccggtggctg atgctggcgg cggcactggt gtataataag
+    33241 tagtggggct tcggccccat ttttgcacca gaaaaaaacc tttgacggct taacgattcg
+    33301 tgatattctt catctcgtta agccaaatac acaaacagga gtttttcaga tgactatgaa
+    33361 attagatgca ttcgaacaga gtgcaattaa ggtcgcaatg cagggcatgg gcgtcgatgc
+    33421 cgcaaaactg gatgcttacg gtatctggac tgttaagcag atgactcaat tactgaatcg
+    33481 ccagtatgag caggcatacc ctcagaccag cgcacttgag cttttcccgg taactaccga
+    33541 gatctcgcca accgcccgcc gctttgagtg gctcgaattc gatggcgtaa cttctgcgaa
+    33601 aatcatcgcc gattacaccg acgatctgcc gaccgttgaa gcgatggcga aagagaagtc
+    33661 agggaaagtt ttccgcctgg gtaacgcgtg gtttatttcc atcgacgaaa ttaaaactgg
+    33721 ctcggcgctg ggttccagcc tgagcgatcg caaagcaact ctggcccgcg aaggtcatga
+    33781 gacgctcgta aacgatctgg tgttcaaggg ctccgctcct catggcatcg tgagcgtttt
+    33841 cgaccatccg aacattaacc gcatgaccgc cagcgcggct tggggcgatg atgcagcagc
+    33901 ggctgaacag gcgttcgaag atctggaaga cctgctaaac atgatcgaag aaactacgct
+    33961 gggccgccat cacgcgacca acatcgtgat tcctccgtct aagcgtcgtc ttctgacgaa
+    34021 aaagatgccg gacactagcg gcgactctta tctgacctgg ttcaccaaga accacccgaa
+    34081 catcaccatt acggcgatgg cggagcttga agatatcgac ggcgcaggca ccaaaggcgt
+    34141 gctggcatac gaaaaagacc caatgaacat gagcatcgag atcccggaac ggttcaacat
+    34201 gctaccgatg cagccgaaag acctgcattt caaagttccg tgcacctcca aatgcactgg
+    34261 tctcatcgtg taccgcccgc tgactattgc gatcctcacc gggatttaat caaaagcgcc
+    34321 ttcgggcgct tttttattgc attgtattct gcaatgtgct ttaatttgaa acctaaagta
+    34381 aaccaatgga gcattaacaa tggccagtaa aaaagaaacc gtagaaaccg cagaaatcac
+    34441 caatgcagcg caggaatcgc aggttgttca actgcaaaac gttggtgcat gtgcaattcg
+    34501 ctataaaggc aaaaattacg tatatgagca ggttttcgaa gtgccagaaa gcgagatcga
+    34561 ccgcttccgc cacgaaatct tcaaaggccg ggtcgagttc tacgacaatc cgaaacgcac
+    34621 gcgcgaatac atcgcggcag tgaaggctaa agcgaaagag atcgtgcagc ctaaaagcgc
+    34681 ggaataacaa aaaccaacaa agggcgattc ggcgcccttt ttcatatcag gagagcgacc
+    34741 atgaattaca caattcaaga tgtgaacgat aaaatgcgca gccttgcgcc tccacttaaa
+    34801 aaagtacccg acgaactgct aaccgcatgg gtcgtgcttg ctgaggagtt cgtttgcaaa
+    34861 tcaaggttcg gtgattccat tgttacagcg atcgcactta tgaccatgca cctaatgttt
+    34921 ttggatggcg caatgaagca agaaggcgaa agcctggagt cttacacgca gcgagtggca
+    34981 tcattcaccc tgaccgggga gttttcccaa accttcgatc gcgtatcggc gtcaagcgac
+    35041 aacgaaatgc tttctacgcc gtggggcaaa atgtactggc gtatgctcaa gatgcgcggc
+    35101 ggcggcttcg gccttcttac cgccgggaac gtgcgccgct gcggaattgg taggtgatcg
+    35161 ttatgaacta caaacaaatc caggcacgcg caagcgaggg catcaagttt ttcagtgacg
+    35221 ctgacggcgt attcaacaag tacacgaaag gcgctggcgg cggaatcgat ccggaaaccg
+    35281 gggaagatat cattcctgga gaggtggtaa cgacaatcaa gggcgcgatc agggatgtaa
+    35341 atgaccgtga cattaacgga gaaaccatcc tggctggcga taagcgcggg tttttcactc
+    35401 atgatgtgcc aatcatggag ggtgacgaaa tcgaagtaga cggcgagcgc taccgcgtgg
+    35461 ttaatgcccg cccggtaaaa ccaacgggaa ccgttgtcgc ctaccgtcca gttttacgca
+    35521 gggtggcgac ttatggctaa ttatacgatc cgggagttca caggggctat tgatgcatgg
+    35581 tgtaaggccg ctggtgatgc gctggaggac gttgtaaggt ttacgtgtga agatattcac
+    35641 cgcgacctcg taatgcgttc tccagttgat acagggcgct tccgtggtaa ctggcaaatc
+    35701 acctttaacc gcgccccgct ttacgcgatt aacgcatacg accaaactgg cgaaaagaca
+    35761 atccagaacg gtaaagccaa cattgcacta tacgcaaaag gggctgggat cacttcgatc
+    35821 tggttcagta acatgctaat ctatgcgaac gcgctggaat acggccattc aaggcaggct
+    35881 ccaaatggag tcatgggcgt tgttgcgatc cggttgggcg tttatgttac tgaggcaatc
+    35941 aagcgagcga gggcaaaaaa tgcattatga tatggcgtta aaatgcaagg cggtagtggc
+    36001 taaatttgcc gccgagaacg ggttaatggt cgcgggagat aacgttgact ttagaccccc
+    36061 ggcgggaggt gaaacctacc ttaaagtctc ctacgtcgag gcgtattcaa gatcggttga
+    36121 catctcaagg aaatgcagag tctatatggg gatggttcag attgacgtta tctttaagcc
+    36181 tgggatcgga accgactccg caaggctcat tgcgcaaaac gttgcaaaat atttccctga
+    36241 aggtgaaatc attgattctg ttaataaagt ttatgttagc gaatgggcgg aagtttccgg
+    36301 cgtgcagagg cacgaaactg gttggttttt cccggttagg ttcacagtaa gatgcaacag
+    36361 cgtggaggat agcggttatc caaccacata actgatctta gaggtgctta taatttcttg
+    36421 ccagcctgga aatatatagg cataatggcg ttgttaaact ttcatcaaaa caggagtatt
+    36481 caacatgcat ttaccaaacg gtgcaaaagt cttctttgag aaggctcgcg gtgcggaggt
+    36541 tccgtttact gcaatgacca atgacgtgaa aaacccaaaa atcacggtgg cagatggtgc
+    36601 gctcgacgtt aacgatatcg taatctttac cgattgcacc tggagcgact ttgtaaataa
+    36661 agtggcccgc gtcaagtcgg tgtcgtctgg cgtagcaacg ctggaagagt tcgacacatc
+    36721 cgacactaac aagtaccccg gcggtgcggc cactggtaac gtgagcgtga tcactgattg
+    36781 ggtcgaattg ccttgcattc aggatttagg caaagacggc aacgaacagc agttctataa
+    36841 ctatcagtgc cttggcgatg agcgcgagca atccgaacct acttacaagt cggcggtgac
+    36901 gcttaactac acgtttgcgc acgagtacga taacgcaatc tacccggtgt tgcgttcagc
+    36961 agacgccagc aagcaggcga aagcgatgta catgtatatc ccgcgagctt ccgaggttcg
+    37021 ttactggtct ggaactgcat ctttcgatga cattccttcc acggctgtta acgagatgga
+    37081 aacggtaacg cttaacattg cgcttaaagg tgcgcacgtc ttccttccgg ttgtcgcgta
+    37141 attaaatggc ggggcttgtg cctcgccttt ttttgtgcat aatagcgaat aacacaaacc
+    37201 aatcaggagt taacaaaatg gctaaattca aaattcaaat cggcggcaat ctcccttctt
+    37261 tcaagctgcc tgtaaccttc acttgcccgg acggcaaaga agctaccatc accatgaccg
+    37321 taaaacaccg ctccaccgat gagatgaaag acttttatga gagcgaagat aaagcgccaa
+    37381 agggtaacgc cgagtttatc cgctttatgg ctgaaggctg ggatctggat gacgaattca
+    37441 gcgatgaaaa catttcctgg ctttgcgctc acttcccggc gttcgtcatg gcactgccac
+    37501 aaacttacat ggccgcgctt gcgggccacc gtgcaaaagt ttaaggcggg ctgtttatct
+    37561 cacgcttcag cctgagctaa ccgatcgcca gcttgcggag tacgggttaa ggcgatcgga
+    37621 ctatgaagca gatcttgaaa cgatatattt tgatgagcag accgcccaaa gctggcagct
+    37681 attccaggcc atgcaaacgc aatggcgaat cgggatgaat ggcccgacgg ggcttgacta
+    37741 taatacgttg ccactgctgt tcgaattgta taaaatcgac aatcgagaag cggcattact
+    37801 tgacttgcag atcctggagg gtgaatacct gaaggagatt tacaagaaat caaaataagc
+    37861 gcctacgggc gcttttttca tatgggggct aaacatggct gataaagtag ctgggttgac
+    37921 gtttggcgtt gacgtttcgc aggttgataa agcggtacga tcactcgcag aactgaaaaa
+    37981 ccaaagccag caaacgggcg ctggcctaca gtcgcttgca gacgctgaaa agcgggccac
+    38041 ggcgcagacc gaggaaatga accgcgcgtt gcagcgccag aagcaagaga cagacaaatc
+    38101 aaaaaccagc tttagcagga tcgcaagcgc catcgatccc acgatctcaa aaatggccaa
+    38161 cttgcgcaaa gcgacggaag aacttgataa agcatgggct ttggggcttg ttccagataa
+    38221 ggaatttttc cgcctgggcg ctatcattga atcaacaacc aataagctga gacagcagca
+    38281 gttggcgcta accgaagaag gccgcgcagc aatcgcagag gcggaggcga agcagaaagc
+    38341 agcaaacgcc gggcgtgatt ttgtcgcaag cctgaaacag caggctgact ccatcgggaa
+    38401 aacacgcgcc gaactgctgg aaatgaaggc ggcgcaattg ggcgtatcgg cagaagcggc
+    38461 accgttcatt aataccctga agcagcagga gcaggcgtta aaaaaacagc agagcgcgat
+    38521 gggcctcgct ggcatttctg ccgggcagta tcaagcggca atgcgccagc ttccagcgca
+    38581 gatcacggac gttgtaacgt cacttgcttc aggtatgcca gtctggatgg ttgcaattca
+    38641 gcagggaggg caaatcaagg atagctttgg cggcgtaggg aatgcatttc aggcgctgaa
+    38701 aaatttaatc tttggcacga gttctgagat tgatgaatct ctggacgaaa ccagcgaaag
+    38761 cgccaacgat cttgctgaga gctttaataa tacaaccgag gctggcgaga aaatgggcgg
+    38821 ccttattagg ttcattaacc ccgtaaccat cggcgcggtt gctcttgggg ttgctatcgc
+    38881 agcaattgca aaggctggtt tcgatgcgtg gaagtcacaa agggatctgg cgaatgcgct
+    38941 ggtgctgact ggtgggtatg ctgccactac cacagggcag attaacgatc ttgccaatga
+    39001 attgagcgag acttcgagcg caacctccgg gagaatccag gatatcgcgt caactttggc
+    39061 ctcttctgga aaatacacca ttggtcagat taagaccatt acgaagacta cggcggaatg
+    39121 ggaagcgcag acaggagaga gcggcgataa gatcaaggga tactttgacc agatcttaaa
+    39181 agatccggtt aaggggcttg cagatcttaa cgataagttt aacttcctga atgaggggca
+    39241 gctaacatat attgagtcat tgcgcaaaac taaaggcgag acggcagcag cagacgcagc
+    39301 gacaaaactg tttgctgaca cgatggataa gcggctgaaa gatgtggctg acagcgcaac
+    39361 acctcttgaa aaaatgtgga tggatatcaa gaagtgggcg tctgactcat gggattgggt
+    39421 tggaaatcac acggtagggg cgctaaacct tatcgttgat actgtatcgg caatcatcaa
+    39481 cacgatcaga aagttgatta ccgacggcga cgctatgatc gcgcagtttg tcgttgacgc
+    39541 tggccggaca ctgcaaaaaa ttcccggcat gggtgacttt ggaaatgact ttctggcgca
+    39601 gcaggagcag ttaatcaagg actcgaaagc caaatccgcc gagcttgcaa aaaccattgc
+    39661 ggaacagcaa gcaaggatcg caaaaggcga gatgggttac attgatgccg ccaacaacaa
+    39721 agatgtttcc ggcggctaca gcagcaaaac gaaggatcgc gtaaatcagg aagaaaaaga
+    39781 tatcctgaaa aaccgcaacg caaggaagca gcaggtagac gcgggcgtta aaattgatga
+    39841 gcagtatcag gctgaactgc tatcgctcca ggcgcagttg aaggttttgc agcagcacaa
+    39901 aggtcttgac gacaagatca gccagcagcg caaggactac ttcgagacgg ttgctaaatt
+    39961 ccaggttttg gaggaggcga gccagaagcg aaaactgacc caaagcgaac agcagatgct
+    40021 ggctaacaaa aagaatatcc tgtacatggc agagcaaaag gccattgtgg gagatcggat
+    40081 tgttcagcag cagcgactga acgcattgct tgacaagtcg accaagtatc aaaaccagat
+    40141 ggcggagaaa accaaagcgc tacaggatac cgccggaatg ggtagcaagg agcaggagag
+    40201 ataccgggcc aatgcgcaga tggcggctga ctggaaaaac agcggcggat ctttaagtga
+    40261 ccctggattt aaagccatgc aggatgcaag caataaattc tacgcacagc aagatgcgca
+    40321 aatgctgaac tggaaggccg ggttcactca tgcgtgggct gatattggca acgaagttaa
+    40381 tgacgtgtac agcaacatcg gtgatatcac aaaaagcgca tttaacggga tggcaagcgt
+    40441 actgactgat tttgtcatga ctggaaaggc cagctttggc gactttgcaa aaagcattat
+    40501 tggtgacatt actaacatgc tgattaagat ggcgctgttt aactccattt ctgctgcgtt
+    40561 tggtggtagc gcgttcagct ttagcaaagg attttctggt ggtggttaca ctggtgatgg
+    40621 cgggaagtat gagccaaaag gcgttgttca cggaggggaa ttcgtattca ccaaagaggc
+    40681 gacgcaaagg ttaggcccgg aaaacctgta ccgactcatg cgcggctatg caagtggtgg
+    40741 cctggttggc ggtaactcga gctctggaac tggaatcacc aacggcggca acgttgcggc
+    40801 atctgcggcg atggtgttca ctatcggtga cattaacatt acgatgggtt ccggtcagga
+    40861 tagtaagggg atggagcaag gcgtaaggca gatcgtgaac gatatgttca ccgaggcttt
+    40921 gagccaaaac gggcgcattg cgaggttcgt caatgagaaa acgaggaggt agtagtggat
+    40981 tcctttaaat ggtgtacaca aattcaagga ggggcggcaa aggtcgccat ctccaacaac
+    41041 attcgatcga ttgttttcgg aaacggctac atccaaacgg catcgagcgg aattaacaca
+    41101 aagcgcagga cggttccgat tgtttatggc ggttcagatt gggaggaggt ttataacttc
+    41161 tgtcaggatc acgtaacaaa gccttttgtg tggaaggcac cggatggaag aatgggcgta
+    41221 ttcgtcgtaa ctgccgactc cgttaacctt gcgccgcagg gtggcggggt gtttgaggta
+    41281 acggctgaat tcgccgaacg cttcacttca gccggataat caaaaagcgc cctttacggg
+    41341 tgcttttttt tggcctatga tctggagtca attagaggag ggcttacgat gacagccaat
+    41401 gtttcaaaag agtttgcgaa ctgcttacaa aaacttttcc ccggcgagat cctaacgctg
+    41461 atcgatatcg acgccacaaa gttcggcggg caggtctacc gattccataa cgagaacgtc
+    41521 gcctatacaa ccgaggagct tttggcagcg gttaacggcg ggacgcttca gccaaagatg
+    41581 atcacgtttc gcggcgagca gtacggcccg cgcccgttcg gcctgggcgg gatcgcaatg
+    41641 tcgagcgatg gcacagtgga aaagccaacg ctgacggtta gcaatatcga tgcgcaagcg
+    41701 agtgctctta ttcgcgccta caacggcctc atgcaggcca aagttacggt atgggttttg
+    41761 gtcaaggaat tgctacaaaa cgacggcagc gttaaagagg gcgattttag gcgatttgtc
+    41821 tactacatcg agcgcccaaa acaggtcgac ccgcaaaagg caacgttcga attaacatcc
+    41881 gtgtttgata tggatggatt aatgatcccg gcacgcctaa cgcaaaccgt ttgttattgg
+    41941 gcgcagcgtg gctggtacaa gtctggcaaa ggctgcgact acaacgggca gaacggatac
+    42001 ttcgacaagt tagggaacag ggttgacgat ccgtcgcggg atgtttgcgg cggtctggtt
+    42061 tcttcttgca ggcttcgttt tggtaatgag ccgctgagtt tcggcggttg tgcgacagca
+    42121 acgttaaaga gtggtagcta atatgttaac cccaaaaatc aaaatgcaga tcatgcagca
+    42181 cgcgaaggaa gtctacccgc acgaatgcgc cgggctggta acgcaaaaat cacgcgtgca
+    42241 gaaatatcac cgactagaca acgtttctcc ggatcctgag aacgaatcaa tgccggatga
+    42301 aacgcagtat gcgatggcgg caatggatgg cgagccgatc gccttcgttc actcccacac
+    42361 tggcgacggg gcaaccaccg ttccgagcgc cacagattta tgcttctgtg atgaatctgg
+    42421 cttgtcgtgg gttatcgtct ccatcccgga aggcgatatg cgaatcattg agccgaagcg
+    42481 ccgcccgctg attggtcgac cctgggcgct gggggcttac gattgctatg gccttattat
+    42541 ggattttcac aagcgccacg gcgtaacgct aaaagatcgg cgggttccgt tcgaatggtg
+    42601 gaagccggaa tacaaagaga atctttacca ggactactgg caagaggacg ggttcattga
+    42661 aaacactggc gagcctgaag ttggcgatat gatcattttt cagcttcagg cggagaagtg
+    42721 gaatcacgcg gggatttacg ttggaaataa caacatcctt catcacgcat atggcaagct
+    42781 gtctcgccgg gatatctatt ctggatggta cgagcagcac aaggttttaa tttgcaggca
+    42841 taaggagcta aaacatggca tcacatacaa agacgattaa actatctggc tccctgggtc
+    42901 gtcggttcgg tgtcttccac aaacttgcgg ttgattcagt cgctgaatgt atccgggcgc
+    42961 tgtcttacca gattgaaggg tttaagccgt tcatgcagag caaagttggt tcaaacatgc
+    43021 gcttcggcat catcgcagac ggaaaaccaa tcagcacgga cgacttttct actttcgccg
+    43081 ttgcaaagga gattcgaatc atcccgatcc caagagccag aaagaacgga gggttgttgc
+    43141 aggtcgttat cggagcggcg attatggttg cggccttctt tactggcgga ggttcgctgg
+    43201 cggctatggg cgctttttcg tcggcggctt ttatggctgg cggctcaatg gttttgggtg
+    43261 gcgtaatgca gatgatcgca ccgcagatgg gcggcaacat gcgggcgagc gaatcgcctg
+    43321 agaataagcc atcgtatgcg ttcggcgggc cgattaatac cacggcggcc gggtatccaa
+    43381 tccagttgcc atacggttac agattggctg gcggcgcatt gttcggttcg ggatcttacg
+    43441 cagaagacaa caactaatta agccattcgc tttttagcct gggggcgtag cctccgggct
+    43501 ttttgtcgtg tacaattgcg agactattaa caggaggcta aacgatgact aatatcaagg
+    43561 cccgcaaggg tggttcaagc aagccacgta ctcccgtaga aatgccagat aacctgatct
+    43621 caaaagataa gatcaagtta ttgcttgctg tttcggatgg cgaggtggtt aacgacttca
+    43681 gcctgaagca gttgcatttt ggcggcgtcc cggttcagaa cgaggatgga acattcaact
+    43741 atgagggcgt gattgcagag ttccgccccg gcacgcaaac gcaggactac attcagggct
+    43801 tcagcgagtc aagtgctgaa ttccaggttg ctcgtgaagt aactcacaac acgccttata
+    43861 cgcttaccgt atcgaacaaa aatctttctg ctattcgctt tcgcctgtta tggccgcgcg
+    43921 tgctgactca aaaagataac ggcgatatgg tcggatcggt tgttgagtac aagatcgaga
+    43981 tggcggtaga tggtgcaagt tatcagacct acctaactgg caagattgac ggtaagaaca
+    44041 cgactggcgg ttacgatcgg agcattcgcg ttaacctgcc gcaaaacttc acgtcgcagg
+    44101 tgcttatccg cgttagtcga gtaacgccgg acgctgacgg ggtgaaagtt gtcgacgctt
+    44161 tccgggttga atcctacgct gaagttattg atgcaaaatt ccgctacccg ttaacggcca
+    44221 tgctttacgt tgagttcgat agcgacctgc tccaaaatca gatccctact atctcactca
+    44281 aaaagaaatg gaagattatt caggttccga gaaactacga tccgattaat cgcacgtact
+    44341 ccggaacgtg ggacggtgtt ttcaagtggg cgtggagcaa taacccggcc tgggttcttt
+    44401 atgatctgat catgaatcag cgctatggtt tagaccagcg tgagttagga atcccggttg
+    44461 ataagtggtc gctgtatgag gtggcgcaat attgtgatga acttgttcct gacaatcgcg
+    44521 gcgggatgga accgcgctat ttgatggatg tagttgttca gtcgcaggtt gaggcgttcc
+    44581 agttggtaag ggatatttgt tccgcgttcc gtggaatgac gttctacaac ggtgaaagcc
+    44641 tatcgattat cgtcgataag ccgcgcgatc ctgtgtacct gtttacggct gataacgtcg
+    44701 ttgatggcgt tttcgttagg acgttcccaa gcgaaaagac gatgtatacg tcgtgcaacg
+    44761 tcatgttcga cgacgaagaa aaccagtacg aacaggatgt tgaaccagta ttcaaccctg
+    44821 acgcagccat gcggttcggc cacaacccga ccagcattac agcgatcgga tgcaccagaa
+    44881 ggacggaggc gaaccgccgt gggcgttgga ttctgcaaac gaacctaagc gccacaaccg
+    44941 tttcgttttc tactggtctg gaaggtatga ttccttcttg cggcgatgta atttacgttg
+    45001 cagatccgca ctggcaatcg gcctttaacc tggtgctatc aggccgcgtt atggaggtgt
+    45061 ctggcgtgca ggtgttcctg gcctaccgct gcgacgcgaa ggctggcgac actctgatcc
+    45121 ttaataccga cgacggaaag cctgtgcgcc gcacaatcgc cagcgtttcg gcggacggta
+    45181 aaaccctaac gctaaacgtg ggatttaatt ttgacgttgc gccggacagc gtattcctga
+    45241 tcgagagcga tcagcttgca gcggaacagt atgtagtaac ccggattgaa aagggtagtg
+    45301 atgacgacga attcaccttt gccatcacgg ctacgcagta caacccgaac aagtatgacg
+    45361 cgatcgacaa cggagtaatt accgatagcc gaccaacttc ggttgtcgac ccggattcaa
+    45421 tgggcgctcc gaaagactta acgattagct cgttttctcg cattgttcag ggaatgagcg
+    45481 tcgaaacgat ggtgatcggc tggtctgccg tgcagtatgc aaaactgtac gaggtgcaat
+    45541 ggcgcaagga tggcggtaac tggaacaacg tcccgcgcac cgcgacaacg caggttgata
+    45601 tcgaaggcat ctatgctggc gagtatcagg cccgcgtgag gtgcattagc ggcgggaatg
+    45661 tagcgtctcc gtggtctgcg ttggcaaccg ccacactgac cgggaaagtc ggagcgccaa
+    45721 aaggcccgat taacctgttt gcgtcggacg atgagatctt tggcattcgc gttaagtggg
+    45781 ccatgcctga aggtgcggaa gacacggcat acattgaact ttaccagtcg caaagcggaa
+    45841 ccgatcagga tgcaagcctg cttaccctga ttccttaccc ggcctctgaa tactggcatt
+    45901 caattttgcc cgctggctac gtgaacttct acaaagccag aagtgtagac cgtatcggca
+    45961 acgtttcagc atggactgat tacgctcgcg gcatgtcgtc tactgacgtt aacgccatca
+    46021 cggatgtgat cctggatgag atcctcgaca gcgacgcgat gaaagaactt catgagagtg
+    46081 cgcaggatag cgcggcaaaa ctcaatgaat acgcgaacag tatcattcaa aacgcattag
+    46141 cgaatgatgg cgatgttaga ataatgagaa aggagaatgg caagaggaaa gctgaaatta
+    46201 aacgcgcaga agttctcata gcaaatgaga cggaagccag ggtgcagcag gttaaccaga
+    46261 tctcggcaga gttcaacgaa aacctcaatg ctggattaac tcaagttaac gaggcactag
+    46321 ccaatgaaac tgaggcgcgc gttacttccg aggaggctct atcagcaagg attggccaga
+    46381 actccgcagc gctagatcag aaactcgact catgggctga cgttaatgga gttggctcca
+    46441 tgtatacaat gaagctagga ctgacgtaca acgggcagga atacaattcc gggatggctc
+    46501 tacaacttgc cgcgcaaggt gacaacgttg tttctcaagt tctgtttatt gctgatagat
+    46561 tcgctatcat ccgaaatgcg gagtctggag cgtacacttt gccgtttgtt gtgcagaatg
+    46621 accaggtttt catgaataac gcgctcattc aggatggttc gattaccaac gcgaagatcg
+    46681 gcaaccttat tcagtccaac aactatgttt caggtagtcg aggatggtca atagacaaaa
+    46741 acgggaatgc tgagttcagc ggcgtaactg taagggggca cattgaggct gatagcggtt
+    46801 catttcatgg caccatcgac gcaaccgacg ggatattccg cggctcggtt gaagcaaata
+    46861 gttttgtggg agatatcgcg gcaatggggc cattcccgac gagagttggg tcggcatgga
+    46921 aatcacgcgt cgtgcaccat gattcaagtg aaaaaggagg gaaaaactac gcaattctcg
+    46981 gactaattcg ctgggatgct ggcgacaaga ctggctcggt tatcgttgag tgttatgtta
+    47041 atggcgtaag ggtatcttct caaacgtata atggcagaga tgcaggggaa tcaacacgtg
+    47101 ctcgcctaac tgctgtaggt gttgcgacgg gcatcaacac gaaggatact ttggttgaga
+    47161 ttgtcgtaag tgggactggc accagcaccc ttgaggctgg ttactgcatt atgtctcgag
+    47221 gctccggatc gtggaaggtg gtagcataaa gcaattcacc accacgctct tggtgatatt
+    47281 attttatcag agagagggca tacatatcgg cgtacagaaa aggaaataga atagtagtct
+    47341 agtgacaaaa gcgcccggct gggcgcttta ttttaatgtg aataatagat gtggaaaagg
+    47401 ggccgaatgg cccctttttc ttatgttgta ttgatatact tatatttcat atcgcaaaaa
+    47461 tgtgatgttt ttttcgtcaa ctcctgtttt ttcggcctgc gctaaccgtt gcaggccata
+    47521 gctggtgtga atcgttacat atgccattat tgtggcctca tgtttcgcaa ttatcccccg
+    47581 caaaaagcgg ggcattataa atagttaaaa ctattcttta atgcagtttc agcctgaacc
+    47641 aataaattat ctaatccgtt atggttgaaa gaatacgtga taattccctc accaatatca
+    47701 tcagatttta cgctgaactg cacttccgca acccctgcgt ccaccgaatt cacaataatg
+    47761 gcctcatatg tgacgttcag tgtttcacta ttagcggatt ttactatgcc aagttcagga
+    47821 taattcttaa caactgaaca ctgctttgat actgtaaatg acattttttt atccttacgc
+    47881 gattgcacgc gagtaaattt tagcggttgt actaccctca gcaactgaag aaaaagcaca
+    47941 agaatagtgg tttaggatat aagcaaggcc aagaccgctt atattcgatc cctgaattat
+    48001 gttcatattt gataatgagc atgaattcag cgatagtttt accacaccag cccgctgagc
+    48061 gggagacacc aagaacggtt tataagtggc gtcacttcct gatatcgtac agttatcaaa
+    48121 tgaaacccca cagtcaccat aaacataaac cagagcgcca aatgcaatgg ctgcggcact
+    48181 tgttgatgag gatagcgtta gagtaatatt caaatttttg aatgaaatcc ttccgtcctt
+    48241 aaccccaact cctgatagcc agccagaatc ttcaccaata accaaagttg gcttggttgt
+    48301 tgcatcacca ataacctgaa tgtcaaaatt ctcaaaaaac cttctgtttg gccctaagcc
+    48361 atctgagtag tatttagttg ttgttaccgt attaccagca gcaatataaa ttctgttttt
+    48421 ataattaggt tggcagcgaa gtaacgcctc ctgcaatgtc ttaactggat agcttgagct
+    48481 atacccgtta taactgtcat tacctgattc cgatatgtaa atatcacaat aaccagaaaa
+    48541 ctgagagtaa cagttaaaaa taaccttgtt agggtactta attttcatcc tggttcgcat
+    48601 atcgccagcg tgttttacaa ccaacttact ggagccagga cagtcatatg ggtcaacagt
+    48661 ctggctatag tagttagtat tggtcatgtc aatacttgcc gagtttgcag gagaccctga
+    48721 caaaaacacc atgcgtgtgg tggctgctgc ccctttgtta ttgtaaaaat aaccaggtgt
+    48781 catgctcatt acgcactcca tgagggcgta gcattcttcc tctatattct caaagtaagt
+    48841 tccgtgctca gaaccgccct ggcatctgtg aagcctatag ccattttgag aattttctag
+    48901 tgtgcaatcc ttaaaatgtg gtgacgacca tgagccagca acacaagctg tccaggcttg
+    48961 tcttgtcgga tagccgtaga aatcagggaa atcagtaaac caagacagtg ggtttggccc
+    49021 ttgtgtagtc tggaaatagc agttatcaaa cagccaggtc gtaacgttat tcctcattgt
+    49081 cagagcaatt gttgcagtcc tgaaaatgca atccctgaat gcaccattcc acgtacaggt
+    49141 gaggttcgcc ccaactgctg ctttggttgt aatgcggcca cagatgctct tgagtacgcc
+    49201 accatgtgtg aggcgtaaat tgaaaatccc cttcagggaa gtgttggccc cagcaacaac
+    49261 ggagaaattc tccaatagta acccagggca gcgagtaact tctcgcctgc cgctcgcact
+    49321 agcagaatat gaatcaacct ttgccgtgtg cgtacctgtt tgatcaaggt tta
+//
+

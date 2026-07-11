@@ -1,0 +1,88 @@
+LOCUS       NC_139403               1687 bp    DNA     circular VRL 04-JUN-2026
+DEFINITION  Cat Tien Odontotermes delta-like virus isolate hdv-like, complete
+            genome.
+ACCESSION   NC_139403
+VERSION     NC_139403.1
+DBLINK      BioProject: PRJNA485481
+            BioSample: SAMN26813685
+            Sequence Read Archive: SRR18390536
+KEYWORDS    RefSeq.
+SOURCE      Cat Tien Odontotermes delta-like virus
+  ORGANISM  Cat Tien Odontotermes delta-like virus
+            Viruses; Ribozyviria; Ribozyviria incertae sedis; Kolmioviridae;
+            Donvirus; Donvirus odontotermitis.
+REFERENCE   1  (bases 1 to 1687)
+  AUTHORS   Litov,A.G., Zueva,A.I., Tiunov,A.V., Van Thinh,N., Belyaeva,N.V.
+            and Karganova,G.G.
+  TITLE     Virome of Three Termite Species from Southern Vietnam
+  JOURNAL   Viruses 14 (5), 860 (2022)
+   PUBMED   35632601
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1687)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-JUN-2026) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1687)
+  AUTHORS   Litov,A.G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAR-2022) Laboratory of Arboviruses, Chumakov
+            Institute of Poliomyelitis and Viral Encephalitides, Institute of
+            Poliomyelitis, Moscow Region, Moscow 142782, Russia
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to ON082765.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.13.0
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1687
+                     /organism="Cat Tien Odontotermes delta-like virus"
+                     /mol_type="genomic DNA"
+                     /isolate="hdv-like"
+                     /host="Odontotermes wallonensis"
+                     /db_xref="taxon:2952747"
+                     /geo_loc_name="Viet Nam: Cat Tien National Park"
+                     /collection_date="2019"
+     CDS             230..817
+                     /codon_start=1
+                     /product="HDVAg-like protein"
+                     /protein_id="YP_013610355.1"
+                     /translation="MEGAKRELPNDGGTSERFLLEWLEARRRVRSCLQRLREAQERVR
+                     LLERDHAWLGSFKGTLRKRDGESFDIPEGPRKTKRAQNSEGGDAVPSTSAAPPSQPQS
+                     APDRKRKAAPLLEKAKREAEAKKKRLQPPPATPSPSTPRARSHVVGLSEASVSVLEKA
+                     LEDAKRRMRRKRDSEGSELSVEQRSLSGDTGEGLE"
+ORIGIN      
+        1 gtccgatccg caggcagcca cggatctctc tgacattttg ctcctgcccc agaagtattc
+       61 ctcgccactc ctccttgaga ataatttccc tcgagggctc ctcgcaggaa gcagatttat
+      121 cccgcgacgc ccagacctgg caccccgcga ctcaggcggg gccgacaaac ttttttctct
+      181 aagagaatat attttgatca ggcccctgcc tgctttgtcc gggaagacca tggaaggagc
+      241 gaagcgggaa cttccgaacg acggaggcac ctccgagagg tttctcttgg aatggttgga
+      301 ggcgaggagg cgggtcagaa gctgtctcca gagactccgg gaggcccagg agagggtaag
+      361 gttgctggag cgggaccacg catggctggg ttccttcaag gggacccttc ggaaacggga
+      421 tggagagagc tttgacatcc ctgagggacc gaggaagacc aagagggccc aaaattcaga
+      481 gggaggagac gcggtgccct ccaccagcgc cgctcccccg agccaaccgc aatccgcccc
+      541 ggaccgaaag cggaaggccg ctccccttct ggagaaggcg aagagggagg ccgaggcgaa
+      601 gaagaagaga ctccagcccc cccctgcaac tccatccccc tccactccga gggcgaggtc
+      661 gcacgtcgtg ggcctgtcgg aagcctcggt gtcggtgctt gagaaggcac ttgaggacgc
+      721 taaaaggcgg atgaggagaa agagggacag tgagggcagt gaactcagtg tggaacagag
+      781 gagtttgagt ggtgataccg gagagggact tgagtaggct aaggtatttt gttagatgaa
+      841 atgtacgcac ctgtgaaaat aaaggaaaaa atgtgagccc agctcgtagc gggagcctgc
+      901 agctactgcg caggtagcgg cttaactccg cctgacgaga ccacttaggc aagggtcgaa
+      961 acgagctgcg gcttacggcc gtcccctcac caggaagatt tgtgagctag gctccttatc
+     1021 atcaagggtg ttggggagtg cggcctatca agccatttag cccattgttt cggacccagc
+     1081 cacggatcct cgtcaggggg gttttcgcct gccctgcggc agttctggct cccccgacaa
+     1141 tgggcacaaa attcctggct ttccaggtgg tgttcatcaa cagtcacccc accctccagc
+     1201 cccctccgcg gctgcaccct caacccggtc caactggtca cgcctccttg ctgccttcct
+     1261 cccccggccg gttagccgtc cctacaagaa gcgccattca acccggcacc gaggacgctt
+     1321 gctccggcag ggattccaga cagtgctccc aaagcccacg agttcgaggg tcggacgtat
+     1381 taggggcaca cggctcggag tcctgccttc actttccgct gtcgtggcct gttctcgcca
+     1441 gcctttctcc cggggttgcg gaagatcctc caagttccga tccgggcgac ggggttgttg
+     1501 tcgttgcggg agccggcctc cggaggaacc aaatgtctcc gctccaaact tgtatgggac
+     1561 cctatcttgc gtcccatccc ggcactccct gaggattctg tcttgctccc gccccttccg
+     1621 agcgttggtt cccgagagag gggttcccag tcaacttgtg atagcgccca cgttcagcgt
+     1681 tctcccc
+//
+

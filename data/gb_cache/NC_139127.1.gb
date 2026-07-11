@@ -1,0 +1,164 @@
+LOCUS       NC_139127               3424 bp    RNA     linear   ENV 17-APR-2026
+DEFINITION  MAG: Fushun levivirus 5 isolate KYDDTFS276, complete genome.
+ACCESSION   NC_139127
+VERSION     NC_139127.1
+DBLINK      BioProject: PRJNA485481
+            BioSample: SAMN14819266
+            Sequence Read Archive: SRR11729950
+KEYWORDS    ENV; Metagenome Assembled Genome; MAG; RefSeq.
+SOURCE      Fushun levivirus 5 (invertebrate metagenome)
+  ORGANISM  Fushun levivirus 5
+            Viruses; Riboviria; Orthornavirae; Lenarviricota; Leviviricetes;
+            Norzivirales; Fiersviridae; Mihkrovirus; Mihkrovirus
+            titanodulivivens.
+REFERENCE   1  (bases 1 to 3424)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-APR-2026) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   2  (bases 1 to 3424)
+  AUTHORS   Feng,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-MAY-2021) State Key Laboratory of Rice Biology, China
+            National Rice Research Institute, No. 28 Shuidaosuo Rd., Hangzhou,
+            Zhejiang 311400, China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MZ210020.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: PFOR v. 2012; velvet v. 2008
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3424
+                     /organism="Fushun levivirus 5"
+                     /mol_type="genomic RNA"
+                     /isolate="KYDDTFS276"
+                     /isolation_source="Rice Field"
+                     /host="Hierodula formosana"
+                     /db_xref="taxon:2905461"
+                     /environmental_sample
+                     /geo_loc_name="China"
+                     /collection_date="22-Sep-2017"
+                     /collected_by="Guozhong Feng"
+                     /metagenome_source="invertebrate metagenome"
+                     /metagenomic
+     5'UTR           1..63
+     gene            64..1206
+                     /locus_tag="FLV5_gp1"
+                     /db_xref="GeneID:309936518"
+     CDS             64..1206
+                     /locus_tag="FLV5_gp1"
+                     /note="Phage maturation protein; cl28021; Phage_mat-A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="maturation protein"
+                     /protein_id="YP_013609922.1"
+                     /db_xref="GeneID:309936518"
+                     /translation="MVPAHNNAGGDHVEYDVAHQQRLEFLHGNIEYTTQWGSLCLKNR
+                     SQREKHSSGKPDGAHFGENEYYRLVKRNRSISEYTSEYSSGPWLIRQQGDLRGLYGDP
+                     VYFSDWDSTIDNMWARAQTEAMGKLRGEDQLQLANDALEMGKSLKMIADPSIRVLSAL
+                     NAARRGRWSTIPRHLGMNPRDVLNGKYPANKWLEYQYGWKPLLGSIHDGYNRLNAAPR
+                     SGAMQVRRVVSRSLRIDRDMGDVHITSDVELMVKCIIKFRVANPILDTLDGLGLINPL
+                     AIAWEAVPFSFVIDWFMPVGNVLSAATSTLGLSSVATVTTKRVYAPVKVRHRWAERPG
+                     AATFDLFETYRNVNRGGFPSPRPYTIDSPFSTSHVVSALSLLRQLL"
+     gene            1233..1637
+                     /locus_tag="FLV5_gp2"
+                     /db_xref="GeneID:309936516"
+     CDS             1233..1637
+                     /locus_tag="FLV5_gp2"
+                     /note="Levivirus coat protein; cl28115; Levi_coat"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="coat protein"
+                     /protein_id="YP_013609923.1"
+                     /db_xref="GeneID:309936516"
+                     /translation="MYMPQLAPITVNDGSKDRNFTPKGITANVAELVELNASGVALAR
+                     PRLTCKVSTTSTGRSKVELKLAVPVVQDAIVGGVSRPQIVRTGYADITFTSDGASTFD
+                     ERHALRYLVGNLLTGAGSAPIHYAVDDATGLY"
+     gene            1768..3342
+                     /locus_tag="FLV5_gp3"
+                     /db_xref="GeneID:309936517"
+     CDS             1768..3342
+                     /locus_tag="FLV5_gp3"
+                     /note="RNA replicase, beta-chain; This family is of
+                     Leviviridae RNA replicases. The replicase is also known as
+                     RNA dependent RNA polymerase; cl27276; RNA_replicase_B"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="RNA-dependent RNA polymerase"
+                     /protein_id="YP_013609924.1"
+                     /db_xref="GeneID:309936517"
+                     /translation="MARPRLSAQSANTRVSDSLTSLVIEAVRNLPPCRKYDYLKETFL
+                     SKFVSDDTDPADLRRSRAIEKWLWVESVNESTEDRLLTTPGDYQIMPRVRLDTFVSWV
+                     QDFIADMIGDTPPETVLIGQFSGGASTSRPRTASYPASKYTGKAHVTPDAFAWYPLLR
+                     ELAPGWLESGGPRILEAFPGNVMFTVPKKTDIDRVAAKETDLCMFMQKGVGDYFRKRL
+                     RSRGINLNDQSINNRLAREGSIYGNLATLDLSNASDSVTRELVFQFLPITWFTLLDSI
+                     RSKVTMIDGHEHRNVMFSSMGNGFTFELESLLFFSIAKAVSYFGGHRGVVSVYGDDII
+                     VPTGAYSQLAHVLWFFGFEVNPSKSFDTGSFRESCGGHYDAGFDITPFYLRAPLKTVS
+                     DVIHIMNQIRLWSYVEGIGCLDPSLESLWLELGTHVPKSLWGGDSPTRYQVMSRDVPS
+                     RKLVPDSRRKSTGVGGYYHWLNATWERGQIGLEGVITSKVTLVDSTTSHGNMRSRPVR
+                     SRTVPTLPAWFSSELG"
+     3'UTR           3343..3424
+ORIGIN      
+        1 cgggatgggt atctctagta tgcctactag aggtgggctt cgcccaacta agaaaggtac
+       61 agtatggttc cagctcataa caatgccggt ggtgaccatg tcgaatatga cgtggctcat
+      121 cagcagagac tggaatttct tcatggcaac atcgagtaca ccacacagtg gggctcttta
+      181 tgcttgaaga atcgttctca acgcgaaaag cattcatccg ggaaaccgga tggtgcccat
+      241 ttcggcgaga acgagtacta ccgcctcgta aagcgcaacc ggtcgatttc tgagtatacc
+      301 tcagaatatt cttccggccc ttggctgatt cgtcagcaag gggatctacg tgggctctac
+      361 ggtgatcccg tttactttag tgattgggat tcaaccatag ataacatgtg ggctcgcgcc
+      421 caaaccgaag ctatgggtaa gcttcggggt gaggatcaat tgcagcttgc aaatgatgct
+      481 ctcgagatgg gaaagtccct aaagatgatc gctgatccat cgattcgtgt cctttcagca
+      541 ttgaatgctg ctcggcgtgg tcgatggtcc accattcctc gtcatttggg tatgaacccc
+      601 cgtgacgtgc ttaacgggaa gtatcccgcc aataaatggt tggaatatca atatggctgg
+      661 aaacccttgt taggttccat ccatgatggc tacaaccgtc ttaacgcagc accccgttct
+      721 ggggcaatgc aggttagacg tgttgtgtcg cgatcgctgc gtattgatcg tgatatgggt
+      781 gatgttcaca tcacctctga cgtggagttg atggtcaagt gtatcatcaa attccgcgtc
+      841 gccaatccca tcctcgatac tttggatggt cttggtctga tcaatcccct tgccattgct
+      901 tgggaagcag ttccgttctc gttcgtcatc gattggttta tgcctgtcgg caatgtcctt
+      961 tcggcggcta cgagtacttt agggttatca tccgtcgcaa ctgtcactac gaagcgcgtg
+     1021 tacgcacccg taaaggtgcg ccaccgctgg gccgaaaggc ccggcgctgc tacgttcgat
+     1081 ttgtttgaaa cttatcgaaa tgtaaatcga ggcggctttc cgtcacctcg tccttacact
+     1141 attgacagtc ctttctccac cagccacgtc gtatcggcac tttcgctgct acgacaacta
+     1201 ttgtagcaat cccgctgcaa taacagatag gaatgtacat gccgcaactg gctcccatta
+     1261 ccgtcaatga cggttcgaag gatcgcaatt tcaccccgaa gggtatcact gcgaatgtcg
+     1321 ctgaactggt ggaactgaac gcctcgggcg ttgctctcgc tcggccgcgt ctgacctgta
+     1381 aggtcagcac gacgtcgacc ggtcggagca aggtcgagct gaagctcgcc gtgcccgtcg
+     1441 ttcaggatgc aattgtcggc ggggtctccc gaccccagat cgtgcgtacc ggctatgccg
+     1501 atatcacgtt cacttccgac ggcgctagca cgttcgatga acgtcatgcg ctccgttatc
+     1561 tcgtcggcaa tctgttgacc ggggccgggt cggccccgat tcactatgcc gtcgacgacg
+     1621 ccaccgggct ttactaagcc cgtttggtgc ggaagagcat cagcgcggtt gtggttgcac
+     1681 tcgttgccat agtaatggca gtgtttgtta tctgcttcct cgctttcctc tgggcgcctc
+     1741 gcccagttac catgattgga gtaccacatg gccagaccac ggttgtcagc gcagagcgcc
+     1801 aatacccgag tcagcgactc attaacatcc ctggtgatcg aggcagtgcg gaaccttccg
+     1861 ccatgccgta aatacgatta cctgaaagag acgttcttat ctaagttcgt ctcggatgat
+     1921 actgatccgg cggatctccg ccggtcccga gccattgaga aatggctttg ggtcgagtcc
+     1981 gtcaatgaaa gtactgaaga ccgcctatta accactcccg gcgattacca aattatgccg
+     2041 agagttaggc ttgacacctt cgtgtcgtgg gtccaagact tcattgccga catgatcggt
+     2101 gatactcccc ctgagactgt cctcatcggt cagttctctg ggggcgcgtc cacgagtcgt
+     2161 ccgcgtactg ctagctatcc tgctagcaag tacaccggaa aagcacatgt cactccagat
+     2221 gcctttgcgt ggtatccctt actcagggag ctcgcgccag ggtggttgga gtcagggggg
+     2281 cctcgaatcc ttgaggcctt ccctggtaat gtcatgttta ccgttcccaa gaaaacggac
+     2341 attgatcgcg tcgccgctaa ggagaccgat ctttgtatgt tcatgcagaa gggcgtcggc
+     2401 gattactttc gtaaacgtct ccgttctcgc ggtatcaatc ttaacgatca gtcgattaat
+     2461 aatcgtcttg ctcgtgaagg ttcgatatac gggaatctcg caacgctgga tctctccaac
+     2521 gcctcggatt ccgtaacgcg ggagctggtt ttccagttcc ttccgatcac gtggttcacc
+     2581 ttgctcgatt ctattcgtag taaggttacc atgatcgacg gccatgaaca ccgtaacgtg
+     2641 atgttttcct caatgggaaa cggtttcact ttcgaattgg agagcctgct cttcttttcg
+     2701 attgcaaagg ccgtttccta ctttggcgga catcgcggcg tcgtctcagt ttatggtgat
+     2761 gacatcatcg tcccaaccgg ggcgtattca caactcgcac acgttctctg gttcttcggc
+     2821 ttcgaggtta atccctcgaa atcgttcgat accgggagct tccgtgagag ttgcggtggt
+     2881 cattacgatg ctgggttcga tatcactcct ttctatcttc gtgctccgct taagactgtt
+     2941 agcgatgtga ttcatatcat gaatcagatt cgcctttggt cttacgtcga gggcattgga
+     3001 tgtttggacc cgtctcttga gtccttgtgg ctggagttgg gtacacacgt cccgaagagc
+     3061 ctttggggtg gtgatagtcc cacacgttat caggtcatgt cccgcgacgt tccgtctcgg
+     3121 aagcttgtgc ctgatagccg acgcaagtcg actggtgtgg gtggttacta tcattggctt
+     3181 aatgccacat gggaacgtgg gcaaatcggc ctcgaggggg taatcaccag taaggtgacc
+     3241 ctcgtggatt caacgacctc gcatggaaac atgcggagtc gcccggttcg ttcgcgtacg
+     3301 gtaccgacgt tgcctgcctg gttcagttca gaactaggtt gacaatccgg ataacccacc
+     3361 agtaatgtgg tgggccgcgt aagcgtgggt ggataattct aaccaaatta tcccttggtt
+     3421 caat
+//
+

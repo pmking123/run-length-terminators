@@ -1,0 +1,183 @@
+LOCUS       NC_139203               5069 bp    RNA     linear   VRL 05-MAY-2026
+DEFINITION  Fusarium sambucinum victorivirus 1 Fs2242v genomic RNA, complete
+            genome.
+ACCESSION   NC_139203
+VERSION     NC_139203.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Fusarium sambucinum victorivirus 1
+  ORGANISM  Fusarium sambucinum victorivirus 1
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Chrymotiviricetes; Ghabrivirales; Alphatotivirineae;
+            Pseudototiviridae; Victorivirus; Victorivirus sanjyuichi.
+REFERENCE   1
+  AUTHORS   Mizutani,Y., Uesaka,K., Ota,A., Calassanzio,M., Ratti,C.,
+            Suzuki,T., Fujimori,F. and Chiba,S.
+  TITLE     De novo Sequencing of Novel Mycoviruses From Fusarium sambucinum:
+            An Attempt on Direct RNA Sequencing of Viral dsRNAs
+  JOURNAL   Front Microbiol 12, 641484 (2021)
+   PUBMED   33927702
+  REMARK    DOI:10.3389/fmicb.2021.641484
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 5069)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-MAY-2026) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 5069)
+  AUTHORS   Chiba,S. and Mizutani,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-DEC-2020) Contact:Sotaro Chiba Nagoya University,
+            Graduate School of Bioagricultural Sciences; Furo-cho, Nagoya,
+            Aichi 464-8601, Japan
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to LC596824.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SPAdes version 3.13.0
+            Sequencing Technology :: Illumina HiSeq
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..5069
+                     /organism="Fusarium sambucinum victorivirus 1"
+                     /mol_type="genomic RNA"
+                     /isolate="Fs2242v"
+                     /host="Fusarium sambucinum F2242"
+                     /db_xref="taxon:2801159"
+                     /geo_loc_name="Japan: Saitama"
+     gene            195..2468
+                     /gene="CP"
+                     /db_xref="GeneID:310221486"
+     CDS             195..2468
+                     /gene="CP"
+                     /codon_start=1
+                     /product="coat protein"
+                     /protein_id="YP_013610042.1"
+                     /db_xref="GeneID:310221486"
+                     /translation="MADNAHSLLVNVLATPRGGLLAADQFRRYGSAIRTWATLGQRHD
+                     TRVTQVTYEVGRRRPTSGRTLAPPGADVPRIDASYDTNAVEAEFFAGLARRHSNFSGS
+                     FMRSSFAGVVERLALALGAHSIFGDVDSTAIRGNHALRVTALNAHDTPVTSLTNSVFI
+                     PRVTETQVTADVWAVLINAVAGEGASIVTDVLFLDANTNQAIVPTVPAANIAAPLVAA
+                     LQLLGSNMVASGQGPLFATALTRGIHKAVSVVGHTDEGGITRDLLRCAAFAAPYGGIN
+                     PNPVQYTGLPTLAATRAADIAAYVDSIALITAAAVAHADPGQRYNGEWFPQFFVAGHR
+                     DVPLRPGEDEDAPAGAAAIHRAAVVAAVSSFNELYVRALSAIFGVDGDHLQAAGFLSA
+                     AAHSLEAAPRHLDYASITPWFWVEPTSLLPTHLIGSEAESARSGALASVAGPTEYPAF
+                     DGLQAYGPGDFLRSAYRADVPSARRAAILLHFWGHPLDGISTIIPRQLDTENVVQPGP
+                     GAAGTQPQLRDRLEAGDSLAEYLWTRGQSPFPAPGELLNLSVTMGFMVKHVTLGADGH
+                     YNEEHMFSAGEFLGARISVQAARPTGFDSGASSQGPRDARRARTRATAALAAAKRRVQ
+                     IFGTADTGDMPVVSAAPPREPVRALPQEQAAGAGVAGHAAAGPGAGGAPAPQGPPIPP
+                     TAEHRANAAPRPAQRPGQQPGAPIPPANPGAPPAPPPAAGPPEPPAPPADAAPPAAPA
+                     LAPPAPGAAPPERAAPQ"
+     gene            2468..5011
+                     /gene="RdRp"
+                     /db_xref="GeneID:310221485"
+     CDS             2468..5011
+                     /gene="RdRp"
+                     /codon_start=1
+                     /product="RNA dependent RNA polymerase"
+                     /protein_id="YP_013610043.1"
+                     /db_xref="GeneID:310221485"
+                     /translation="MANPAAARSLSDIFSRAEERRTEFGSLGSILFGILKSAAPHLGF
+                     LSGLTFAQQLATVELRAFQLTGLHPLLPAAISLLACEFPIQLTKESGLAGLLLRSAYG
+                     LDQATLRPGVPTEYATLAGAPLSYAQLVKKIANSKEFRAAAYPYKAHPGAVSKPNVHL
+                     GGLARALTTIVGSTEAGRWFALIPFGTPRDVVCSHVLYSFALRPQHQVFAPVISAIAI
+                     TRPKDAKGLSNALKALGLNATALGANLTEAQTLQGRMVGAVDWDQELAKRLDPEVVRK
+                     GAVKMSAEDLRPHVEAILDIELPQGFTLPALDDFWSSRWAWCVNGAHTAAASEMLGIP
+                     GDAFPKFARTYRRMASEFVADEPISQWDGLTRVSKSDKLEHGKTRAIFACDTRSYFAW
+                     SWPLNAIQKAWKNRRVLLDPGRGGMSYIGSRINRAAQAAGVNLMLDFDDFNSHHTTEI
+                     MQMVTRSALARSDAPGWLVDVLVKSLDSEYIEVDGVPRHVAGTLMSGHRGTTFFNSVL
+                     NAAYFRMAAGGDMFNRILSLHTGDDVYARVATFHDVAAILTAMPVLGCRLNPTKQSIG
+                     HRHAEFLRCAFAPERAWGYVARAIATCASGSWTNDQALGPRELFQTNLSNTRAIINRS
+                     GNENFPRLLAPAFHLPRGTGIREAIGLLAGGRAALDNSPVYNTPTPFPRYRLKIADPL
+                     TSPMDLKDLPNHATRQFLTSHLSPVELEALTITRTDPQPLLTASSYSKGQVEDKTAPP
+                     VVKMVSAGVYTPRSPGLAAAAYVAERVVGALNVYPIVQLLRDTLSLREVVHLLSFLGV
+                     PPGPDPRRTAFGSEAHPVLVTGTLPFSDASSIARVTGYDHIYVTYPIGM"
+ORIGIN      
+        1 accatccctg ctgaaaagct tgcgccctga tcgaaaggcc gatagaatgg gtcgtagagt
+       61 agggtcctga acgaaagtga cggtccgttg atactacgag acaactctat tgacggattt
+      121 tgaacgcact acaactacac ccacctccaa tttgccaccc cgcaaccctc ttaccagcac
+      181 cctgagtaga caccatggcc gacaacgccc actctctgct cgtcaacgtt ttggccaccc
+      241 cacgcggtgg cctcctcgcg gcggaccagt tccgccgtta cggatcagcg atccgtacct
+      301 gggccacgtt gggccagcgc cacgacactc gtgtgaccca ggtcacgtac gaggtcgggc
+      361 gccgccgccc tacctccggg cgcaccctcg ccccccctgg cgccgacgtc ccgcggatcg
+      421 acgcctccta cgacacgaat gccgtggagg ccgagttctt cgccgggctg gctcgtcgcc
+      481 actccaactt ctccggatcg ttcatgcgat cttctttcgc cggcgtcgtc gaacgcctgg
+      541 ccctggccct cggcgcccac tccatctttg gggacgtcga ctccacggcc atccgaggca
+      601 atcacgcgct ccgcgtgact gcgctcaacg cccacgacac tcccgtgacg tcgctcacga
+      661 acagtgtctt catcccgcgt gtcactgaga cccaggtgac tgccgatgtg tgggccgtcc
+      721 tcatcaacgc cgttgctggt gagggcgcga gcatcgttac cgatgtgctg ttcctcgatg
+      781 cgaacactaa ccaggccatc gtgcccaccg tccccgcggc caacattgct gcgcccctcg
+      841 tcgcagccct ccagctgctg gggtccaaca tggtcgcctc gggccagggc cccctcttcg
+      901 ccacagcgct gactcgtggc atccacaagg ctgtgtccgt ggtcgggcac accgatgagg
+      961 ggggcatcac ccgggacctg ctacgatgcg ccgccttcgc cgccccttat ggcggcatca
+     1021 acccgaaccc ggtccagtac accgggctgc ccaccctcgc agcgacgcgc gcggcggaca
+     1081 tcgcagccta cgtggactcg atcgctctga tcactgccgc cgccgtcgcg cacgccgacc
+     1141 cgggccagcg gtacaacggg gagtggttcc cccaattctt cgtcgcaggc caccgcgacg
+     1201 tccccctccg ccccggcgaa gacgaggacg cccccgccgg ggccgccgcc atccaccgcg
+     1261 cagcagtggt ggccgcggtg agctcattca atgagctata cgtccgggcc ctgtccgcca
+     1321 tcttcggcgt ggacggggac cacctccagg cggcaggctt cttgtctgcc gccgcccact
+     1381 ctctcgaggc ggcgccccgc cacctcgact acgcctcgat caccccgtgg ttctgggtgg
+     1441 agcccacgtc gctcctgccc acccacttga tcggttccga ggcggagagt gctcggtccg
+     1501 gggccctcgc tagtgtggcg gggccgaccg agtacccggc cttcgacggg ctgcaggctt
+     1561 acgggcctgg tgacttcctc cggtctgcgt accgggcgga tgtcccctcc gcacgtcggg
+     1621 cggctatcct gctccacttc tggggccacc cgcttgatgg gatcagcacc atcatccccc
+     1681 gccagctgga cacagagaat gtggtccagc ctggaccggg ggcggcagga acgcagccgc
+     1741 agctgcgcga ccgcctcgag gcgggtgact ccctggcgga gtacctttgg acgcggggcc
+     1801 aatcgccctt ccccgcccca ggagagctcc tcaacctctc cgtgaccatg gggttcatgg
+     1861 tcaaacacgt gactctgggt gccgacgggc actacaatga agagcacatg ttctcggccg
+     1921 gggagttcct cggcgcccgt atctccgtgc aggccgcccg gccgaccggt ttcgattcgg
+     1981 gcgcgtcgag ccagggcccg cgtgatgcac gtcgcgcccg cacccgcgcc accgccgcac
+     2041 ttgccgcagc caagcggcgt gtgcaaatat tcggcactgc cgataccggc gacatgcccg
+     2101 tcgtctccgc cgcgccgccg cgcgagcctg tccgcgcgct gccgcaggag caggccgcag
+     2161 gcgccggcgt cgcgggacac gctgccgccg gacccggagc gggtggggcc cctgcccctc
+     2221 agggcccccc catccctcca accgcggagc atcgggcgaa cgccgccccc cgccccgctc
+     2281 agcgccccgg ccagcagccg ggcgccccca tcccgccggc caatcccggc gccccccccg
+     2341 cccccccccc agccgctggg ccacctgagc cccccgctcc gcccgctgac gccgcccctc
+     2401 ccgccgcccc cgctctcgct ccccccgccc ccggcgctgc cccgcctgaa cgggccgccc
+     2461 cgcagtaatg gccaacccgg cagctgcccg ctccctcagc gacatcttct ctcgcgctga
+     2521 ggagcgccga actgagttcg ggtccctcgg atccatcctc ttcggcattc tcaagtccgc
+     2581 cgccccacac ctggggttcc ttagcggcct gaccttcgct cagcaactcg ccacagtcga
+     2641 gttgcgagcg ttccaactca cgggacttca cccgctgttg cccgcagcaa tctctctact
+     2701 cgcctgcgag ttcccgatcc aactaactaa ggaatcgggt ctcgccggcc tcctcctccg
+     2761 gtccgcatat ggccttgacc aagccactct ccgccccggc gtcccaaccg aatacgccac
+     2821 cctcgccggg gccccgctct cctacgcgca gttggtgaag aaaatagcca acagcaagga
+     2881 gttccgcgcc gccgcctacc cctataaggc gcaccccggc gccgtcagca agccgaatgt
+     2941 ccacctcggc gggctggcgc gcgccctcac caccatcgtc ggctccaccg aggccggccg
+     3001 atggtttgcc ctcatcccct tcggtacgcc acgggacgtg gtttgcagcc acgtcctgta
+     3061 ctcattcgct ctccgccccc agcaccaggt cttcgcgccg gtcatcagtg ccatcgcgat
+     3121 cacccgaccc aaggacgcga agggcctcag caacgccctg aaggcactcg gtctcaacgc
+     3181 cactgccctc ggcgcgaacc ttactgaggc ccagaccctc caaggtcgga tggtcggtgc
+     3241 tgtcgattgg gaccaagagc tcgctaagcg cctcgaccca gaggtggtcc gaaagggcgc
+     3301 cgtcaagatg agcgccgagg acctccgccc ccacgtcgag gccatcctgg acatcgagct
+     3361 gccgcagggc ttcactctgc cggcactaga cgacttctgg tcctctcggt gggcttggtg
+     3421 cgtcaacggg gctcacaccg ccgcggcctc tgagatgctc ggcatcccgg gcgacgcctt
+     3481 ccccaagttc gcccgcacgt accggcggat ggcgagtgag ttcgtggcgg atgagcccat
+     3541 ctcccagtgg gacgggctca cccgtgtttc caagtccgac aagctggagc acgggaaaac
+     3601 ccgggccatc ttcgcctgcg atacacgctc gtacttcgcg tggtcgtggc ctctcaacgc
+     3661 catccagaag gcctggaaaa accgtcgcgt cctcctcgac ccggggcgcg gcggcatgag
+     3721 ttacataggg tcgagaatca accgagccgc ccaggcagcc ggcgtcaatc tgatgctgga
+     3781 tttcgacgac ttcaactccc accacaccac cgaaatcatg cagatggtga cgcgttccgc
+     3841 cctcgcacgg tcggacgctc cggggtggtt ggttgatgtc ctcgtcaaaa gcctcgactc
+     3901 ggagtacatc gaggtggacg gcgtcccccg ccacgtggcc ggcactctca tgtcgggcca
+     3961 ccgggggacg acgttcttca attccgtcct caacgcggct tacttccgga tggccgcggg
+     4021 aggagacatg ttcaaccgga tcctctctct gcacacgggc gacgacgttt acgcccgtgt
+     4081 tgcgacattc cacgatgtgg cggccatctt gaccgccatg ccagttctcg gctgccgcct
+     4141 caacccaacg aagcagtcga taggccaccg ccacgccgaa ttcctgcggt gcgccttcgc
+     4201 ccccgagcgc gcctggggct acgtcgctcg ggccatcgcc acctgtgctt ctgggtcgtg
+     4261 gacgaacgac caagcactcg gtccccgcga gttgtttcaa accaacctga gcaacactcg
+     4321 cgccattatc aatcgctcag gaaacgaaaa cttcccccgc ctactggcgc ccgcgttcca
+     4381 cttgccaaga ggaacgggca tcagggaggc aatagggctg ctcgccgggg gtcgggcagc
+     4441 cctagacaac tctcccgtct acaacacccc cacaccattt ccgaggtacc ggctcaagat
+     4501 cgccgacccg ctcacctcgc caatggacct taaggatctg cccaaccacg ccacccggca
+     4561 gttcctgacc tcccacctct ctcccgtgga gctcgaagcg ctcactatca cgcggacgga
+     4621 cccgcagccc ctcttaaccg cctctagcta ttccaagggc caggttgagg ataaaactgc
+     4681 cccgcccgtg gtcaaaatgg tgtccgctgg cgtgtacacg ccccgctccc ccggtctcgc
+     4741 ggccgcggca tacgttgccg agagggttgt cggagctttg aacgtttacc caatcgttca
+     4801 gctgctccgt gataccctct cactccgcga ggtggtgcac ctactaagct tcttaggtgt
+     4861 gcctcccggc cccgaccccc gtcggacggc cttcggctct gaagctcacc ctgtcctcgt
+     4921 caccgggacg ctgccctttt cggatgcgtc ctccattgcg agggtgacag gctacgacca
+     4981 catttatgtg acatacccca tcggtatgta atcgtcgcgg cccccaccct cgcaccttct
+     5041 cttccaccgc gcctgtcgcc tcacctccc
+//
+

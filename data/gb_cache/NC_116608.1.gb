@@ -1,0 +1,179 @@
+LOCUS       NC_116608               4622 bp    RNA     linear   VRL 22-APR-2026
+DEFINITION  Torulaspora delbrueckii virus LA strain TdV-LAbarr1, complete
+            genome.
+ACCESSION   NC_116608
+VERSION     NC_116608.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Torulaspora delbrueckii virus LA
+  ORGANISM  Torulaspora delbrueckii virus LA
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Chrymotiviricetes; Ghabrivirales; Alphatotivirineae;
+            Orthototiviridae; Totivirus; Totivirus nijyuhachi.
+REFERENCE   1  (bases 1 to 4622)
+  AUTHORS   Ramirez,M., Velazquez,R., Maqueda,M. and Martinez,A.
+  TITLE     Genome Organization of a New Double-Stranded RNA LA Helper Virus
+            From Wine Torulaspora delbrueckii Killer Yeast as Compared With Its
+            Saccharomyces Counterparts
+  JOURNAL   Front Microbiol 11, 593846 (2020)
+   PUBMED   33324373
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 4622)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-APR-2026) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 4622)
+  AUTHORS   Ramirez,M., Velazquez,R., Maqueda,M. and Martinez,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-OCT-2020) Microbiologia, Universidad de Extremadura.
+            Spain., Avda. de Elvas s/n, Badajoz, Extremadura 06071, Spain
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MW174763.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: SOAP deNOVO2 v. Luo et al., 2012
+            Assembly Name         :: TdV-LAbarr1 EX1180
+            Coverage              :: 100%
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4622
+                     /organism="Torulaspora delbrueckii virus LA"
+                     /mol_type="genomic RNA"
+                     /strain="TdV-LAbarr1"
+                     /isolation_source="Wine"
+                     /host="Torulaspora delbrueckii strain EX1180"
+                     /db_xref="taxon:2811342"
+                     /geo_loc_name="Spain: Merida, Extremadura"
+                     /collection_date="2006"
+     CDS             join(61..1984,1984..4571)
+                     /ribosomal_slippage
+                     /codon_start=1
+                     /product="gag-pol fusion protein"
+                     /protein_id="YP_013026620.1"
+                     /translation="MFRFINRKTTQANNIIPIQSDQGTFTIYGRNRIDFKYDGLTFSR
+                     QLGVSQKFTLLGNPDVHQSESGSYLDGIAKKYLTLEGGLAIENVMSELRSNSGIPASA
+                     VSAHAFNIASWRWYDNHVALLINMLRAYHLKVLDERGEFGAGHYPKYDDGHLAITVVP
+                     PTGALETDHFRWPFKRGEVLAPEWAHHTEAMPTIEVPYIDVRPLTSVEVNFVLMMMCK
+                     WSRQTNLAIDFDLPNLTDRFAYRHTAKVTEADEWLMNERPDAAFPVLSSKAMLSAIRK
+                     YVNHNRVYNHFETAAQILAQLMVKPLPNNAEGHAWLLHDPVVNIPKFGSVRGRYPFLL
+                     TGEASLVQATALEDWSAIMGKPEIVFTYAVDHAIAVNTGLYLRRIKKTGMGTRVDDSY
+                     EDGVFLSPETFMAAAVACATGEDAPLNGMSDVYVFYPQFVDLDTVTYIPAQVREAEGY
+                     NVTSEGLKVLGVPLACSPVLLYPMAAFDDANPYSGSFKIGKAERYVRGRAVYSPFEAW
+                     KLAWAARIAGYDTRVSIPGDNTGLSKLYADNADSWTHIPDSFLNPEAEFIYVTDLERR
+                     RRHFIDLPNMTNPSFARSIEVQITLNDMYVESTPGSRSRAMVLSRDYVAPIASGIQVI
+                     SAADLRNYWGSVRRSNAGFILGRFYDASSNSYRKEYRWSRPPRGDRTRARAFSRINLI
+                     ESEHGHRPRRYIASGNEVVPIWIRFGRRIECVSRQKATYFLADVIPREEAINYTSANT
+                     AQVAIRRSTYTASGILVKLGDNYGFYLHVDEDMTVKTPALRRYASMAYSNVRGSCYNT
+                     PTIMDTLCNIFDYDPDSRPSSFKGLRSYTKSKVTGMHHTHLRPQDVLSAAKKTGNSHY
+                     YYVQVAVERLASAGVTTEATVSTIMLYVLTSNDTTRALFLDSKAIWSKTDGEDELSDR
+                     LKRVSGQIKSIHTSELEPLTELFELQVLMNRGIGHVDWNGERHNRTNPNTVNVDQKML
+                     YSVVRDMFEDSKQSYKYPYMTWNDYADSRWEWIPGGSVHSQYPQDDEYIVPGLYTRNK
+                     FITVNLMPKNKLASIGASKPEVRAWTSTKYEWGKQRAIYGTDLRSTLITNFAMFRCED
+                     VLKHKFPVGDQAEASKVHKRISMMLGNASSFCFDYDDFNSQHSISSMYTVLLAFRDAY
+                     SRNMSPAQLRAMDWVCESTKHMYAKDPGTNDWYELKGTLLSGWRLTTFMNTVLNWAYM
+                     KVAGVFDITDVEDSVHNGDDVMISLNRVSTAVKIMERMRLINARAQEAKCNLFSISEF
+                     LRVEHGMTGKSGLGAQYLSRSCATIVHSRIESNEPISLVRLLEADKTRLRDLSDRTTR
+                     EDVLVNIKYELDMRAVNVFGADYNVVQDIYKSHRVCGGINDDKWGSVDTEIHTDSGAY
+                     QIPEEIDDPSFWPGVNDYARKAYNILGEKLEFNKIKSAVARGSRLTIAMKRRARVGST
+                     PTEFINIKQWERAMYRAFKGVAISYYTSLSKFMAVPPISGLDRGEGAMAVNAAIASAD
+                     PLRALQILV"
+     CDS             61..2097
+                     /codon_start=1
+                     /product="gag"
+                     /protein_id="YP_013026621.1"
+                     /translation="MFRFINRKTTQANNIIPIQSDQGTFTIYGRNRIDFKYDGLTFSR
+                     QLGVSQKFTLLGNPDVHQSESGSYLDGIAKKYLTLEGGLAIENVMSELRSNSGIPASA
+                     VSAHAFNIASWRWYDNHVALLINMLRAYHLKVLDERGEFGAGHYPKYDDGHLAITVVP
+                     PTGALETDHFRWPFKRGEVLAPEWAHHTEAMPTIEVPYIDVRPLTSVEVNFVLMMMCK
+                     WSRQTNLAIDFDLPNLTDRFAYRHTAKVTEADEWLMNERPDAAFPVLSSKAMLSAIRK
+                     YVNHNRVYNHFETAAQILAQLMVKPLPNNAEGHAWLLHDPVVNIPKFGSVRGRYPFLL
+                     TGEASLVQATALEDWSAIMGKPEIVFTYAVDHAIAVNTGLYLRRIKKTGMGTRVDDSY
+                     EDGVFLSPETFMAAAVACATGEDAPLNGMSDVYVFYPQFVDLDTVTYIPAQVREAEGY
+                     NVTSEGLKVLGVPLACSPVLLYPMAAFDDANPYSGSFKIGKAERYVRGRAVYSPFEAW
+                     KLAWAARIAGYDTRVSIPGDNTGLSKLYADNADSWTHIPDSFLNPEAEFIYVTDLERR
+                     RRHFIDLPNMTNPSFARSIEVQITLNDMYVESTPGSRSRAMVLSRDYVAPIASGIQVI
+                     SAADLRNYWGSVRRSNAGLSLVGFTMPAVIPTERSIAGQDLQEAIELEQEPSVE"
+ORIGIN      
+        1 cacgtagctt tattaattaa tatgctacgt gcctatcatc tcaaagtcct attgatcccc
+       61 atgttcagat ttattaacag aaaaactacg caagctaata acatcatccc tatccagtcg
+      121 gatcagggaa cttttacgat atacggtagg aatcgtattg acttcaagta tgatggccta
+      181 actttttcta ggcaattagg agtttcccag aaatttactt tgcttggtaa cccggatgtc
+      241 caccaaagtg agtcgggctc ctacttagat ggtattgcga agaagtattt aactcttgag
+      301 ggaggactag ctattgagaa tgtcatgtct gaattacgca gtaacagcgg gatacctgcc
+      361 tcagccgtat cagctcacgc gtttaacata gcatcttggc gctggtacga taaccacgta
+      421 gctttattaa ttaatatgct acgtgcctat catctcaaag tcctagacga gaggggtgag
+      481 ttcggtgcgg gccactaccc taagtatgac gatgggcatc tggccattac tgtagtgcca
+      541 cctactggtg ccttggaaac tgaccacttt agatggccat tcaaaagagg tgaagtgctc
+      601 gcaccagagt gggcccacca tactgaggcc atgcctacaa tagaggtgcc ttacatcgat
+      661 gtccgccctt taacatcagt tgaagtcaac ttcgtgttga tgatgatgtg taagtggtca
+      721 cgccagacta atcttgccat agacttcgat ttacctaacc tgacagaccg gttcgcctat
+      781 agacacaccg ccaaggtgac ggaagcggac gagtggttaa tgaacgaaag gcctgatgca
+      841 gcctttccgg tactgtccag taaggctatg ttgtctgcga tcaggaagta cgtcaatcac
+      901 aacagagtgt acaatcactt tgaaactgcg gcgcagatac tagcacagct gatggttaag
+      961 cctttgccga ataacgctga agggcacgca tggttactac atgacccggt tgtgaatata
+     1021 cctaagttcg ggtcagttag gggcagatat ccgtttttac tcacgggtga agcttctttg
+     1081 gtgcaagcaa cagcactaga agattggtca gctatcatgg gtaagccgga gatagttttt
+     1141 acctatgcag tagatcatgc tatagcagtg aatactggct tgtacttgag gcgcatcaag
+     1201 aaaacgggaa tgggcaccag ggttgatgat agctacgaag atggtgtctt cctttcacct
+     1261 gagacgttca tggctgcagc agtcgcttgt gccaccggag aggatgcacc tctaaacgga
+     1321 atgtcagacg tctacgtatt ttatcctcaa tttgtggatc tcgacactgt gacttatata
+     1381 cctgcccaag ttcgtgaagc ggaagggtac aacgtcacta gcgagggtct taaagttttg
+     1441 ggagtacctt tggcttgctc gccagtgtta ctctacccta tggcggcatt tgatgatgca
+     1501 aacccatatt cgggatcgtt caagatcggc aaagccgaaa ggtatgtgag aggcagggcc
+     1561 gtttattcac cattcgaggc ctggaagcta gcctgggcgg cgagaatcgc tgggtatgat
+     1621 actcgcgtat ctatacctgg cgacaatacc ggcttatcta agctatatgc agacaatgcc
+     1681 gattcctgga ctcacatacc ggactcattt ctcaatcctg aagcagaatt tatttatgtg
+     1741 actgatctag agaggaggag aaggcacttt atagacttgc cgaacatgac caatccttca
+     1801 ttcgcaagat cgatagaagt acagattaca cttaacgata tgtatgtcga gtctactccc
+     1861 gggtcccgct cacgggctat ggtgctgagc agggactacg tcgcgccgat agcgtctggt
+     1921 atacaagtga ttagtgccgc tgacttgagg aactattggg gctcagtccg ccggtcgaat
+     1981 gcgggtttat ccttggtagg ttttacgatg ccagcagtaa ttcctaccga aaggagtatc
+     2041 gctggtcaag acctccaaga ggcgatagaa ctagagcaag agccttcagt agaataaatc
+     2101 ttatagaaag cgagcacggt cataggccac gcagatacat tgcttctggt aatgaagtag
+     2161 tccctatatg gatcagattc ggccgccgca ttgagtgtgt ttcacgtcag aaagcaactt
+     2221 actttctggc tgacgttatc cccagagaag aggctataaa ctacacctct gctaacacag
+     2281 cccaagtggc cataaggaga agtacatata cggctagcgg tattttagtc aaactcggag
+     2341 acaactatgg tttctaccta cacgtcgatg aagatatgac agtcaaaacg ccggccttac
+     2401 gaaggtacgc ttcgatggct tactctaacg tgcgcggttc atgttataac actcctacca
+     2461 taatggacac tctgtgtaat atttttgact acgaccccga ttcgcggcca tcctcattta
+     2521 agggactgcg ttcttacacc aagtcaaagg ttacggggat gcaccatacc catttaaggc
+     2581 cacaagatgt tttgtcggct gccaagaaga ccggaaatag tcattattac tacgtgcagg
+     2641 tggctgtcga gcgtctagca tcggctggcg taactacaga ggcaactgtt tcaaccataa
+     2701 tgttgtatgt cctcacatca aacgacacca cacgggcatt gttcctagat tctaaagcta
+     2761 tatggtcgaa gactgacggg gaagatgaat tatctgaccg actcaagcga gtaagcggac
+     2821 agatcaagtc aattcacaca agtgagctgg agcctttaac cgagttgttc gagcttcagg
+     2881 tcttgatgaa ccggggtata ggacatgttg actggaatgg ggaaagacat aacaggacca
+     2941 accctaatac tgtgaatgta gatcaaaaga tgctctatag tgttgtacgc gatatgtttg
+     3001 aagattctaa gcaatcgtac aaatacccgt atatgacatg gaacgactat gcggatagta
+     3061 ggtgggaatg gatacctgga ggtagtgtac actcgcaata ccctcaggat gatgaataca
+     3121 tagtccctgg tctctacacc aggaataagt tcataacagt aaacctcatg ccgaagaata
+     3181 agttagcctc aatcggcgca tcgaaaccag aagtcagagc atggacatca actaaatacg
+     3241 agtgggggaa acagagagct atctatggaa ctgatctgag gagcactctg ataactaatt
+     3301 ttgcgatgtt cagatgcgag gacgtactta aacacaagtt tcctgttggc gatcaagcag
+     3361 aagcaagtaa ggttcataaa aggatttcca tgatgctagg gaatgcgtct agtttttgtt
+     3421 tcgattatga cgacttcaat tctcagcact ctatttcgag catgtacact gtgttgttgg
+     3481 cgttcaggga tgcttactct cgtaatatgt cgccagctca gttgcgtgcg atggattggg
+     3541 tatgtgaatc aaccaaacat atgtatgcta aggacccggg gacaaacgac tggtatgaat
+     3601 tgaaaggaac tttgttatca ggatggagac taactacgtt tatgaatact gttctcaact
+     3661 gggcatatat gaaggtcgca ggagtctttg acataactga cgtagaagat tcggtgcata
+     3721 acggggacga cgtcatgata agtctaaacc gggtgtccac agcagttaag ataatggaga
+     3781 ggatgaggct gattaacgct agagctcaag aagctaagtg taatctcttt tcaatcagtg
+     3841 aattcttacg ggtcgaacat ggtatgacag gaaaatctgg tttgggtgca cagtacctaa
+     3901 gccgttcctg tgctactata gtgcatagta ggattgaatc aaatgagccg atatcacttg
+     3961 tcagattact tgaagctgat aagaccaggc tgagggacct aagtgataga acgacacgag
+     4021 aagacgtctt ggtgaacata aagtatgagc tagatatgag agctgtcaac gtatttggcg
+     4081 ccgattacaa cgtagttcaa gacatatata aatctcacag agtatgcggt gggattaacg
+     4141 atgataagtg gggatcagta gacactgaga ttcacacaga ttctggggca tatcagatac
+     4201 ctgaagaaat agacgatccg tcattttggc caggtgttaa cgattatgcc aggaaagcat
+     4261 acaatatcct aggagagaaa ctagaattta acaagattaa gagtgcagta gccagaggta
+     4321 gcaggctaac gattgccatg aaacgaagag cgcgagtagg atcgacgcct acagagttta
+     4381 ttaatatcaa gcaatgggag cgtgcgatgt acagagcttt taaaggggtt gcgatatcat
+     4441 attacaccag cttgagcaaa tttatggctg taccacctat atcagggctt gatcgaggcg
+     4501 agggcgccat ggcagttaac gctgctattg cgagcgccga tcctctgcgg gcacttcaaa
+     4561 ttctagtata atcactaggg aaagagatgg atttaatcca taagcatacc acctatatca
+     4621 gg
+//
+

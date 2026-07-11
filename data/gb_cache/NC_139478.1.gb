@@ -1,0 +1,151 @@
+LOCUS       NC_139478               3172 bp    DNA     circular VRL 08-JUN-2026
+DEFINITION  Musk shrew hepatitis B virus isolate CIV-304, complete genome.
+ACCESSION   NC_139478
+VERSION     NC_139478.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Musk shrew hepatitis B virus
+  ORGANISM  Musk shrew hepatitis B virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Blubervirales; Hepadnaviridae; Orthohepadnavirus; Orthohepadnavirus
+            soriciodoris.
+REFERENCE   1  (bases 1 to 3172)
+  AUTHORS   Rasche,A., Lehmann,F., Konig,A., Goldmann,N., Corman,V.M.,
+            Moreira-Soto,A., Geipel,A., van Riel,D., Vakulenko,Y.A.,
+            Sander,A.L., Niekamp,H., Kepper,R., Schlegel,M., Akoua-Koffi,C.,
+            Souza,B.F.C.D., Sahr,F., Olayemi,A., Schulze,V.,
+            Petraityte-Burneikiene,R., Kazaks,A., Lowjaga,K.A.A.T., Geyer,J.,
+            Kuiken,T., Drosten,C., Lukashev,A.N., Fichet-Calvet,E.,
+            Ulrich,R.G., Glebe,D. and Drexler,J.F.
+  TITLE     Highly diversified shrew hepatitis B viruses corroborate ancient
+            origins and divergent infection patterns of mammalian
+            hepadnaviruses
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 116 (34), 17007-17012 (2019)
+   PUBMED   31371507
+REFERENCE   2  (bases 1 to 3172)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JUN-2026) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 3172)
+  AUTHORS   Drexler,J.F. and Rasche,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (27-DEC-2018) Institute of Virology, Charite -
+            Universitatsmedizin Berlin, Helmut-Ruska-Haus Chariteplatz 1,
+            Chariteplatz 1, Berlin, Germany 10117, Deutschland
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MK345463.
+            
+            ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3172
+                     /organism="Musk shrew hepatitis B virus"
+                     /mol_type="genomic DNA"
+                     /isolate="CIV-304"
+                     /host="Crocidura olivieri"
+                     /db_xref="taxon:2596880"
+                     /geo_loc_name="Cote d'Ivoire"
+                     /collection_date="2004"
+     CDS             join(2134..3172,1..1469)
+                     /codon_start=1
+                     /product="polymerase"
+                     /protein_id="YP_013613124.1"
+                     /translation="MHPFSPLFQKLAISEEEPPEVLLQHLADEDLNLQVKEDLHLPPE
+                     SDIPWTHKVNDLLGLYHQKTYKYNPDWTFPDFSGIHLRGDLIPAIEKYFGPLTSAEKR
+                     RLKLVSPCRFFPKKTKYFPLHKAIKNHYPNYQLHHQFKASAYLWQLYFAGILYLRESQ
+                     STASFIGQAYPWEHRLHGKLCGHYGKSAGCGNKLWSCRGGDFQSSGRSGVLVFQDKSS
+                     PATGELWDPSKVRLGPKLESPSTKHDLHFTSRGLQKETRATSSKAGIQQDSSLNPTTT
+                     RVKKGGCKTKPKAYKASGFEPRSSQNSPGCDLEGTSSCPIQVFSQGGYCGQYCLKSIF
+                     EEGRDWGDCPGKHGNRICIKIPRTPRRVTGGIFLVDKNPRNTAESRLVVDFSQFSRGE
+                     QRVQWPRFAVPNLQALTNIMPSNMQWLSLDVSAAFYHLAFSPAVMPHLLVGVPGLFGG
+                     HSSLPPKHGWRNNNCAMQDLHRHCNRYTWETLMLLSQRLGWRQLHLCSHTCILGFRKI
+                     PMGVGLSPFLLAQFTTAIVSVVRRNFPHCFAFSYMDDLVLGAKHLHHLQSVYSSVVSF
+                     MVHLGIKINPQKTKWWGYNLHFMGLVLGPSGTLPQPQHSERALKQLKSMPLHRPIDYK
+                     VIQRLLGILSYVAPFTKFGWPLLMPMYQVKTAFCFSKEYKQMLIINYSDLYPVSKQRT
+                     VSSYVYSDATPSSWGYVSPYDLANGVFVNDLPIYVAEAIAAALAYINTGAPLIGVDNL
+                     AVCAHKFTHLPWLLGCYLHWILRRVRFIYIPSHLNPADAVSRLLHRPSLPLARLHLHP
+                     SWGRIALHADSPPVLPRLQDRVHFDSPLLIWEVCRPP"
+     CDS             join(2861..3172,1..678)
+                     /codon_start=1
+                     /product="surface"
+                     /protein_id="YP_013613125.1"
+                     /translation="MTCILHPEACKKKQEQPAPRQESNRTPPSTPPQPGSKRVVAKPN
+                     PKPIKPVVLNPDHHRTPLDVISRGHPPVPSRSSPRGDTVANTASNPSLKKAEIGEIAL
+                     ASMATESASRFLGPLAGLPVVFFLWTRIQETLQSLDWWWTSLNFPGGNKECNGQDSQC
+                     QTSRHSLTSCPPTCSGYPLMYRRRFIILLSLLLLCLTCWLGYLDYSGAIPVCPLSMDG
+                     ETTTVQCKTCTGTATGIPGKPLCCCLKGSGGGNCTCVPIPASWAFVRYLWELVSHHFS
+                     WLNSLLLLFRWLEGISPTVLLLVIWMIWYWVPSISTIFNLFIPLLLALWYIWG"
+     CDS             1214..1624
+                     /codon_start=1
+                     /product="X protein"
+                     /protein_id="YP_013613126.1"
+                     /translation="MAARMLFTLDPETGALHLHPFSSEPRGRGEQTPSQTISSSGSAA
+                     SSSFLGSHCSSRRLPSCAASPAGPCTLRFTFADLGSMQTPMNSVNFLNCTRRGHPRKL
+                     PHQQKYWTWYFWSKPNVNNLHHYWLMCYGGCRHK"
+     CDS             1725..2270
+                     /codon_start=1
+                     /product="core"
+                     /protein_id="YP_013613127.1"
+                     /translation="MDKLDIYKEFGTTDALISFLPNDFFPPLNQLLEVAESLFGEQLL
+                     DNLHHSPHHTALRHLIMCAQEINKLLDWMQAQGLQDQALNLVVGQVNANSALHLRKAI
+                     WFHTSCLTFGQGVVLEYLVSFGVWIRTPIPYRPANAPILTTLPETCHLRGRAPRGSSP
+                     APSRRRSKSPGKRRSPSPARK"
+ORIGIN      
+        1 atggcaacag aatctgcatc aagattcctc ggacccctcg cagggttacc ggtggtattt
+       61 ttcttgtgga caagaatcca agaaacactg cagagtctag actggtggtg gacttctctc
+      121 aattttccag gggggaacaa agagtgcaat ggccaagatt cgcagtgcca aacctccagg
+      181 cactcactaa catcatgccc tccaacatgc agtggctatc ccttgatgta tcggcggcgt
+      241 tttatcatct tgctttctct cctgctgtta tgcctcactt gttggttggg gtacctggat
+      301 tattcggggg ccattccagt ttgcccccta agcatggatg gagaaacaac aactgtgcaa
+      361 tgcaagacct gcacaggcac tgcaacaggt atacctggga aacccttatg ctgttgtctc
+      421 aaaggctcgg gtggaggcaa ctgcacctgt gttcccatac ctgcatcttg ggctttcgta
+      481 agatacctat gggagttggt ctctcaccat ttctcttggc tcaattcact actgctattg
+      541 tttcggtggt tagaaggaat ttcccccact gttttgcttt tagttatatg gatgatttgg
+      601 tattgggtgc caagcatctc caccatcttc aatctgttta ttcctctgtt gttagcttta
+      661 tggtacatct ggggataaag ataaatcctc agaaaactaa gtggtggggc tataatctcc
+      721 actttatggg cttggtgcta ggcccaagtg ggaccttacc acaacctcag cacagtgaaa
+      781 gggctcttaa acaattgaaa tcaatgcccc ttcacagacc tattgattat aaagtgattc
+      841 agagattatt aggaatatta tcttatgtag ctccttttac aaaatttggt tggcctttgt
+      901 taatgcctat gtatcaagtt aaaactgcat tttgcttctc taaagaatat aagcaaatgt
+      961 taatcattaa ctattcagac ctttaccctg taagcaaaca aagaactgtt tcttcttatg
+     1021 tttattctga tgcaactcca agttcatggg gctatgtgtc accctatgac ttggcaaatg
+     1081 gagtgtttgt taatgattta cctatatatg tggcggaggc cattgctgct gcactggcat
+     1141 acatcaacac tggtgctcct ttgattggtg tggacaattt ggctgtttgt gctcataaat
+     1201 ttacacatct accatggctg ctcggatgtt atttacattg gatcctgaga cgggtgcgct
+     1261 tcatctacat cccttctcat ctgaaccccg cggacgcggt gagcagactc cttcacagac
+     1321 catctcttcc tctggctcgg ctgcatcttc atccttcctg gggtcgcatt gctcttcacg
+     1381 cagactcccc tcctgtgctg cctcgcctgc aggaccgtgt acacttcgat tcacctttgc
+     1441 tgatttggga agtatgcaga cccccatgaa ctctgtgaac tttctgaact gtaccagaag
+     1501 ggggcaccct aggaaactgc cacatcaaca aaaatattgg acttggtact tttggtctaa
+     1561 acctaatgta aacaatttac atcattattg gttaatgtgt tatgggggct gtaggcataa
+     1621 atagtggaac tgcttgtgtt ctgcatactt tttcaccttt gccaacctat atttccaacc
+     1681 ctacttttca agcccccaag ctgtgccttg agtggcttta gggtatggat aaacttgaca
+     1741 tctataaaga atttggaact actgatgcct tgatctcttt tttacctaat gatttctttc
+     1801 ctcctctcaa tcagctattg gaggtggctg agtctctttt tggggagcag ttgctggata
+     1861 atttacatca ttctcctcat catactgccc tgcggcacct tattatgtgt gcccaggaaa
+     1921 ttaataaatt gctggattgg atgcaggctc aaggcctaca ggaccaggct ttaaatttgg
+     1981 ttgtggggca agttaatgcc aactctgcct tgcacctcag aaaagccatc tggttccata
+     2041 cctcctgcct aacttttggc cagggggtgg tcctggagta tctggtttcc tttggtgttt
+     2101 ggattagaac acctattcct tataggccag ccaatgcacc cattctcacc actcttccag
+     2161 aaacttgcca tctcagagga agagccccca gaggttcttc tccagcacct agcagacgaa
+     2221 gatctaaatc tccaggtaaa agaagatctc catctcccgc cagaaagtga tattccttgg
+     2281 actcacaagg taaatgatct tttaggcctt tatcatcaga aaacttacaa atacaatcca
+     2341 gactggactt ttcctgactt ttcaggaatc cacttaaggg gggaccttat acctgccatt
+     2401 gaaaaatatt ttgggccttt aacttcagca gagaaaagaa gactcaagct tgtttctcct
+     2461 tgcagatttt tcccaaaaaa gactaaatat tttcctttgc ataaggccat aaagaaccac
+     2521 tatcccaact atcaactaca tcatcaattt aaggcctctg cttatttgtg gcaactttat
+     2581 tttgctggca tcctatattt gagggagtct caatctactg cctcatttat aggtcaagct
+     2641 tatccttggg aacatagact gcatgggaaa ctttgtggac attatgggaa gtcagctggc
+     2701 tgtgggaaca agttatggag ctgcagaggg ggagactttc aatcctctgg cagatctggg
+     2761 gtacttgttt tccaagataa atcctcacca gccactggag aattatggga ccccagcaag
+     2821 gttagactgg gacccaaatt ggaatccccc tcaacaaaac atgacttgca ttttacatcc
+     2881 agaggcctgc aaaaagaaac aagagcaacc agctccaagg caggaatcca acaggactcc
+     2941 tccctcaacc ccaccacaac cagggtcaaa aagggtggtt gcaaaaccaa acccaaagcc
+     3001 tataaagcca gtggttttga acccagatca tcacagaact cccctggatg tgatctcgag
+     3061 gggacatcct cctgtcccat ccaggtcttc tcccaggggg gatactgtgg ccaatactgc
+     3121 ctcaaatcca tctttgaaga aggcagagat tggggagatt gccctggcaa gc
+//
+

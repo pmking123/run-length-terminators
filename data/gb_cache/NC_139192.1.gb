@@ -1,0 +1,159 @@
+LOCUS       NC_139192               3779 bp    RNA     linear   ENV 23-APR-2026
+DEFINITION  MAG: Alehxovirus fundihabitans isolate R9-k141_373641, complete
+            genome.
+ACCESSION   NC_139192
+VERSION     NC_139192.1
+DBLINK      BioProject: PRJNA485481
+            BioSample: SAMN18395529
+            Sequence Read Archive: SRR14040001
+KEYWORDS    ENV; Metagenome Assembled Genome; MAG; RefSeq.
+SOURCE      Alehxovirus fundihabitans (soil metagenome)
+  ORGANISM  Alehxovirus fundihabitans
+            Viruses; Riboviria; Orthornavirae; Lenarviricota; Leviviricetes;
+            Timlovirales; Steitzviridae; Alehxovirus.
+REFERENCE   1  (bases 1 to 3779)
+  AUTHORS   Chen,Y.M., Sadiq,S., Tian,J.H., Chen,X., Lin,X.D., Shen,J.J.,
+            Chen,H., Hao,Z.Y., Wille,M., Zhou,Z.C., Wu,J., Li,F., Wang,H.W.,
+            Yang,W.D., Xu,Q.Y., Wang,W., Gao,W.H., Holmes,E.C. and Zhang,Y.Z.
+  TITLE     RNA viromes from terrestrial sites across China expand
+            environmental viral diversity
+  JOURNAL   Nat Microbiol (2022) In press
+   PUBMED   35902778
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 3779)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-APR-2026) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 3779)
+  AUTHORS   Chen,Y.-M. and Zhang,Y.-Z.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAY-2021) East China Institute of Pathogen Biology,
+            Shanghai Public Health Clinical Center, No. 2901, Caolang Road,
+            Jinshan District, Shanghai, Shanghai 201508, China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to MZ679697.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Megahit v. 1.1.3
+            Coverage              :: 888x
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..3779
+                     /organism="Alehxovirus fundihabitans"
+                     /mol_type="genomic RNA"
+                     /isolate="R9-k141_373641"
+                     /isolation_source="farmland"
+                     /db_xref="taxon:3426040"
+                     /environmental_sample
+                     /geo_loc_name="China: Yunnan"
+                     /metagenome_source="soil metagenome"
+                     /metagenomic
+                     /note="previous_name: Leviviridae sp., updated per ICTV
+                     VMR 40.1"
+     CDS             13..1215
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative maturation protein"
+                     /protein_id="YP_013610012.1"
+                     /translation="MCGLSSLTACILHPMRIRAVTRSIRTRTQSVAFPFGTYSGFFAG
+                     TPESGSNTGSMLVNTCQDSHGRPVKDSLLTISHTDESGLIPVSGSTTSGSNWGTASGF
+                     ILRGTRPGTLGHVSTGIPSAASSMLDLIAGTNPSRPDIVPLTLLQDLYDLPRMLRDVG
+                     KLLRTPRRLLNDREVANQYLGAKFGWLPLVDDAHKLLNVQSYIHRRKSEIDRLYSQGG
+                     LKRRYHLGEWDAADQSVVPFESYHMLGASGRRSRTTHAERWGTIRWKPSTTPGHTPSD
+                     ADRIKLARQVVLGMTSSATIKGLWDLVPWSWIVDWFTNAANFAVANANTIPATHNGAC
+                     IMTHTRTEYQYEVTAMTSGYTGGGGSSSYETKERFVGSASASVHIPYLNGDRLKILGA
+                     LFVQRFKG"
+     CDS             1243..1617
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative coat protein"
+                     /protein_id="YP_013610013.1"
+                     /translation="MLGSTLVITLDGSGGTAKTLPLINQDGYSSEYFLDDGLVTYRAK
+                     VRHSSDSVKAGSQSFDRHTVTFERYLKPTTTAAGSLSSVIYTIRNDPNGTASDIIDVS
+                     EAMSFYMVKAGGIAAKLLGWES"
+     CDS             1728..3695
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative replicase protein"
+                     /protein_id="YP_013610014.1"
+                     /translation="MKDLKSYEDYLLGYYGAMLSDIARHHPSLQKECDRDNKRLLSAV
+                     KQHGLHFLCEVLPSFGKHFDQCLSKGRLTPSGLCHFRPFRKGGSIPRLFKGLILRVFD
+                     HSGELRSVPDVQAIRDVRQLCFAAKRLRIPCPDSKTWEQVYEFFKTDSEIVQPSLNWD
+                     VGDFSSDSCGLLQLGDDLLSKPGGPLFTGGEPTASSTIDRECIDFVQRTADCIAAQIG
+                     RFDPFDWKPRHGPGAVADLKDKSYKYDFPNWPPKLEKEFPNAEFGFSNVLHFLDLSSH
+                     LDRGSRLPLEHEPPARLIAVPKSYSGPRLIAAEPVAHQFCQQAISSFLMSRVRETISG
+                     QFISFNDQTKNASLALEASLDGSLSTIDLSSASDRMSCWLVERIFRRSPSLLDAFYAV
+                     RTRWIRQDLDRTLPTYSRLNKFSTMGSAVTFPVQSIVFLCIAIGTTLYERRSLPTYAS
+                     IRSLRGQVRVFGDDIIVPTYASGMTVAALEHFGFKVNRAKTFCSGRFRESCGMEAFGG
+                     EDITKVSLLSPPSVSKPESILSSIDTHNNLVNRGWYCTADYIKTSVDKMKRYCFPLVG
+                     LDSGAIGWSTFSDIGTHFFKRRWNPDLQRREILVTQPRGCASRTPVDSNSVILQYFTE
+                     VTSPPVSHEERLGRVSLRHPIRLGRVWVPEL"
+ORIGIN      
+        1 gggagagccc gcatgtgcgg gctctcgagc ttaaccgctt gcattttgca ccctatgcgg
+       61 attcgcgctg tgacacgtag tataagaaca cggactcagt ccgtggcctt cccttttggg
+      121 acttattcag ggttctttgc tggaactcct gagagtggta gtaatactgg cagtatgtta
+      181 gtcaacacct gccaggactc ccacggtcgg cccgtgaagg atagtctatt gactatctct
+      241 cacaccgacg agtccgggtt gattccggtt tccgggtcaa ccacatctgg gtccaactgg
+      301 ggtaccgcgt caggtttcat cctgcgtggt acccggccgg gtactttggg tcacgtcagt
+      361 acaggtattc cttctgcagc atcgagtatg ctcgacctca ttgcgggaac taatccctcc
+      421 cgccctgata tcgtgccctt gacactgttg caggatctgt atgacttgcc tcgtatgctt
+      481 cgcgatgtag ggaaacttct ccgaacccct cgtagactgc tcaacgaccg tgaggtcgct
+      541 aaccagtatc tcggggctaa gttcggatgg cttcctctcg tcgacgacgc acacaaactc
+      601 ctgaatgtgc aatcttatat tcacagacgt aagtctgaaa tagaccgatt gtactctcaa
+      661 ggagggctta agcgccgcta ccatttggga gagtgggacg ctgcagacca gtctgtggta
+      721 ccttttgaaa gttaccatat gctgggtgcg tccgggcggc gtagtcgtac gactcacgcc
+      781 gagcgctggg gcactattcg gtggaaaccg agtactactc caggtcacac tccttccgat
+      841 gctgatagga ttaaactcgc tcgacaggtg gtattaggaa tgacttcctc tgccacgatc
+      901 aaaggccttt gggatcttgt cccttggtct tggattgtcg actggtttac caatgctgct
+      961 aacttcgcag ttgcgaatgc taacaccatt cccgctacgc ataatggagc atgtattatg
+     1021 acccatacgc gtactgagta tcagtatgaa gtcaccgcta tgacctctgg ttataccggt
+     1081 ggcggtggta gctcatccta cgagacaaaa gaacgtttcg taggctctgc ttccgcatct
+     1141 gttcatatcc cctatctaaa tggggatcga ctgaagatcc ttggtgctct gttcgttcag
+     1201 cgcttcaagg gctgaacgtc attcatcaag gagaaggtac ccatgcttgg gtcaacccta
+     1261 gttattaccc ttgacggttc cggtggaact gccaagaccc tcccacttat taaccaggac
+     1321 ggttattcat ccgaatactt tttggatgat ggtctcgtta cttaccgagc gaaagttcgg
+     1381 catagttccg attccgtgaa ggctggaagt cagtcgttcg atcgccacac tgtgacgttc
+     1441 gaacgctatc tcaagcctac cacgaccgct gctggttcgc ttagcagtgt catctatacg
+     1501 atcagaaatg atccaaatgg caccgcgtct gacatcattg atgtcagcga ggccatgagc
+     1561 ttttacatgg taaaagctgg tggtatcgcg gcgaaacttc tcggatggga gtcttaatcg
+     1621 actcccttct ttgagtttgg cgtgggagcc ttacctcggt tcttccttgg taaggataac
+     1681 ttgggcctgt cctgagctcg tagatgtctt aacaagggag ttgtcccatg aaagacctca
+     1741 agagctacga ggactacctt ctaggatact acggtgccat gttaagtgac atagcacgtc
+     1801 atcaccctag tcttcagaaa gagtgcgatc gcgataacaa gcggctgctc tcagcggtca
+     1861 aacagcatgg acttcacttt ctttgtgaag tcctgccgtc ttttggtaag cactttgatc
+     1921 agtgcctatc aaaaggacgc ctaactcctt ccgggttgtg ccattttagg cctttccgta
+     1981 aggggggatc aatccctaga cttttcaagg ggctgattct tcgcgttttt gaccattctg
+     2041 gggagttgag atcggttcct gatgtacagg ccatccgcga tgtacggcag ctttgttttg
+     2101 ctgccaaacg tcttaggatt ccctgtcctg actcaaaaac ttgggaacaa gtctatgagt
+     2161 tcttcaagac cgatagtgaa atcgtccaac catccctcaa ttgggacgtt ggcgatttta
+     2221 gctctgatag ttgtggtctt cttcagcttg gagatgacct tctatctaag ccaggcggac
+     2281 cgctcttcac aggcggcgag cccactgcct ccagcaccat tgaccgggaa tgcatcgact
+     2341 ttgtccaacg gacagccgat tgtatcgccg ctcaaatcgg acggttcgac ccgttcgact
+     2401 ggaagcctcg acacggacct ggagccgtag cggacctaaa ggataagtcg tataaatacg
+     2461 acttccccaa ttggccccct aagctagaaa aggagttccc taatgcggaa tttggttttt
+     2521 ccaatgttct gcattttctg gacctctctt ctcatctgga tcgtggttca cgtctcccat
+     2581 tggagcatga gccacctgcc cgtttgatag cagtcccgaa aagctactcg ggtccgcggt
+     2641 tgattgccgc tgaaccagta gcacatcagt tctgtcagca agcgattagc agcttcctga
+     2701 tgtctcgtgt ccgcgaaacg atctctggtc agttcatttc attcaatgat cagaccaaga
+     2761 acgcgtcgct ggcactagaa gcgtccctcg atgggagcct gtcgacaatt gatttgtctt
+     2821 cagcctccga tcgtatgtcc tgctggttgg ttgagcggat tttccgccgc tctccttccc
+     2881 ttcttgatgc gttctatgca gttcgcacaa gatggattag gcaggacctt gatagaacct
+     2941 tgccaaccta ttcacggttg aacaagtttt ctaccatggg atcggctgtg acttttcccg
+     3001 tgcagtctat tgtatttttg tgtattgcga tagggactac actctacgag cgtagatctc
+     3061 taccgacgta cgcatcaata cgtagcttac gcgggcaggt ccgcgtattt ggagacgata
+     3121 ttatcgtccc cacgtacgcc tcgggtatga cggtggcggc attggaacac tttggtttca
+     3181 aagtgaaccg cgccaagact ttctgttccg gtagattcag agagtcttgc ggtatggagg
+     3241 catttggtgg tgaagacatc accaaagtaa gtctcctttc tccgccatcc gtatccaagc
+     3301 cagagtctat cttaagtagt atcgatacgc ataacaacct cgttaatcgt ggttggtatt
+     3361 gtaccgctga ctacattaag acttcagtcg acaagatgaa gcgttattgc ttccccttgg
+     3421 ttggactaga ctctggtgcc attggctgga gcacgttctc tgatatcggg acccatttct
+     3481 tcaagcgaag atggaatccc gatcttcaaa ggcgtgaaat cctggttaca cagcctcgcg
+     3541 gttgtgcctc taggacacca gtcgatagca actcagtgat ccttcagtat tttactgaag
+     3601 ttacttctcc cccagtctct catgaagaga ggctaggtag agtgtcactg agacacccga
+     3661 tccgtttagg tcgggtgtgg gtccctgagc tttgatgctt agggttaggg gaggctggtt
+     3721 cgcgaccggc cgttaaatcg gctttgatgg ttgcgaggtc caacctttct gaaggggcg
+//
+
