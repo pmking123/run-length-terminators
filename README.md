@@ -1,8 +1,7 @@
 # Coloured run-length spectra detect gene-terminal transcription signals in viral genomes
 
 Code and data for the paper *"Coloured run-length spectra detect gene-terminal
-transcription signals in viral genomes, including rhabdovirus gene-end signals
-invisible to structure-based predictors."*
+transcription signals in viral genomes."*
 
 **Headline result.** An annotation-free homopolymer run-length caller flags
 rhabdovirus gene-end (polyadenylation) signals at up to ~18× the matched-null rate,
@@ -139,8 +138,7 @@ conservative choice); `polyA` gives a higher enrichment.
 
 ## Citation
 
-If you use this code, please cite the paper (see `docs/`) and archive DOI
-[CHECK: Zenodo DOI on release].
+If you use this code, please cite the paper and archive DOI 10.5281/zenodo.21311759.
 
 ## Licence
 
