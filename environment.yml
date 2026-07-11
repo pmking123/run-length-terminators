@@ -1,0 +1,15 @@
+name: crls
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - pandas>=2.0
+  - numpy>=1.24
+  - scipy>=1.10
+  - biopython>=1.81
+  - matplotlib>=3.7
+  - pip
+  - pip:
+      - ViennaRNA>=2.7
+# External tools (not conda-installed here; see README):
+#   TransTermHP v2.09  -> transterm, expterm.dat
+#   Infernal 1.1.x     -> cmsearch, cmconvert
