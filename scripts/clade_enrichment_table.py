@@ -10,9 +10,15 @@ organism-name pattern matching. Many rhabdoviruses are named for host or localit
 ("Shanxi Arboretum virus", "Daphne virus 1") and carry no taxonomic signal in the
 organism string, so name-based rules silently misassign them.
 
+Genus is parsed from the SAME lineage list, using a rank-aware rule (last single-token
+'-virus' element; the species field, when present, contains a space). This handles the
+species-optional depth inconsistency in these lineages - some records terminate at the
+genus, some carry a species field - which a fixed positional parse (e.g. lineage[-2])
+gets wrong, silently substituting the subfamily on species-less records.
+
 For each terminator_benchmark output directory (one per k), this reads the candidate
 table and that run's own matched-null rate, assigns each candidate's genome to a
-family from its GenBank record, and reports per family:
+family (and genus) from its GenBank record, and reports per family:
 
     n           total run-length candidates
     n_gene_end  candidates within the gene-end window
@@ -33,7 +39,12 @@ Outputs
 -------
 <outdir>/clade_enrichment_by_k.csv     long: family, k, n, n_gene_end, frac, enrichment
 <outdir>/clade_enrichment_by_k.md      pivot table, paste-ready
-<outdir>/genome_family_assignment.csv  accession -> organism, family, lineage (audit)
+<outdir>/genome_family_assignment.csv  accession -> organism, family, genus, lineage (audit)
+<outdir>/per_candidate_by_k.csv        one row per candidate tract, keyed by accession/genus/
+                                       family/k - the source table for the genus-clustered
+                                       bootstrap and leave-one-genus-out. The frozen
+                                       enrichment numbers are unchanged; this is a pure
+                                       side-output.
 
 Needs: pandas, numpy, biopython.
 """
@@ -56,14 +67,32 @@ def family_from_record(record):
     return "UNASSIGNED", lin_str
 
 
+def genus_from_lineage_list(lineage):
+    """Genus = last single-token '-virus' element of the lineage list.
+
+    The species field, when present, is the final element and contains a space
+    ('Genus epithet'), so it is skipped; subfamily ('-virinae') and family ('-viridae')
+    elements do not end in 'virus' and are skipped. Returns None if no genus-rank
+    element is present (genuinely unclassified below family)."""
+    for tax in reversed(lineage):
+        t = tax.strip()
+        if t.endswith("virus") and " " not in t:
+            return t
+    return None
+
+
 def load_taxonomy(gb_cache: Path) -> pd.DataFrame:
     rows = []
     for gb in sorted(p for p in gb_cache.glob("*.gb") if not p.name.endswith(".tmp.gb")):
         for record in SeqIO.parse(str(gb), "genbank"):
+            lineage = record.annotations.get("taxonomy", [])
             fam, lin = family_from_record(record)
+            gen = genus_from_lineage_list(lineage)
             rows.append(dict(accession=record.id,
                              organism=record.annotations.get("organism", ""),
-                             family=fam, lineage=lin))
+                             family=fam,
+                             genus=gen or "UNASSIGNED",
+                             lineage=lin))
     return pd.DataFrame(rows)
 
 
@@ -83,14 +112,21 @@ def main():
             f"  Check: ls {args.gb_cache}/*.gb | head")
     tax.to_csv(args.outdir / "genome_family_assignment.csv", index=False)
     fam_of = dict(zip(tax["accession"].astype(str), tax["family"]))
+    genus_of = dict(zip(tax["accession"].astype(str), tax["genus"]))
     print(f"taxonomy: {len(tax)} genomes")
     print(tax["family"].value_counts().to_string())
     un = tax[tax["family"] == "UNASSIGNED"]
     if len(un):
         print("\n*** WARNING: genomes with no family in lineage ***")
         print(un[["accession", "organism"]].to_string(index=False))
+    ung = tax[tax["genus"] == "UNASSIGNED"]
+    if len(ung):
+        print("\n*** WARNING: genomes with no genus in lineage "
+              "(treated as their own group downstream) ***")
+        print(ung[["accession", "organism"]].to_string(index=False))
 
     rows = []
+    per_candidate_frames = []
     for d in [Path(x.strip()) for x in args.bench_dirs.split(",") if x.strip()]:
         cf, sf = d / "terminator_candidates.csv", d / "terminator_benchmark_summary.csv"
         if not cf.exists() or not sf.exists():
@@ -101,11 +137,22 @@ def main():
         k = int(C["tract_len"].min()) if len(C) else np.nan
         C["gene_end"] = C["gene_end_proximal"].astype(bool)
         C["family"] = C["accession"].astype(str).map(fam_of).fillna("UNASSIGNED")
+        C["genus"] = C["accession"].astype(str).map(genus_of).fillna("UNASSIGNED")
+        C["k"] = k
+        C["null_rate"] = null
+        per_candidate_frames.append(
+            C[["accession", "genus", "family", "k", "tract_len", "gene_end", "null_rate"]])
         for fam, sub in C.groupby("family"):
             n = len(sub); ge = int(sub["gene_end"].sum())
             frac = ge / n if n else np.nan
             rows.append(dict(family=fam, k=k, n=n, n_gene_end=ge, frac=frac,
                              null_rate=null, enrichment=(frac / null) if null else np.nan))
+
+    if per_candidate_frames:
+        pc = pd.concat(per_candidate_frames, ignore_index=True)
+        pc.to_csv(args.outdir / "per_candidate_by_k.csv", index=False)
+        print(f"\nWrote {args.outdir}/per_candidate_by_k.csv  "
+              f"({len(pc)} candidate rows across {pc['k'].nunique()} thresholds)")
 
     out = pd.DataFrame(rows).sort_values(["family", "k"])
     out.to_csv(args.outdir / "clade_enrichment_by_k.csv", index=False)

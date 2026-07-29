@@ -1,0 +1,16 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+NC_139264.1          -         seed-a-14            -          cm        1       44    11810    11868      +    no    1 0.37   0.4   13.1       2.9 ?   -
+NC_117368.1          -         seed-a-14            -          cm        1       44     7098     7065      -    no    1 0.32   0.4   12.4       4.1 ?   -
+NC_139266.1          -         seed-a-14            -          cm        1       44     9775     9745      -    no    1 0.32   0.6   12.2       4.5 ?   -
+NC_117269.1          -         seed-a-14            -          cm        1       44    12403    12376      -    no    1 0.25   2.4   11.4       6.9 ?   -
+#
+# Program:         cmsearch
+# Version:         1.1.5 (Sep 2023)
+# Pipeline mode:   SEARCH
+# Query file:      rnie_genomic_1p1.cm
+# Target file:     analysis_final/tt_inputs_mono/genomes.fasta
+# Option settings: cmsearch --tblout analysis_final/rnie_mono_permissive.tbl --max --cpu 32 rnie_genomic_1p1.cm analysis_final/tt_inputs_mono/genomes.fasta 
+# Current dir:     /d/pk1/u/ubca472/projects/dna_partitions
+# Date:            Tue Jul 28 16:14:29 2026
+# [ok]
