@@ -19,16 +19,22 @@ a maximum-sensitivity RNIE re-run that recovers no callable hit at any score.
 
 ## Reproducing the paper
 
-Every number, table and figure in the paper is regenerated from the frozen inputs by:
+Every number and table in the paper is regenerated from the frozen inputs by:
 
 ```bash
-export EXPTERM=/path/to/expterm.dat            # ships with TransTermHP
+# tool versions matter (see Dependencies); on an HPC module system:
+module load infernal/v1.1.5 transterm_hp/v2.09
+export EXPTERM=/path/to/expterm.dat            # ships with TransTermHP 2.09
 export RNIE_CM=/path/to/rnie_genomic_1p1.cm    # see "RNIE models" below
 bash run_all.sh analysis_final
 ```
 
 This is deterministic and runs entirely offline. Expect ~1–2 h single-core (the
-`--n-null` resampling and ViennaRNA folding dominate).
+`--n-null` resampling and ViennaRNA folding dominate). Note that on the primary
+development system this was verified from a clean clone: the load-bearing outputs
+(`table1_boundary_enrichment.csv`, `clade_enrichment_by_k.csv`,
+`per_genome_paired_summary.csv`, and the supplementary CSVs below) reproduce
+bit-for-bit under the pinned tool versions.
 
 The confidence intervals, the RNIE threshold-independence check, and the folding-energy
 readout are produced by a small set of post-processing steps that consume `run_all.sh`
@@ -68,24 +74,48 @@ clade-aware) rather than by pre-filtering — see **Statistical design notes**.
 
 ### Dependencies
 
-Python (see `environment.yml`): pandas, numpy, scipy, biopython, matplotlib, ViennaRNA.
+Python (see `environment.yml`): pandas, numpy, scipy, biopython, matplotlib. Create the
+environment with `conda env create -f environment.yml`.
 
-External tools:
+**Exact versions matter for two outputs**, so they are pinned rather than left to
+resolve — the archived results were verified to reproduce bit-for-bit under these:
 
-* **TransTermHP** v2.09 — provides `transterm` and `expterm.dat`.
-* **Infernal** 1.1.x — provides `cmsearch` and `cmconvert`.
-* **ViennaRNA** — install the *Python bindings* (`pip install ViennaRNA`). Note the
-  scripts fall back to the `RNAfold` binary, and then to a crude inverted-repeat
-  heuristic, if the bindings are unavailable; only the bindings/binary paths give
-  meaningful hairpin statistics.
+* **ViennaRNA 2.7.2** — installed as the *Python bindings* (`pip install ViennaRNA==2.7.2`,
+  pinned in `environment.yml`). Folding energies (`hairpin_mfe` / `has_hairpin`) are
+  version-sensitive, so a different ViennaRNA gives different MFE numbers. The scripts
+  import the bindings (`import RNA`) and fall back to the `RNAfold` binary, then to a
+  crude inverted-repeat heuristic, if the bindings are absent — but only the pinned
+  bindings reproduce the published folding values.
+* **Infernal 1.1.5** — provides `cmsearch` and `cmconvert`. RNIE bit scores depend on
+  this exact build; a different 1.1.x can shift them.
+* **TransTermHP v2.09** — provides `transterm` and `expterm.dat`.
+
+These three tools are not conda-installed by `environment.yml`. On an HPC system with
+environment modules they were loaded as:
+
+```bash
+module load infernal/v1.1.5
+module load transterm_hp/v2.09
+# ViennaRNA 2.7.2 Python bindings from pip (environment.yml); confirm with:
+python -c "import RNA; print(RNA.__version__)"   # -> 2.7.2
+```
+
+Off a module system, install TransTermHP 2.09 and Infernal 1.1.5 from source and put
+`transterm`, `cmsearch`, and `cmconvert` on `PATH`. Set the two locations the pipeline
+reads:
+
+```bash
+export EXPTERM=/path/to/expterm.dat            # ships with TransTermHP 2.09
+export RNIE_CM=/path/to/rnie_genomic_1p1.cm    # built with cmconvert; see "RNIE models"
+```
 
 ### RNIE models
 
 RNIE (Gardner et al. 2011) was built against Infernal 1.0 and does not run against
-Infernal 1.1. We use its trained covariance models directly:
+Infernal 1.1. We convert its trained covariance models to 1.1.5 and use them directly:
 
 ```bash
-cmconvert RNIE/models/genomic.cm > rnie_genomic_1p1.cm
+cmconvert RNIE/models/genomic.cm > rnie_genomic_1p1.cm    # Infernal 1.1.5
 cmsearch --tblout out.tbl -T 14 rnie_genomic_1p1.cm genomes.fasta
 ```
 

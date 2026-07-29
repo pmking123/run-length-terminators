@@ -9,7 +9,11 @@ dependencies:
   - matplotlib>=3.7
   - pip
   - pip:
-      - ViennaRNA>=2.7
-# External tools (not conda-installed here; see README):
-#   TransTermHP v2.09  -> transterm, expterm.dat
-#   Infernal 1.1.x     -> cmsearch, cmconvert
+      # Pinned: folding energies (hairpin_mfe / has_hairpin) are version-sensitive.
+      # 2.7.2 is the version used to generate the archived outputs; verified by
+      # end-to-end reproduction of mfe_readout.csv. Installs the Python bindings
+      # (import RNA), which the benchmark prefers over the RNAfold binary.
+      - ViennaRNA==2.7.2
+# External tools (not conda-installed here; on an HPC system load via `module`; see README):
+#   TransTermHP v2.09   -> transterm, expterm.dat
+#   Infernal    1.1.5   -> cmsearch, cmconvert   (RNIE scores depend on this exact build)
